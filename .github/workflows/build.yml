@@ -10,6 +10,12 @@ jobs:
   build_pages:
     name: Publish Transcription Status
     runs-on: ubuntu-latest
+    env:
+      ANT_OPTS: -Xmx6g
+      TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
