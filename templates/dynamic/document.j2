@@ -1,0 +1,46 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}{{ document_data.title }}{% endblock title %}
+{% block page_description %}
+<meta name="description" content="{{ document_data.title }}">
+{% endblock page_description %}
+
+{% block content %}
+<div class="container">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ document_data.title }}</li>
+        </ol>
+    </nav>
+    <div class="row p-3">
+        <div class="col-2 text-start">
+            {% if document_data.prev_doc_id %}
+            <a href="{{ document_data.prev_doc_id }}.html" title="{{ document_data.prev_doc_title}}">
+                <i class="bi bi-chevron-left"></i>
+            </a>
+            {% endif %}
+        </div>
+        <div class="col-8 text-center">
+                <h1 class="text-center">{{ document_data.title }}</h1>
+        </div>
+        <div class="col-2 text-end">
+            {% if document_data.next_doc_id %}
+            <a href="{{ document_data.next_doc_id }}.html" title="{{ document_data.next_doc_title }}">
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row row-cols-4">
+        {% for x in document_data.pages %}
+        <div class="col">
+            <h2><a href="{{x.page_id }}.html">Seite: {{ x.page_nr }}</a></h2>
+                <img src="{{ x.transkribus_image_url }}" class="img-thumbnail" loading="lazy"
+                alt="Vorschaubild für {{ document_data.title }}, Seite: {{ x.page_nr }}">
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock content %}

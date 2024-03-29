@@ -1,0 +1,59 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}{{ document_data.title }}, Seite {{ page_data.page_nr }}{% endblock title %}
+{% block page_description %}
+<meta name="description" content="{{ document_data.title }}">
+{% endblock page_description %}
+{% block scriptHeader %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+{% endblock scriptHeader %}
+
+{% block content %}
+<div class="container">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ document_data.doc_id }}.html">{{ document_data.title }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Seite {{ page_data.page_nr }}</li>
+        </ol>
+    </nav>
+    <div class="row p-3">
+        <div class="col-2 text-start">
+            {% if page_data.prev_page %}
+            <a href="{{ page_data.prev_page }}.html"><i class="bi bi-chevron-left" title="eine Seite zurück"></i></a>
+            {% endif %}
+        </div>
+        <div class="col-8 text-center">
+            <h1 class="text-center">{{ document_data.title }}, Seite {{ page_data.page_nr }}</h1>
+        </div>
+        <div class="col-2 text-end">
+            {% if page_data.next_page %}
+            <a href="{{ page_data.next_page }}.html"><i class="bi bi-chevron-right" title="eine Seite weiter"></i><a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row p-3">
+        <div class="col-md-7">
+            <div id="osd_viewer"></div>
+        </div>
+        <div class="col-md-5">
+            {% for x in page_data.lines %}
+            {{ x.text }} <br id="{{ x.id }}">
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var source = "{{ page_data.transkribus_image_url }}";
+    var viewer = OpenSeadragon({
+        id: "osd_viewer",
+        tileSources: {
+            type: 'image',
+            url: source
+        },
+        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+    });
+</script>
+
+
+{% endblock content %}

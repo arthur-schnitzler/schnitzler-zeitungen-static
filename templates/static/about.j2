@@ -1,0 +1,64 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Über das Projekt{% endblock title %}
+{% block page_description %}
+<meta name="description" content="Über das Projekt">
+{% endblock page_description %}
+
+{% block content %}
+<div class="container">
+    
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-7">
+            <h2 class="text-center display-8 pb-2">Arthur Schnitzlers Sammlung mit Zeitungsausschnitten</h1>
+            <p>
+                Auf den Umschlägen der »Fackel«-Hefte von Karl Kraus finden sich vom ersten Heft im April 1898 Werbungen
+                für »Alexander Weigl’s Unternehmen für Zeitungsausschnitte:
+            </p>
+            <p>
+                »OBSERVER liest alle hervorragenden Journale der Welt (Tagesblätter, Wochen- und Fachschriften), welche
+                in deutscher, französischer, englischer und ungarischer Sprache erscheinen, und versendet an seine
+                Abonnenten Zeitungsausschnitte über beliebige Themen. Man verlange Prospecte.«
+            </p>
+            <p>Einer der frühen Kunden des jungen Unternehmens war Arthur Schnitzler (1862–1931), der sich spätestens
+                seit der Jahrhundertwende regelmäßig Dokumentationen zusenden ließ, wie und wo er in der Presse vorkam.
+                Erhaltene Korrespondenzstücke geben Aufschluss darüber, dass dieses Abonnement teuer war und er mehrmals
+                urgieren musste, auf die Zusendung zu verzichten, wenn es sich um bloße Erwähnung handelte. Diese
+                systematische Sammlung wurde auf verschiedene Weisen erweitert: um eigene Ausschnitte, um zugesandte
+                Belegsexemplare sowie um Briefen beigelegte Rezensionen. Darunter finden sich auch Erstdrucke und
+                gelegentlich mit handschriftlichen Kommentaren versehene Texte. Während der OBSERVER seine Ausschnitte
+                stempelte, nahm es Schnitzler damit nicht immer so genau, die Quelle nachvollziehbar zu machen.
+                Teilweise krakelte er in seiner notorisch schwer leserlichen Handschrift ein Kürzel hinzu, gelegentlich
+                auch ein Datum. Nur zu oft unterblieb das aber auch.</p>
+            <p>
+                Diese Sammlung wurde von der geschiedenen Frau Schnitzlers an Professor Henry B. Garland geschenkt, der
+                von 1947 bis 1972 an der University of Exeter einen Lehrstuhl innehatte. Aus dessen Erbe gelangten die
+                Ausschnitte 1982 an die Exeter University Library. Das Alter des ohnedies häufig minderwertigen
+                Zeitungspapiers machte eine Sicherungsleistung notwendig. Die Sammlung wurde auf Mikrofiches kopiert.
+                Eine Ausgabe davon wird an der Österreichischen Akademie der Wissenschaften verwahrt. Von dieser wurden
+                Digitalisate erstellt. Sie werden als Kooperation zwischen dem ACDH-CH – Austrian Centre for Digital
+                Humanities and Cultural Heritage, dem ACE - Austrian Corpora and Editions und der Exeter University
+                Library hier zum ersten Mal vollumfänglich der Öffentlichkeit zur Verfügung gestellt. 26.000 Seiten mit
+                Quellentexten zu Arthur Schnitzler bieten neue Zugänge zu seinem Werk.
+            </p>
+            <figure class="figure">
+                        <img src="./img/microfiche.JPG" class="figure-img img-fluid" alt="Microfiche">
+                        <figcaption class="figure-caption">Mikrofiches zu den Zeitungsausschnitten, CC BY Britta Breuers</figcaption>
+                    </figure>
+            <p>
+                Die originale Sammlung findet sich weiterhin in der University of Exeter Library (<a href="https://www.exeter.ac.uk/departments/library/special-collections/">Special Collections</a>),
+                wo sie als »MS 214« im Katalog gesucht werden kann. An dieser Stelle findet sich auch eine etwas
+                genauere Aufschlüsselung des Inhalts der 60 Schachteln, die die Sammlung umfasst. Auf die Aufnahme der
+                dort zu findenden Informationen wurde aber verzichtet, weil sie nur zum geringen Teil das Material
+                selbst entschlüsselt. Stattdessen setzen wir auf die Volltexterkennung, die mit Hilfe des Projekts
+                <a href="https://readcoop.eu/transkribus/?sc=Transkribus">Transkribus</a>
+             vorgenommen wurde. Diese wurde nicht nachkorrigiert. Der Source-Code dieser Seite steht als <a
+                    href="{{ project_data.github }}">GitHub-Repositorium</a> zur Verfügung.</p>
+            <p class="text-end">Wien, im Herbst 2019<br>
+                Peter Andorfer, Ingo Börner und Martin Anton Müller</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+{% endblock content %}

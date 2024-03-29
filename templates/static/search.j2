@@ -1,0 +1,44 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Volltextsuche{% endblock title %}
+{% block page_description %}
+<meta name="description" content="Volltextsuche">
+{% endblock page_description %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="display-2 pb-2">Volltextsuche</h1>
+            <div id="searchbox"></div>
+            <div id="stats-container"></div>
+            <div id="current-refinements"></div>
+            <div id="clear-refinements"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="pt-2">Dokument</h3>
+            <div id="refinement-list-document"></div>
+            <h3 class="pt-2">Sortierung</h3>
+            <div id="sort-by"></div>
+        </div>
+       
+            
+ 
+    <div class="col">
+        <div id="pagination" class="p-3"></div>
+        <div id="hits"></div>
+        
+    </div>
+</div>
+</div>
+
+
+    {% endblock content %}
+    {% block scripts2 %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.46.0"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script>
+    <script src="js/search.js"></script>
+    {% endblock scripts2 %}

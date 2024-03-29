@@ -1,0 +1,14 @@
+@prefix acdh: <https://vocabs.acdh.oeaw.ac.at/schema#> .
+
+<https://foo/bar> acdh:hasActor <https://d-nb.info/gnd/118609807> ;
+    acdh:hasCurator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasContact <https://d-nb.info/gnd/1050382196> ;
+    acdh:hasContributor <https://d-nb.info/gnd/1050382196>  ,
+        <https://d-nb.info/gnd/1043833846> ,
+        <https://d-nb.info/gnd/1176130706> ;
+    acdh:hasDepositor <https://d-nb.info/gnd/118609807> ;
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0> ;
+    acdh:hasLicensor <https://id.acdh.oeaw.ac.at/none> ;
+    acdh:hasMetadataCreator <https://d-nb.info/gnd/1050382196> ;
+    acdh:hasOwner <https://id.acdh.oeaw.ac.at/none> ;
+    acdh:hasRightsHolder <https://id.acdh.oeaw.ac.at/none> .
