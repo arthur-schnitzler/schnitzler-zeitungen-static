@@ -34,9 +34,9 @@
     <div class="row row-cols-4">
         {% for x in document_data.pages %}
         <div class="col">
-            <h2><a href="{{x.page_id }}.html">Seite: {{ x.page_nr }}</a></h2>
-                <img src="{{ x.transkribus_image_url }}" class="img-thumbnail" loading="lazy"
-                alt="Vorschaubild für {{ document_data.title }}, Seite: {{ x.page_nr }}">
+            <h2 style="font-size: medium;"><a href="{{x.page_id }}.html">S. {{ x.page_nr }}</a></h2>
+            <a href="{{x.page_id }}.html"><img src="{{ x.transkribus_image_url }}" class="img-thumbnail" loading="lazy"
+                alt="Vorschaubild für {{ document_data.title }}, Seite {{ x.page_nr }}"></a>
         </div>
         {% endfor %}
     </div>
