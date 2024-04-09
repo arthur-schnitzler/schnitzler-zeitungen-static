@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_01:47</Creator>
         <Created>2019-10-07T11:50:39.356+02:00</Created>
-        <LastChange>2019-10-07T11:50:39.356+02:00</LastChange>
-        <TranskribusMetadata docId="223994" pageId="9505232" pageNr="280" tsid="16364701" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=RFXSLKPZKMYXXYHLEIGIAFNY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TRKASUFZLINTQUJWISBRFQKX" imageId="6195446"/>
+        <LastChange>2024-03-29T01:47:22.250+01:00</LastChange>
+        <TranskribusMetadata docId="223994" pageId="9505232" pageNr="280" tsid="156430333" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=RFXSLKPZKMYXXYHLEIGIAFNY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SOOPMZSGSESTUTJTTBUAFXIC" imageId="6195446"/>
     </Metadata>
-    <Page imageFilename="223994_0280.jpeg" imageWidth="3436" imageHeight="4320"/>
+    <Page imageFilename="223994_0280.jpeg" imageWidth="3436" imageHeight="4320">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662530747" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="292,209 292,3676 2716,3676 2716,209"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1394,308 1445,326 1468,313 1508,338 1576,308 1652,342 1745,324 1747,223 1655,214 1594,245 1562,232 1508,252 1490,239 1463,259 1432,236 1394,239"/>
+                <Baseline points="1406,298 1432,296 1459,295 1485,295 1512,295 1539,295 1565,295 1592,295 1618,295 1645,295 1672,294 1698,290 1725,289 1752,289"/>
+                <TextEquiv>
+                    <Unicode>box 8/7</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="279,317 484,304 581,358 1240,333 1240,243 1112,209 624,268 403,230 360,270 279,266"/>
+                <Baseline points="292,307 339,310 387,310 435,313 483,310 530,310 578,307 626,307 674,307 721,307 769,308 817,310 865,311 912,310 960,307 1008,305 1056,304 1103,302 1151,301 1199,298 1247,304"/>
+                <TextEquiv>
+                    <Unicode>4.9. Anatol Zyklus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1470,727 1648,741 1819,709 1873,738 1947,720 1970,741 1999,720 2069,741 2071,612 2035,603 1974,615 1934,592 1898,617 1851,603 1760,630 1569,585 1472,608"/>
+                <Baseline points="1483,710 1512,710 1542,710 1571,708 1601,707 1630,707 1660,707 1689,707 1719,707 1748,707 1778,708 1808,710 1837,708 1867,707 1896,707 1926,705 1955,704 1985,704 2014,704 2044,704 2074,704"/>
+                <TextEquiv>
+                    <Unicode>BLACKE WAITE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="901,921 2713,901 2713,806 2398,743 2208,770 1983,732 1657,808 1427,761 1175,824 1078,770 903,781"/>
+                <Baseline points="916,889 1006,884 1096,883 1186,881 1276,878 1366,877 1456,875 1546,874 1636,874 1726,871 1816,871 1906,868 1996,866 2086,865 2176,865 2266,869 2356,859 2446,859 2536,859 2626,856 2716,859"/>
+                <TextEquiv>
+                    <Unicode>Bright Glimpses of the Gay Viennese</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1556,3735 1580,3742 1614,3726 1657,3744 1684,3726 1706,3728 1702,3386 1650,3393 1601,3381 1551,3393"/>
+                <Baseline points="1567,3636 1596,3632 1625,3631 1654,3633 1683,3633 1713,3636"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

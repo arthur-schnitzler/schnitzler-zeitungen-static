@@ -1,10 +1,512 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_01:47</Creator>
         <Created>2019-10-07T11:50:49.566+02:00</Created>
-        <LastChange>2019-10-07T11:50:49.566+02:00</LastChange>
-        <TranskribusMetadata docId="223994" pageId="9505355" pageNr="312" tsid="16364860" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=QEPITXDSITGNKKEMHMAZYNNT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DMMBOAIOBAMKULTMQOJJKLUG" imageId="6195569"/>
+        <LastChange>2024-03-29T01:47:28.189+01:00</LastChange>
+        <TranskribusMetadata docId="223994" pageId="9505355" pageNr="312" tsid="156430365" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=QEPITXDSITGNKKEMHMAZYNNT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LFBZYIPDZSGKRCNJOUNOWGYP" imageId="6195569"/>
     </Metadata>
-    <Page imageFilename="223994_0312.jpeg" imageWidth="3436" imageHeight="4320"/>
+    <Page imageFilename="223994_0312.jpeg" imageWidth="3436" imageHeight="4320">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662533245" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="277,224 277,278 1194,278 1194,224"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="271,258 749,254 747,212 706,212 680,188 632,202 558,183 500,218 345,177 270,190"/>
+                <Baseline points="277,244 302,246 327,247 352,247 377,248 402,249 427,251 452,253 477,254 502,256 527,256 552,256 577,256 602,256 627,256 652,254 677,247 702,244 727,244 752,256"/>
+                <TextEquiv>
+                    <Unicode>4.9. Anato</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="980,278 993,274 1009,283 1014,279 1036,283 1043,276 1054,278 1067,275 1067,247 1061,247 1054,254 1038,255 1030,251 1021,255 1013,250 1005,253 998,246 980,246"/>
+                <Baseline points="987,257 1015,264 1043,265 1071,256"/>
+                <TextEquiv>
+                    <Unicode>n</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="631,275 886,299 987,255 1190,258 1192,197 1055,189 1009,209 942,190 868,242 786,226 727,258 632,249"/>
+                <Baseline points="640,257 667,263 695,268 723,268 750,257 778,261 806,268 833,268 861,268 889,268 917,268 944,266 972,257 1000,254 1027,248 1055,252 1083,256 1110,256 1138,256 1166,256 1194,259"/>
+                <TextEquiv>
+                    <Unicode>Zyklus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="1200,218 1200,4198 2283,4198 2283,218"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1393,266 1529,266 1555,246 1623,257 1661,282 1731,267 1730,176 1695,196 1604,186 1545,212 1391,194"/>
+                <Baseline points="1400,244 1425,246 1451,247 1477,247 1502,248 1528,250 1554,250 1579,250 1605,250 1631,250 1656,250 1682,250 1708,250 1734,247"/>
+                <TextEquiv>
+                    <Unicode>box 8/7</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1210,659 2242,673 2242,598 2162,579 2018,618 1877,583 1210,608"/>
+                <Baseline points="1218,650 1269,650 1320,649 1372,647 1423,647 1474,647 1526,644 1577,644 1628,644 1680,644 1731,644 1782,644 1834,646 1885,647 1936,647 1988,650 2039,650 2090,651 2142,655 2193,658 2245,656"/>
+                <TextEquiv>
+                    <Unicode>Bitte Rückseite beachten!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1822,745 2191,756 2191,682 2172,676 2103,684 2074,669 1997,694 1947,668 1922,681 1822,673"/>
+                <Baseline points="1830,725 1856,721 1882,719 1908,721 1934,722 1960,722 1986,722 2012,722 2038,722 2064,722 2090,722 2116,722 2142,722 2168,722 2194,722"/>
+                <TextEquiv>
+                    <Unicode>Telephon 12.80</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1337,946 1483,955 1534,923 1640,920 1947,938 2000,928 2001,862 1832,894 1773,841 1639,893 1545,845 1338,878"/>
+                <Baseline points="1346,940 1378,933 1411,925 1444,916 1477,910 1510,910 1543,910 1575,910 1608,909 1641,907 1674,909 1707,912 1740,916 1773,913 1805,911 1838,910 1871,910 1904,910 1937,910 1970,911 2003,913"/>
+                <TextEquiv>
+                    <Unicode>„OBSERVE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1193,1004 2254,1013 2244,923 1385,960 1192,918"/>
+                <Baseline points="1200,985 1252,985 1305,985 1358,987 1411,988 1464,985 1517,982 1569,985 1622,986 1675,986 1728,985 1781,988 1834,988 1887,988 1939,988 1992,988 2045,988 2098,991 2151,990 2204,989 2257,988"/>
+                <TextEquiv>
+                    <Unicode>I. österr. behördl. konz. Unternehmen für</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="1500,1051 1955,1050 1963,1017 1887,996 1799,993 1770,1009 1498,997"/>
+                <Baseline points="1507,1032 1532,1034 1558,1035 1583,1033 1609,1032 1634,1032 1660,1032 1685,1032 1711,1034 1737,1035 1762,1035 1788,1035 1813,1035 1839,1034 1864,1032 1890,1034 1915,1035 1941,1035 1967,1035"/>
+                <TextEquiv>
+                    <Unicode>Zeitungsausschnitte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1218,1128 2074,1121 2254,1102 2254,1063 1217,1051"/>
+                <Baseline points="1224,1086 1275,1086 1327,1087 1378,1089 1430,1089 1482,1089 1533,1089 1585,1089 1637,1089 1688,1089 1740,1089 1792,1089 1843,1089 1895,1092 1947,1092 1998,1092 2050,1092 2102,1092 2153,1092 2205,1092 2257,1089"/>
+                <TextEquiv>
+                    <Unicode>Wien, I., Konkordiaplatz 4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1608,1155 1647,1149 1657,1157 1677,1147 1816,1159 1862,1153 1862,1112 1821,1119 1792,1111 1763,1121 1673,1099 1647,1112 1608,1107"/>
+                <Baseline points="1615,1140 1640,1140 1665,1140 1690,1140 1715,1141 1740,1142 1765,1143 1790,1143 1815,1142 1840,1140 1865,1140"/>
+                <TextEquiv>
+                    <Unicode>Vertretungen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1198,1188 2251,1198 2251,1141 2148,1118 1949,1110 1811,1161 1198,1129"/>
+                <Baseline points="1206,1179 1258,1179 1310,1179 1363,1179 1415,1179 1468,1179 1520,1179 1572,1179 1625,1179 1677,1179 1730,1181 1782,1182 1834,1182 1887,1182 1939,1182 1992,1182 2044,1182 2096,1182 2149,1182 2201,1183 2254,1185"/>
+                <TextEquiv>
+                    <Unicode>in Berlin, Basel, Budapest, Chicago, Cleveland, Christiania,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1214,1222 2248,1238 2220,1190 1214,1188"/>
+                <Baseline points="1221,1218 1272,1218 1324,1219 1375,1221 1427,1219 1478,1218 1530,1218 1581,1218 1633,1220 1684,1218 1736,1220 1787,1221 1839,1221 1890,1221 1942,1221 1993,1221 2045,1221 2096,1221 2148,1221 2199,1221 2251,1224"/>
+                <TextEquiv>
+                    <Unicode>Genf, Kopenhagen, London, Madrid, Mailand, Minneapolis,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="1206,1267 2244,1287 2243,1234 1205,1221"/>
+                <Baseline points="1212,1256 1263,1253 1315,1256 1367,1256 1419,1258 1471,1259 1522,1259 1574,1259 1626,1256 1678,1256 1730,1258 1781,1259 1833,1259 1885,1259 1937,1261 1989,1260 2040,1262 2092,1262 2144,1262 2196,1262 2248,1259"/>
+                <TextEquiv>
+                    <Unicode>New-York, Paris, Rom, San Francisco, Stockholm, St. Peters¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1596,1329 1699,1307 1738,1326 1873,1307 1873,1272 1833,1266 1781,1274 1710,1259 1596,1272"/>
+                <Baseline points="1603,1295 1630,1295 1657,1296 1684,1297 1711,1298 1738,1298 1765,1298 1792,1298 1819,1298 1846,1298 1874,1295"/>
+                <TextEquiv>
+                    <Unicode>burg, Toronto.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="1445,1365 1627,1379 1773,1362 1900,1385 1945,1370 2002,1391 2019,1322 1734,1329 1685,1309 1624,1333 1444,1305"/>
+                <Baseline points="1453,1355 1481,1353 1509,1352 1538,1352 1566,1354 1595,1355 1623,1357 1651,1357 1680,1355 1708,1355 1737,1356 1765,1358 1793,1358 1822,1357 1850,1355 1879,1357 1907,1358 1935,1358 1964,1359 1992,1361 2021,1361"/>
+                <TextEquiv>
+                    <Unicode>(Quellenangabe ohne Gewähr).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1210,1428 1576,1430 1575,1365 1419,1373 1334,1345 1210,1387"/>
+                <Baseline points="1218,1421 1243,1419 1269,1418 1295,1418 1321,1418 1346,1418 1372,1419 1398,1421 1424,1421 1450,1421 1475,1421 1501,1421 1527,1421 1553,1421 1579,1421"/>
+                <TextEquiv>
+                    <Unicode>Ausschnitt aus:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="1649,1522 1833,1464 1882,1488 1945,1464 2049,1502 2223,1510 2260,1500 2254,1414 2168,1379 2115,1401 2055,1377 1808,1402 1746,1360 1637,1373"/>
+                <Baseline points="1650,1439 1680,1440 1711,1442 1741,1444 1772,1444 1803,1446 1833,1450 1864,1452 1894,1454 1925,1457 1956,1461 1986,1465 2017,1469 2047,1473 2078,1476 2109,1477 2139,1477 2170,1477 2200,1477 2231,1477 2262,1480"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="1246,1504 1432,1494 1513,1533 1559,1514 1599,1534 1631,1526 1629,1475 1549,1453 1464,1477 1403,1443 1243,1426"/>
+                <Baseline points="1253,1486 1278,1486 1303,1486 1329,1484 1354,1483 1379,1483 1405,1485 1430,1489 1455,1490 1481,1492 1506,1492 1531,1493 1557,1494 1582,1496 1607,1498 1633,1498"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="1211,1575 1223,1576 1235,1565 1254,1567 1274,1578 1303,1574 1312,1566 1321,1571 1341,1567 1340,1497 1297,1506 1280,1496 1268,1505 1243,1490 1226,1498 1209,1497"/>
+                <Baseline points="1218,1534 1243,1534 1268,1534 1293,1534 1318,1536 1343,1540"/>
+                <TextEquiv>
+                    <Unicode>ron:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1814,1612 1887,1617 1931,1598 1951,1612 1982,1606 2015,1627 2033,1620 2056,1636 2107,1615 2104,1538 2051,1555 1927,1518 1894,1541 1875,1535 1813,1561"/>
+                <Baseline points="1821,1591 1847,1591 1873,1591 1899,1591 1926,1592 1952,1594 1978,1594 2004,1594 2031,1594 2057,1595 2083,1597 2110,1603"/>
+                <TextEquiv>
+                    <Unicode>co</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="1258,1817 2131,1832 2236,1804 2236,1669 1896,1685 1751,1649 1640,1684 1542,1633 1448,1685 1258,1682"/>
+                <Baseline points="1265,1794 1313,1797 1362,1794 1411,1796 1459,1794 1508,1793 1557,1791 1605,1789 1654,1788 1703,1788 1752,1788 1800,1791 1849,1791 1898,1791 1946,1791 1995,1791 2044,1790 2092,1788 2141,1786 2190,1787 2239,1794"/>
+                <TextEquiv>
+                    <Unicode>SHAZENE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="1518,1919 1613,1947 1731,1922 1808,1952 1867,1931 1981,1948 1981,1879 1936,1862 1748,1879 1645,1853 1627,1870 1554,1863 1518,1887"/>
+                <Baseline points="1525,1910 1550,1912 1576,1913 1601,1913 1627,1913 1652,1913 1678,1912 1703,1910 1729,1912 1755,1913 1780,1913 1806,1914 1831,1915 1857,1915 1882,1913 1908,1915 1933,1916 1959,1916 1985,1913"/>
+                <TextEquiv>
+                    <Unicode>szinház müsora:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="1239,1976 1325,2010 1465,2012 1533,1978 1557,2001 1588,1994 1590,1937 1546,1928 1459,1940 1438,1924 1311,1941 1276,1928 1239,1957"/>
+                <Baseline points="1247,1970 1273,1972 1299,1973 1326,1973 1352,1973 1379,1973 1405,1973 1432,1973 1458,1973 1485,1972 1511,1970 1538,1970 1564,1970 1591,1970"/>
+                <TextEquiv>
+                    <Unicode>Vasarna: Anatol.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="1444,2101 1455,2103 1476,2086 1496,2091 1509,2086 1524,2091 1517,2009 1505,2008 1489,2019 1483,2015 1469,2029 1457,2026 1448,2034 1438,2034"/>
+                <Baseline points="1447,2062 1473,2065 1499,2068 1525,2068"/>
+                <TextEquiv>
+                    <Unicode>.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="1625,2101 1715,2092 1762,2115 1793,2097 1848,2104 1877,2094 1878,2023 1854,2019 1829,2037 1771,2018 1627,2038"/>
+                <Baseline points="1633,2080 1660,2080 1687,2080 1715,2079 1742,2077 1770,2077 1797,2077 1825,2077 1852,2077 1880,2077"/>
+                <TextEquiv>
+                    <Unicode>Anato</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="1444,2194 1813,2207 1903,2172 1947,2190 2059,2162 2060,2099 1736,2115 1506,2086 1445,2103"/>
+                <Baseline points="1453,2164 1483,2161 1513,2163 1544,2165 1574,2167 1605,2165 1635,2164 1666,2164 1696,2164 1727,2164 1757,2164 1787,2164 1818,2162 1848,2161 1879,2161 1909,2161 1940,2160 1970,2158 2001,2156 2031,2154 2062,2152"/>
+                <TextEquiv>
+                    <Unicode>Logossy Béla busua</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="1882,2248 2008,2248 2033,2234 2095,2260 2158,2240 2231,2252 2231,2172 2185,2150 2129,2166 2103,2153 2014,2165 1971,2189 1882,2190"/>
+                <Baseline points="1889,2224 1915,2224 1941,2224 1968,2224 1994,2223 2021,2221 2047,2224 2074,2227 2100,2225 2127,2224 2153,2224 2180,2224 2206,2224 2233,2224"/>
+                <TextEquiv>
+                    <Unicode>Szeged, maius 20.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="1348,2321 2252,2316 2252,2255 2209,2248 1565,2285 1348,2254"/>
+                <Baseline points="1355,2307 1402,2304 1449,2304 1496,2304 1544,2304 1591,2301 1638,2301 1686,2300 1733,2298 1780,2298 1828,2299 1875,2301 1922,2301 1970,2301 2017,2301 2064,2301 2112,2301 2159,2301 2206,2301 2254,2298"/>
+                <TextEquiv>
+                    <Unicode>A szego utolsó elätti eloads egyk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="1248,2358 1402,2388 2252,2353 2252,2313 2205,2310 1248,2318"/>
+                <Baseline points="1256,2355 1305,2355 1355,2355 1405,2358 1455,2355 1505,2354 1555,2352 1605,2352 1655,2352 1705,2352 1755,2352 1804,2352 1854,2349 1904,2349 1954,2349 2004,2349 2054,2349 2104,2349 2154,2349 2204,2349 2254,2349"/>
+                <TextEquiv>
+                    <Unicode>kevelt, sot unnepelt seines bucsuja es ra¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="1255,2407 2243,2418 2255,2355 1255,2387"/>
+                <Baseline points="1262,2406 1311,2406 1361,2406 1411,2403 1461,2406 1510,2405 1560,2403 1610,2403 1660,2401 1709,2400 1759,2400 1809,2400 1859,2400 1908,2400 1958,2400 2008,2400 2058,2398 2107,2399 2157,2398 2207,2400 2257,2397"/>
+                <TextEquiv>
+                    <Unicode>dásul még bemutato is. Szóval: szinházi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="1248,2469 2254,2466 2255,2414 2199,2408 1250,2408"/>
+                <Baseline points="1256,2457 1306,2457 1356,2457 1406,2454 1456,2454 1506,2454 1556,2454 1606,2453 1656,2451 1706,2451 1756,2449 1806,2451 1856,2451 1906,2448 1956,2448 2006,2447 2056,2447 2106,2448 2156,2448 2206,2448 2257,2448"/>
+                <TextEquiv>
+                    <Unicode>esemény, mely még olyan varosban is theatre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="1256,2525 2248,2510 2248,2457 1258,2476"/>
+                <Baseline points="1265,2510 1314,2509 1363,2505 1412,2506 1462,2504 1511,2504 1560,2502 1610,2501 1659,2501 1708,2501 1758,2501 1807,2501 1856,2498 1905,2498 1955,2497 2004,2495 2053,2495 2103,2495 2152,2495 2201,2495 2251,2492"/>
+                <TextEquiv>
+                    <Unicode>parée-t jelent, amelyken joval keveseb sze-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="1258,2566 2183,2566 2255,2554 2256,2502 1258,2529"/>
+                <Baseline points="1265,2558 1314,2555 1364,2552 1413,2555 1463,2554 1513,2552 1562,2552 1612,2552 1661,2550 1711,2549 1761,2552 1810,2549 1860,2546 1909,2546 1959,2546 2009,2546 2058,2546 2108,2546 2157,2546 2207,2543 2257,2546"/>
+                <TextEquiv>
+                    <Unicode>retettel karoljak fel a szinszet uiget, mint it</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_32" custom="readingOrder {index:31;}">
+                <Coords points="1264,2617 2258,2607 2259,2551 1266,2572"/>
+                <Baseline points="1271,2609 1320,2606 1370,2603 1419,2606 1469,2603 1518,2603 1568,2603 1617,2601 1667,2600 1716,2602 1766,2600 1816,2600 1865,2597 1915,2597 1964,2597 2014,2597 2063,2597 2113,2597 2162,2595 2212,2594 2262,2597"/>
+                <TextEquiv>
+                    <Unicode>Szegeden, ahol móg a szczonegietadasokat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_33" custom="readingOrder {index:32;}">
+                <Coords points="1255,2675 2256,2664 2256,2603 1255,2624"/>
+                <Baseline points="1262,2657 1311,2657 1361,2657 1411,2654 1461,2653 1511,2651 1561,2651 1611,2651 1661,2651 1711,2651 1761,2651 1810,2648 1860,2648 1910,2648 1960,2648 2010,2648 2060,2648 2110,2648 2160,2646 2210,2645 2260,2645"/>
+                <TextEquiv>
+                    <Unicode>is meglehetösen telt haz nézte végig. Ezek</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_34" custom="readingOrder {index:33;}">
+                <Coords points="1260,2719 2255,2714 2230,2654 1262,2671"/>
+                <Baseline points="1268,2704 1317,2707 1367,2704 1416,2704 1466,2701 1516,2700 1565,2698 1615,2698 1664,2698 1714,2698 1764,2698 1813,2698 1863,2698 1912,2698 1962,2697 2012,2696 2061,2698 2111,2696 2160,2695 2210,2692 2260,2689"/>
+                <TextEquiv>
+                    <Unicode>utan el természetes, hogy ma este is me¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_35" custom="readingOrder {index:34;}">
+                <Coords points="1263,2779 2255,2763 2255,2714 2181,2705 1264,2722"/>
+                <Baseline points="1271,2758 1320,2755 1369,2755 1418,2754 1468,2752 1517,2751 1566,2749 1616,2749 1665,2749 1714,2749 1764,2746 1813,2749 1862,2748 1911,2746 1961,2746 2010,2745 2059,2745 2109,2746 2158,2744 2207,2743 2257,2743"/>
+                <TextEquiv>
+                    <Unicode>telt a szinház. Et mégaz eloads megez¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_36" custom="readingOrder {index:35;}">
+                <Coords points="1264,2810 2135,2818 2255,2805 2256,2764 1264,2775"/>
+                <Baseline points="1271,2806 1320,2806 1369,2803 1418,2802 1468,2800 1517,2799 1566,2799 1616,2798 1665,2799 1714,2800 1764,2797 1813,2797 1862,2797 1911,2797 1961,2796 2010,2795 2059,2795 2109,2794 2158,2794 2207,2794 2257,2794"/>
+                <TextEquiv>
+                    <Unicode>dése elött konstatalattu, amikor me ta-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_37" custom="readingOrder {index:36;}">
+                <Coords points="1260,2871 2254,2853 2255,2804 1262,2812"/>
+                <Baseline points="1268,2857 1317,2854 1366,2851 1416,2851 1465,2851 1515,2850 1564,2850 1614,2849 1663,2848 1713,2848 1762,2848 1811,2848 1861,2848 1910,2847 1960,2844 2009,2842 2059,2842 2108,2842 2158,2844 2207,2842 2257,2845"/>
+                <TextEquiv>
+                    <Unicode>als kérdés szaba ment a mai eloads irant</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_38" custom="readingOrder {index:37;}">
+                <Coords points="1264,2903 2255,2906 2255,2853 1264,2871"/>
+                <Baseline points="1271,2901 1320,2904 1369,2901 1418,2901 1468,2901 1517,2900 1566,2898 1616,2896 1665,2895 1714,2895 1764,2898 1813,2895 1862,2895 1911,2894 1961,2892 2010,2892 2059,2892 2109,2892 2158,2892 2207,2892 2257,2892"/>
+                <TextEquiv>
+                    <Unicode>menyilvánult reklidés étéméroje, a tudi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_39" custom="readingOrder {index:38;}">
+                <Coords points="1264,2972 2250,2952 2222,2900 1266,2915"/>
+                <Baseline points="1271,2952 1320,2952 1369,2952 1418,2951 1467,2949 1516,2949 1565,2949 1615,2949 1664,2946 1713,2946 1762,2946 1811,2946 1860,2945 1909,2944 1959,2945 2008,2941 2057,2940 2106,2940 2155,2940 2204,2940 2254,2940"/>
+                <TextEquiv>
+                    <Unicode>illik, hogy a nagy érdeklidés, Lugossy Bélé¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_40" custom="readingOrder {index:39;}">
+                <Coords points="1260,3021 2258,3003 2258,2945 1260,2970"/>
+                <Baseline points="1268,3000 1317,3003 1367,3003 1416,3000 1466,3000 1516,2999 1565,2997 1615,2997 1664,2995 1714,2996 1764,2997 1813,2994 1863,2994 1912,2992 1962,2993 2012,2992 2061,2992 2111,2989 2160,2990 2210,2991 2260,2994"/>
+                <TextEquiv>
+                    <Unicode>nak, a bucsuzószinesznek spól-e, vagy talán</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_41" custom="readingOrder {index:40;}">
+                <Coords points="1270,3079 1494,3048 2256,3059 2258,3002 1271,3015"/>
+                <Baseline points="1277,3054 1326,3051 1375,3049 1424,3052 1473,3051 1522,3048 1571,3048 1621,3048 1670,3048 1719,3045 1768,3045 1817,3045 1866,3044 1915,3042 1965,3041 2014,3041 2063,3042 2112,3042 2161,3040 2210,3042 2260,3045"/>
+                <TextEquiv>
+                    <Unicode>Schnitzler Arturnak a kivaló buvés irónak,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_42" custom="readingOrder {index:41;}">
+                <Coords points="1260,3100 2244,3108 2228,3048 1260,3077"/>
+                <Baseline points="1268,3101 1317,3101 1366,3100 1415,3098 1464,3098 1513,3096 1562,3095 1611,3095 1660,3095 1709,3095 1758,3092 1807,3092 1856,3092 1905,3091 1954,3090 2003,3090 2052,3089 2101,3089 2150,3089 2199,3089 2248,3086"/>
+                <TextEquiv>
+                    <Unicode>akiknek ma nalunk bemutatott darabia diadal¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_43" custom="readingOrder {index:42;}">
+                <Coords points="1267,3161 2248,3159 2250,3099 1267,3130"/>
+                <Baseline points="1274,3149 1322,3151 1371,3149 1420,3148 1469,3148 1518,3147 1567,3146 1615,3146 1664,3146 1713,3143 1762,3143 1811,3143 1860,3143 1909,3142 1957,3140 2006,3140 2055,3140 2104,3140 2153,3140 2202,3140 2251,3140"/>
+                <TextEquiv>
+                    <Unicode>massan jarta le kontinens szinpadjait. Erre a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_44" custom="readingOrder {index:43;}">
+                <Coords points="1260,3214 2244,3208 2246,3154 2101,3141 1262,3161"/>
+                <Baseline points="1268,3200 1317,3200 1366,3200 1415,3199 1464,3197 1513,3197 1562,3197 1611,3195 1660,3197 1709,3194 1758,3197 1807,3194 1856,3191 1905,3191 1954,3190 2003,3188 2052,3188 2101,3188 2150,3188 2199,3188 2248,3188"/>
+                <TextEquiv>
+                    <Unicode>kérdère bajosan tuntunk volna precizen meg¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_45" custom="readingOrder {index:44;}">
+                <Coords points="1276,3269 2177,3255 2251,3248 2252,3204 1276,3211"/>
+                <Baseline points="1283,3254 1331,3251 1380,3251 1428,3248 1477,3248 1525,3248 1574,3245 1622,3245 1671,3243 1719,3239 1768,3241 1817,3242 1865,3241 1914,3239 1962,3239 2011,3237 2059,3236 2108,3238 2156,3237 2205,3236 2254,3239"/>
+                <TextEquiv>
+                    <Unicode>felelni, most mär — az eloads utan — a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_46" custom="readingOrder {index:45;}">
+                <Coords points="1267,3314 2244,3306 2255,3247 1267,3269"/>
+                <Baseline points="1274,3298 1323,3301 1372,3301 1421,3300 1470,3297 1519,3295 1568,3295 1618,3293 1667,3292 1716,3292 1765,3292 1814,3292 1863,3290 1912,3290 1962,3290 2011,3288 2060,3287 2109,3285 2158,3286 2207,3290 2257,3290"/>
+                <TextEquiv>
+                    <Unicode>valasz adás nem utki na ob nebesghe. A</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_47" custom="readingOrder {index:46;}">
+                <Coords points="1260,3359 2259,3351 2259,3305 2161,3296 1262,3313"/>
+                <Baseline points="1268,3349 1317,3349 1367,3349 1417,3349 1466,3346 1516,3345 1566,3344 1615,3344 1665,3343 1715,3343 1765,3340 1814,3340 1864,3337 1914,3336 1963,3335 2013,3337 2063,3335 2112,3336 2162,3335 2212,3337 2262,3337"/>
+                <TextEquiv>
+                    <Unicode>köön egy samban jelenktelen, fasulyhan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_48" custom="readingOrder {index:47;}">
+                <Coords points="1264,3424 2243,3400 2224,3342 1266,3358"/>
+                <Baseline points="1271,3409 1319,3399 1368,3397 1417,3397 1466,3397 1515,3395 1564,3394 1612,3392 1661,3391 1710,3391 1759,3391 1808,3390 1857,3387 1906,3385 1954,3385 2003,3385 2052,3385 2101,3385 2150,3385 2199,3385 2248,3385"/>
+                <TextEquiv>
+                    <Unicode>jelentekent részero allapithattu me sak, hogy</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_49" custom="readingOrder {index:48;}">
+                <Coords points="1260,3457 2252,3460 2224,3396 1262,3419"/>
+                <Baseline points="1268,3451 1317,3448 1366,3448 1416,3447 1465,3445 1515,3445 1564,3443 1614,3442 1663,3442 1713,3442 1762,3442 1811,3439 1861,3439 1910,3438 1960,3436 2009,3435 2059,3433 2108,3433 2158,3433 2207,3433 2257,3433"/>
+                <TextEquiv>
+                    <Unicode>a mai eladast nemcsak a bucsuzó muyés kedy-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_50" custom="readingOrder {index:49;}">
+                <Coords points="1263,3510 2256,3493 2256,3458 2179,3442 1264,3454"/>
+                <Baseline points="1271,3498 1320,3498 1369,3498 1419,3498 1468,3496 1518,3496 1567,3494 1617,3491 1666,3490 1716,3490 1765,3490 1814,3490 1864,3487 1913,3487 1963,3486 2012,3484 2062,3484 2111,3484 2161,3484 2210,3484 2260,3484"/>
+                <TextEquiv>
+                    <Unicode>ert nezte meg, hanem Schnitzler matt. Ezek ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_51" custom="readingOrder {index:50;}">
+                <Coords points="1259,3554 2251,3538 2252,3493 2210,3491 1260,3509"/>
+                <Baseline points="1268,3546 1317,3546 1366,3546 1415,3546 1465,3545 1514,3543 1563,3541 1613,3538 1662,3539 1711,3540 1761,3537 1810,3537 1859,3534 1908,3534 1958,3533 2007,3531 2056,3531 2106,3531 2155,3531 2204,3531 2254,3528"/>
+                <TextEquiv>
+                    <Unicode>lodva es kellemetien étésekke tavoztak a sin¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_52" custom="readingOrder {index:51;}">
+                <Coords points="1260,3620 2179,3604 2252,3591 2254,3552 1262,3565"/>
+                <Baseline points="1268,3597 1317,3597 1366,3597 1416,3596 1465,3594 1515,3593 1564,3591 1614,3591 1663,3589 1713,3588 1762,3588 1811,3585 1861,3584 1910,3582 1960,3583 2009,3584 2059,3582 2108,3582 2158,3580 2207,3579 2257,3576"/>
+                <TextEquiv>
+                    <Unicode>házból. Akik ismerik Schnitzler rodami mu-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_53" custom="readingOrder {index:52;}">
+                <Coords points="1270,3658 2205,3653 2254,3636 2255,3595 1270,3609"/>
+                <Baseline points="1277,3648 1326,3645 1375,3645 1424,3645 1473,3643 1522,3642 1571,3640 1620,3639 1669,3639 1718,3639 1767,3636 1816,3636 1865,3636 1914,3636 1963,3636 2012,3634 2061,3631 2110,3632 2159,3631 2208,3627 2257,3624"/>
+                <TextEquiv>
+                    <Unicode>kädest, azo elképpede latt, hoy a sel¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_54" custom="readingOrder {index:53;}">
+                <Coords points="1264,3708 2015,3712 2256,3694 2258,3640 1264,3657"/>
+                <Baseline points="1271,3699 1320,3696 1369,3696 1419,3694 1468,3695 1518,3692 1567,3690 1617,3690 1666,3690 1716,3687 1765,3687 1814,3687 1864,3684 1913,3685 1963,3686 2012,3683 2062,3681 2111,3681 2161,3676 2210,3675 2260,3681"/>
+                <TextEquiv>
+                    <Unicode>lemes satirikus bizonyara azer, hogy hiveit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_55" custom="readingOrder {index:54;}">
+                <Coords points="1260,3756 2254,3735 2254,3699 2197,3683 2023,3716 1262,3720"/>
+                <Baseline points="1268,3746 1317,3746 1366,3740 1416,3743 1465,3743 1515,3742 1564,3740 1614,3740 1663,3738 1713,3737 1762,3737 1811,3734 1861,3734 1910,3733 1960,3731 2009,3728 2059,3727 2108,3726 2158,3727 2207,3728 2257,3722"/>
+                <TextEquiv>
+                    <Unicode>megtréfalja, most egy bohatot vitt sin¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_56" custom="readingOrder {index:55;}">
+                <Coords points="1272,3811 2116,3802 2281,3753 2142,3724 2001,3764 1274,3756"/>
+                <Baseline points="1280,3800 1330,3795 1380,3794 1430,3794 1480,3794 1530,3790 1580,3788 1631,3787 1681,3785 1731,3785 1781,3785 1831,3785 1881,3782 1931,3782 1982,3781 2032,3779 2082,3779 2132,3777 2182,3776 2232,3776 2283,3776"/>
+                <TextEquiv>
+                    <Unicode>pada, amelynek keppontaban Anatol ur</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_57" custom="readingOrder {index:56;}">
+                <Coords points="1259,3866 2259,3843 2260,3782 1260,3814"/>
+                <Baseline points="1268,3845 1317,3845 1367,3845 1417,3845 1466,3844 1516,3841 1566,3839 1615,3837 1665,3836 1715,3836 1765,3836 1814,3836 1864,3836 1914,3833 1963,3832 2013,3829 2063,3829 2112,3828 2162,3827 2212,3827 2262,3830"/>
+                <TextEquiv>
+                    <Unicode>all, aki nem egyb egy grotesk figuranál,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_58" custom="readingOrder {index:57;}">
+                <Coords points="1270,3909 2191,3899 2258,3888 2259,3843 1271,3862"/>
+                <Baseline points="1277,3896 1326,3896 1375,3893 1424,3892 1474,3890 1523,3890 1572,3888 1621,3887 1671,3885 1720,3884 1769,3884 1818,3884 1868,3883 1917,3881 1966,3881 2015,3880 2065,3878 2114,3876 2163,3875 2212,3875 2262,3878"/>
+                <TextEquiv>
+                    <Unicode>amilyent francia rok sokak bohataikan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_59" custom="readingOrder {index:58;}">
+                <Coords points="1267,3956 2251,3945 2227,3887 1268,3912"/>
+                <Baseline points="1274,3946 1323,3943 1372,3943 1421,3943 1470,3943 1519,3941 1568,3940 1617,3938 1666,3934 1715,3934 1764,3934 1813,3931 1862,3931 1911,3930 1960,3928 2009,3928 2058,3928 2107,3926 2156,3927 2205,3925 2254,3925"/>
+                <TextEquiv>
+                    <Unicode>megrajoni. Ahogy ma et a darabot me¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_60" custom="readingOrder {index:59;}">
+                <Coords points="1272,4008 2258,3990 2259,3948 2138,3933 2018,3964 1274,3956"/>
+                <Baseline points="1280,4000 1329,3994 1378,3991 1427,3991 1476,3991 1525,3989 1574,3988 1623,3986 1672,3985 1721,3982 1771,3982 1820,3979 1869,3979 1918,3979 1967,3979 2016,3978 2065,3978 2114,3977 2163,3976 2212,3973 2262,3976"/>
+                <TextEquiv>
+                    <Unicode>jatsottak, semmi kété az irant, hogy az</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_61" custom="readingOrder {index:60;}">
+                <Coords points="1267,4048 2267,4039 2268,3998 2187,3978 1268,4019"/>
+                <Baseline points="1274,4045 1323,4042 1373,4042 1423,4039 1473,4039 1523,4039 1573,4039 1622,4039 1672,4037 1722,4034 1772,4033 1822,4033 1872,4030 1922,4029 1971,4027 2021,4027 2071,4027 2121,4027 2171,4025 2221,4021 2271,4021"/>
+                <TextEquiv>
+                    <Unicode>Anatol bohózat, még pedig nem is a legio¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_62" custom="readingOrder {index:61;}">
+                <Coords points="1267,4109 2255,4092 2256,4027 1268,4048"/>
+                <Baseline points="1274,4096 1323,4093 1372,4092 1421,4090 1471,4089 1520,4087 1569,4087 1619,4085 1668,4086 1717,4084 1767,4084 1816,4081 1865,4081 1914,4080 1964,4078 2013,4078 2062,4078 2112,4078 2161,4076 2210,4072 2260,4072"/>
+                <TextEquiv>
+                    <Unicode>bak közul valo. S hogy a köönsé mégis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_63" custom="readingOrder {index:62;}">
+                <Coords points="1267,4162 2214,4142 2259,4137 2260,4090 1267,4106"/>
+                <Baseline points="1274,4149 1323,4146 1372,4140 1422,4140 1471,4139 1521,4136 1570,4134 1619,4136 1669,4132 1718,4131 1768,4131 1817,4131 1866,4131 1916,4128 1965,4128 2015,4128 2064,4126 2113,4125 2163,4125 2212,4122 2262,4122"/>
+                <TextEquiv>
+                    <Unicode>jol mulatott s harsogt derseggel fogata az</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_64" custom="readingOrder {index:63;}">
+                <Coords points="2051,4212 2097,4208 2120,4213 2138,4203 2148,4208 2157,4204 2170,4215 2183,4213 2185,4141 2150,4134 2135,4146 2124,4138 2112,4145 2094,4134 2072,4141 2067,4135 2053,4137"/>
+                <Baseline points="2059,4176 2084,4170 2110,4168 2136,4170 2162,4170 2188,4170"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_65" custom="readingOrder {index:64;}">
+                <Coords points="1863,4183 1879,4180 1885,4186 1889,4183 1894,4186 1904,4180 1930,4183 1937,4178 1948,4178 1949,4147 1923,4149 1919,4146 1908,4150 1891,4143 1865,4139"/>
+                <Baseline points="1871,4179 1898,4179 1925,4178 1952,4176"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_66" custom="readingOrder {index:65;}">
+                <Coords points="1321,4213 1504,4220 1533,4202 1600,4196 1624,4213 1649,4203 1698,4217 1698,4146 1422,4146 1397,4162 1321,4161"/>
+                <Baseline points="1328,4182 1354,4185 1381,4188 1407,4188 1434,4188 1461,4188 1487,4186 1514,4185 1541,4185 1567,4184 1594,4182 1621,4185 1647,4188 1674,4186 1701,4188"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

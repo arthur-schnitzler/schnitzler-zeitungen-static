@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_01:46</Creator>
         <Created>2019-10-07T11:49:54.976+02:00</Created>
-        <LastChange>2019-10-07T11:49:54.976+02:00</LastChange>
-        <TranskribusMetadata docId="223994" pageId="9504615" pageNr="138" tsid="16363940" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=BQAQWYUISQKKHPALOZKFHJLK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PMYJWVEKGQTJFAZXNWNFEUWT" imageId="6194829"/>
+        <LastChange>2024-03-29T01:46:55.338+01:00</LastChange>
+        <TranskribusMetadata docId="223994" pageId="9504615" pageNr="138" tsid="156430190" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=BQAQWYUISQKKHPALOZKFHJLK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UKHEMVRKUGRLNVZOTSYPQFBS" imageId="6194829"/>
     </Metadata>
-    <Page imageFilename="223994_0138.jpeg" imageWidth="3436" imageHeight="4256"/>
+    <Page imageFilename="223994_0138.jpeg" imageWidth="3436" imageHeight="4256">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662519185" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+                <RegionRefIndexed index="3" regionRef="tr_4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="289,197 289,254 968,254 968,197"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="278,244 432,222 798,234 798,140 770,136 622,186 556,164 474,188 350,154 278,170"/>
+                <Baseline points="289,217 314,220 340,223 365,223 391,223 417,223 442,224 468,226 494,226 519,226 545,226 571,226 596,227 622,226 648,227 673,230 699,228 725,223 750,223 776,223 802,223"/>
+                <TextEquiv>
+                    <Unicode>4.9. Anatol</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="680,288 740,300 806,290 848,310 878,296 900,306 914,294 964,306 964,208 814,220 790,232 680,218"/>
+                <Baseline points="691,231 716,238 741,244 766,244 791,243 816,242 842,242 867,244 892,241 917,241 942,241 968,240"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="970,127 970,283 1112,283 1112,127"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="960,272 1016,250 1108,258 1106,174 1092,176 1064,158 1056,164 1040,164 1028,156 1016,162 998,148 958,156"/>
+                <Baseline points="970,227 998,230 1026,231 1055,229 1083,229 1112,233"/>
+                <TextEquiv>
+                    <Unicode>Zyk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="1411,123 1411,279 1760,279 1760,123"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1400,236 1516,234 1548,250 1586,232 1670,246 1700,226 1718,242 1758,230 1758,134 1724,144 1712,134 1674,164 1650,158 1590,192 1466,176 1430,156 1400,162"/>
+                <Baseline points="1411,223 1437,225 1464,226 1491,226 1518,226 1545,226 1572,228 1598,229 1625,229 1652,228 1679,226 1706,224 1733,223 1760,223"/>
+                <TextEquiv>
+                    <Unicode>box 8/5</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_4" custom="readingOrder {index:3;}">
+            <Coords points="2333,2863 2333,3016 2784,3016 2784,2863"/>
+            <TextLine id="tr_4_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="2322,2970 2396,2990 2424,2974 2538,2988 2568,2972 2652,3010 2732,3018 2780,3000 2780,2934 2742,2918 2702,2938 2676,2922 2554,2922 2434,2940 2408,2922 2322,2940"/>
+                <Baseline points="2333,2966 2358,2966 2383,2966 2408,2966 2433,2966 2458,2964 2483,2964 2508,2966 2533,2965 2558,2963 2583,2963 2608,2963 2633,2965 2658,2965 2683,2964 2708,2963 2733,2963 2758,2963 2784,2963"/>
+                <TextEquiv>
+                    <Unicode>von Zander &amp; Labisch in Ber</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>
