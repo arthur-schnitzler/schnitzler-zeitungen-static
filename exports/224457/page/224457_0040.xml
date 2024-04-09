@@ -1,10 +1,582 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=28_03_2024_22:49</Creator>
         <Created>2019-10-07T20:37:12.882+02:00</Created>
-        <LastChange>2019-10-07T20:37:12.882+02:00</LastChange>
-        <TranskribusMetadata docId="224457" pageId="9578591" pageNr="40" tsid="16461057" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=PUXMISOJCVKOKECIYVXEWWAC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CKAWUOKVUZGTXCUJIYDSTHKE" imageId="6208139"/>
+        <LastChange>2024-03-28T22:49:40.162+01:00</LastChange>
+        <TranskribusMetadata docId="224457" pageId="9578591" pageNr="40" tsid="156410733" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=PUXMISOJCVKOKECIYVXEWWAC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KLYHRWLTAWLVPNQFZCJUZBUF" imageId="6208139"/>
     </Metadata>
-    <Page imageFilename="224457_0040.jpeg" imageWidth="3436" imageHeight="4320"/>
+    <Page imageFilename="224457_0040.jpeg" imageWidth="3436" imageHeight="4320">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662139082" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="334,237 334,408 1006,408 1006,237"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="326,364 665,366 740,390 1005,364 993,290 325,283"/>
+                <Baseline points="334,337 367,339 401,340 434,341 468,346 502,344 535,343 569,343 602,343 636,343 670,343 703,343 737,343 770,343 804,344 838,346 871,346 905,346 938,347 972,351 1006,358"/>
+                <TextEquiv>
+                    <Unicode>Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="1197,240 1197,396 1612,396 1612,240"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1190,351 1361,375 1412,352 1568,376 1609,366 1609,306 1561,283 1497,302 1438,282 1389,314 1190,283"/>
+                <Baseline points="1197,340 1222,342 1248,343 1274,343 1300,343 1326,343 1352,343 1378,343 1404,345 1430,345 1456,344 1482,344 1508,346 1534,344 1560,343 1586,343 1612,340"/>
+                <TextEquiv>
+                    <Unicode>box 42/3</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="1674,420 1674,3735 2788,3735 2788,420"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="2567,462 2588,467 2610,452 2629,460 2638,451 2671,455 2690,444 2713,462 2738,455 2776,460 2785,457 2784,405 2730,413 2699,398 2686,404 2664,384 2642,399 2565,400"/>
+                <Baseline points="2573,441 2599,441 2626,441 2653,441 2680,442 2707,444 2734,444 2761,444 2788,444"/>
+                <TextEquiv>
+                    <Unicode>And 10.05</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="2408,528 2478,535 2515,522 2550,537 2631,533 2678,559 2701,549 2730,566 2775,561 2770,498 2727,504 2609,474 2577,484 2544,465 2508,483 2488,471 2405,475"/>
+                <Baseline points="2415,516 2440,516 2466,516 2492,516 2518,518 2543,521 2569,523 2595,525 2621,527 2647,529 2672,530 2698,532 2724,534 2750,535 2776,534"/>
+                <TextEquiv>
+                    <Unicode>res de journaux</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="2341,563 2441,572 2490,561 2626,582 2652,577 2650,546 2577,530 2549,537 2513,522 2488,535 2445,522 2405,532 2384,516 2338,526"/>
+                <Baseline points="2346,549 2371,551 2397,552 2423,552 2448,553 2474,555 2500,558 2525,561 2551,563 2577,564 2602,566 2628,567 2654,567"/>
+                <TextEquiv>
+                    <Unicode>outes langues</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="2275,594 2313,585 2465,612 2487,599 2543,626 2676,615 2673,573 2612,583 2365,565 2333,547 2272,554"/>
+                <Baseline points="2280,576 2306,578 2332,579 2359,581 2385,583 2412,585 2438,587 2465,588 2491,590 2518,592 2544,594 2571,595 2597,597 2624,599 2650,600 2677,600"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1812,668 1822,667 1829,660 1850,674 1876,673 1887,668 1885,601 1866,603 1854,592 1845,598 1834,593 1821,593 1816,599 1810,599"/>
+                <Baseline points="1818,638 1853,640 1889,641"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="2082,704 2202,678 2750,718 2747,668 2705,652 2470,654 2333,635 2285,603 2188,599 2079,653"/>
+                <Baseline points="2086,665 2119,661 2152,660 2185,663 2219,665 2252,667 2285,669 2319,672 2352,677 2385,677 2419,678 2452,681 2485,685 2518,686 2552,687 2585,689 2618,689 2652,691 2685,692 2718,693 2752,698"/>
+                <TextEquiv>
+                    <Unicode>dans toutes les grandes villes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1786,780 1824,773 1863,792 1932,781 1974,798 2064,787 2131,818 2153,798 2183,800 2179,753 2014,693 1965,720 1910,715 1890,734 1862,718 1782,716"/>
+                <Baseline points="1791,764 1817,766 1843,767 1869,769 1896,771 1922,773 1948,775 1974,776 2001,776 2027,777 2053,779 2079,782 2106,785 2132,787 2158,788 2185,788"/>
+                <TextEquiv>
+                    <Unicode>Extrait du Journal:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1784,872 1796,874 1803,867 1819,875 1830,872 1853,885 1878,884 1890,876 1930,892 1956,884 1952,827 1891,839 1875,828 1835,827 1824,817 1782,824"/>
+                <Baseline points="1791,862 1818,864 1846,866 1874,868 1902,869 1930,871 1958,871"/>
+                <TextEquiv>
+                    <Unicode>Adresse:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1779,980 1801,974 1821,979 1839,970 1861,982 1888,974 1886,937 1858,933 1850,927 1833,930 1810,912 1774,917"/>
+                <Baseline points="1785,958 1811,960 1838,962 1865,966 1892,964"/>
+                <TextEquiv>
+                    <Unicode>Date:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="2266,1099 2398,1083 2463,1106 2517,1091 2658,1106 2678,1100 2682,1012 2269,996"/>
+                <Baseline points="2274,1080 2299,1080 2325,1080 2350,1082 2376,1083 2401,1081 2427,1080 2452,1080 2478,1079 2504,1077 2529,1077 2555,1076 2580,1073 2606,1071 2631,1071 2657,1071 2683,1071"/>
+                <TextEquiv>
+                    <Unicode>16.25</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="2076,1203 2121,1195 2134,1205 2179,1200 2212,1210 2243,1201 2268,1210 2268,1148 2254,1151 2221,1126 2202,1137 2173,1135 2150,1151 2127,1130 2076,1130"/>
+                <Baseline points="2083,1188 2109,1188 2136,1188 2163,1188 2190,1188 2217,1188 2244,1190 2271,1191"/>
+                <TextEquiv>
+                    <Unicode>Radio.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1908,1257 2449,1260 2447,1212 2121,1214 2049,1191 1996,1210 1906,1189"/>
+                <Baseline points="1913,1233 1939,1236 1966,1238 1993,1238 2020,1238 2047,1238 2074,1240 2101,1241 2128,1241 2155,1241 2182,1241 2208,1241 2235,1242 2262,1243 2289,1244 2316,1244 2343,1242 2370,1241 2397,1241 2424,1241 2451,1241"/>
+                <TextEquiv>
+                    <Unicode>Empfehlenswerte Programme.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="1692,1320 2004,1294 2673,1325 2682,1260 1690,1246"/>
+                <Baseline points="1698,1286 1747,1283 1796,1283 1846,1284 1895,1286 1945,1288 1994,1289 2043,1287 2093,1286 2142,1289 2192,1289 2241,1289 2290,1289 2340,1290 2389,1292 2439,1292 2488,1292 2537,1294 2587,1295 2636,1295 2686,1295"/>
+                <TextEquiv>
+                    <Unicode>Die Zeiten verstehen sich in den betreffenden Landeszeiten.)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1988,1350 2367,1350 2367,1304 2353,1298 2320,1313 2297,1299 2281,1312 2226,1302 2207,1318 2172,1304 2066,1312 1988,1300"/>
+                <Baseline points="1994,1337 2019,1335 2044,1334 2069,1334 2094,1335 2119,1336 2144,1338 2169,1340 2194,1339 2219,1337 2244,1337 2269,1337 2294,1339 2319,1339 2344,1338 2370,1337"/>
+                <TextEquiv>
+                    <Unicode>Montag, 16. Juli.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="1731,1386 2682,1402 2681,1335 2294,1372 1730,1336"/>
+                <Baseline points="1737,1376 1784,1379 1831,1379 1879,1379 1926,1379 1974,1380 2021,1382 2069,1382 2116,1383 2164,1385 2211,1385 2258,1387 2306,1386 2353,1385 2401,1387 2448,1388 2496,1388 2543,1388 2591,1388 2638,1388 2686,1385"/>
+                <TextEquiv>
+                    <Unicode>Basel (1010): 20.30 Zeitzeichen. Wetterbericht. 20.30</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="1692,1424 2615,1449 2687,1435 2686,1402 1942,1401 1690,1360"/>
+                <Baseline points="1698,1418 1747,1418 1797,1418 1846,1419 1896,1421 1945,1421 1995,1421 2044,1423 2094,1421 2143,1424 2193,1424 2243,1424 2292,1427 2342,1426 2391,1425 2441,1427 2490,1427 2540,1427 2589,1427 2639,1430 2689,1430"/>
+                <TextEquiv>
+                    <Unicode>is 21.20 Arthur Schnitzler=Abend von Schriftsteller Rud.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="1694,1463 2677,1477 2670,1434 1694,1425"/>
+                <Baseline points="1701,1456 1752,1456 1804,1456 1855,1457 1907,1459 1958,1459 2010,1459 2061,1459 2113,1462 2164,1462 2216,1461 2267,1463 2319,1463 2370,1462 2422,1465 2473,1465 2525,1465 2576,1465 2628,1467 2680,1465"/>
+                <TextEquiv>
+                    <Unicode>Herm. Döring, Davos. 21.20—21.50 Uebertragung aus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1692,1501 2682,1519 2663,1473 1692,1476"/>
+                <Baseline points="1698,1495 1747,1495 1796,1495 1846,1496 1895,1498 1945,1498 1994,1498 2043,1500 2093,1501 2142,1501 2192,1501 2241,1504 2290,1504 2340,1504 2389,1504 2439,1504 2488,1504 2537,1504 2587,1507 2636,1507 2686,1504"/>
+                <TextEquiv>
+                    <Unicode>em Métropole-Monopole: Orchesterkonzert der Kapelle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="1698,1541 2682,1580 2681,1516 1697,1500"/>
+                <Baseline points="1704,1531 1753,1534 1802,1535 1851,1537 1900,1537 1949,1538 1998,1540 2047,1540 2096,1542 2145,1540 2195,1543 2244,1543 2293,1543 2342,1543 2391,1544 2440,1545 2489,1545 2538,1546 2587,1546 2636,1548 2686,1552"/>
+                <TextEquiv>
+                    <Unicode>tobert Hügel aus Wien. 3150—22.05 Nachrichtendienst,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="1692,1582 1836,1580 1868,1594 1913,1586 1913,1551 1899,1546 1873,1551 1857,1544 1845,1554 1822,1554 1808,1542 1746,1541 1730,1551 1713,1538 1692,1548"/>
+                <Baseline points="1698,1573 1725,1573 1752,1573 1779,1573 1807,1573 1834,1573 1861,1575 1888,1576 1916,1576"/>
+                <TextEquiv>
+                    <Unicode>Vetterbericht.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="1730,1621 2687,1642 2686,1586 2203,1596 2064,1546 2007,1593 1728,1588"/>
+                <Baseline points="1737,1612 1784,1615 1832,1615 1879,1615 1927,1615 1975,1616 2022,1618 2070,1619 2117,1621 2165,1621 2213,1621 2260,1623 2308,1622 2355,1623 2403,1624 2451,1621 2498,1621 2546,1624 2593,1624 2641,1624 2689,1627"/>
+                <TextEquiv>
+                    <Unicode>Zürich (588,2): 12.2 Hausorchester. 16.000 Konzert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="1697,1656 2555,1683 2677,1642 1695,1613"/>
+                <Baseline points="1704,1650 1752,1653 1801,1653 1850,1654 1899,1656 1948,1657 1996,1659 2045,1657 2094,1658 2143,1659 2192,1662 2240,1662 2289,1662 2338,1659 2387,1661 2436,1660 2484,1662 2533,1662 2582,1662 2631,1662 2680,1665"/>
+                <TextEquiv>
+                    <Unicode>aus dem Carlton, 17.20 „Skizzen aus dem Frauen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="1706,1707 2633,1734 2677,1722 2677,1669 1704,1661"/>
+                <Baseline points="1713,1692 1761,1692 1809,1694 1858,1694 1906,1695 1954,1697 2003,1695 2051,1698 2099,1698 2148,1701 2196,1698 2244,1699 2293,1701 2341,1701 2389,1701 2438,1703 2486,1704 2534,1704 2583,1704 2631,1704 2680,1701"/>
+                <TextEquiv>
+                    <Unicode>ben“. 10,47 „Der Kuckuck., 20,15 Konzert des Haus¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="1697,1758 1746,1737 1842,1751 1869,1735 1933,1739 1965,1761 2051,1741 2178,1753 2178,1711 1916,1697 1861,1718 1695,1693"/>
+                <Baseline points="1704,1728 1729,1730 1754,1731 1779,1733 1804,1734 1829,1734 1854,1733 1880,1731 1905,1732 1930,1734 1955,1736 1980,1737 2005,1737 2031,1737 2056,1737 2081,1737 2106,1737 2131,1737 2156,1737 2182,1737"/>
+                <TextEquiv>
+                    <Unicode>chesters, 21.30 Tanzmusik.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="1728,1775 2672,1798 2678,1736 1727,1748"/>
+                <Baseline points="1734,1770 1781,1770 1828,1773 1876,1773 1923,1773 1971,1773 2018,1774 2066,1775 2113,1776 2161,1777 2208,1776 2255,1778 2303,1777 2350,1778 2398,1777 2445,1779 2493,1779 2540,1782 2588,1782 2635,1782 2683,1779"/>
+                <TextEquiv>
+                    <Unicode>Bern (411): 13.00 Vorführung von Grammophon¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="1697,1829 1775,1815 1848,1834 1922,1816 2062,1831 2102,1821 2102,1793 1989,1777 1957,1800 1913,1779 1792,1789 1695,1758"/>
+                <Baseline points="1704,1809 1729,1809 1754,1809 1779,1811 1804,1812 1829,1812 1854,1812 1879,1812 1904,1812 1929,1812 1954,1812 1979,1812 2004,1814 2029,1815 2054,1815 2079,1816 2104,1818"/>
+                <TextEquiv>
+                    <Unicode>hatten (ernste Musik).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="2156,1825 2673,1830 2663,1787 2156,1789"/>
+                <Baseline points="2164,1818 2189,1818 2215,1818 2240,1816 2266,1816 2292,1818 2317,1818 2343,1818 2369,1816 2394,1815 2420,1817 2446,1818 2471,1818 2497,1818 2523,1818 2548,1818 2574,1818 2600,1820 2625,1820 2651,1818 2677,1818"/>
+                <TextEquiv>
+                    <Unicode>16.00—17.35 Berner Stadt¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="1697,1868 2678,1871 2677,1831 2564,1820 1697,1828"/>
+                <Baseline points="1704,1848 1752,1848 1801,1851 1850,1851 1899,1851 1948,1851 1996,1854 2045,1854 2094,1853 2143,1855 2192,1856 2240,1853 2289,1856 2338,1856 2387,1856 2436,1856 2484,1856 2533,1858 2582,1859 2631,1859 2680,1856"/>
+                <TextEquiv>
+                    <Unicode>chester. 20.000 Vortrag: „Der Rechenstab in der Praxis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="1703,1891 2673,1911 2673,1875 2617,1866 1703,1862"/>
+                <Baseline points="1710,1886 1758,1886 1806,1889 1855,1887 1903,1887 1951,1885 2000,1890 2048,1889 2096,1888 2145,1891 2193,1890 2241,1889 2290,1889 2338,1892 2386,1892 2435,1893 2483,1895 2531,1895 2580,1896 2628,1898 2677,1895"/>
+                <TextEquiv>
+                    <Unicode>Kaufmanns" (I. Teil). 20.30 Berner Stadtorchester.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="1701,1943 2677,1944 2677,1910 2625,1901 1701,1887"/>
+                <Baseline points="1707,1925 1755,1925 1804,1925 1852,1928 1901,1928 1950,1928 1998,1928 2047,1930 2096,1931 2144,1931 2193,1931 2242,1931 2290,1931 2339,1931 2388,1930 2436,1929 2485,1931 2534,1932 2582,1934 2631,1934 2680,1937"/>
+                <TextEquiv>
+                    <Unicode>9.40 Schweizerlieder. 2105, 22.000 Berner Stadtorchester.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="1714,1966 2678,1993 2666,1941 1714,1939"/>
+                <Baseline points="1722,1964 1769,1964 1817,1967 1865,1966 1913,1965 1961,1967 2009,1968 2057,1970 2105,1970 2153,1972 2201,1971 2248,1970 2296,1970 2344,1970 2392,1970 2440,1970 2488,1973 2536,1973 2584,1974 2632,1976 2680,1973"/>
+                <TextEquiv>
+                    <Unicode>Lausanne (680): 20.01 Konzert. 20.30 Vortrag. 20.50</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_32" custom="readingOrder {index:31;}">
+                <Coords points="1694,2019 2192,2022 2182,1977 1863,1975 1831,1993 1803,1972 1694,1974"/>
+                <Baseline points="1701,2003 1726,2003 1752,2003 1778,2005 1804,2006 1830,2006 1856,2006 1882,2006 1908,2006 1934,2006 1960,2006 1986,2007 2012,2009 2038,2009 2064,2009 2090,2009 2116,2009 2142,2009 2168,2010 2194,2012"/>
+                <TextEquiv>
+                    <Unicode>konzert. 21.50 Schallplatten.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_33" custom="readingOrder {index:32;}">
+                <Coords points="1727,2050 2666,2080 2677,2004 1726,2015"/>
+                <Baseline points="1734,2042 1781,2042 1828,2045 1875,2045 1923,2045 1970,2046 2017,2049 2065,2051 2112,2051 2159,2051 2207,2051 2254,2051 2301,2049 2348,2050 2396,2051 2443,2051 2490,2051 2538,2051 2585,2054 2632,2054 2680,2051"/>
+                <TextEquiv>
+                    <Unicode>Genf (760): 20.85 Transmission de l'Orchestre du</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_34" custom="readingOrder {index:33;}">
+                <Coords points="1692,2106 1769,2084 1825,2093 1839,2085 1871,2106 1899,2089 1946,2092 1946,2055 1932,2050 1902,2064 1877,2051 1839,2062 1796,2047 1774,2057 1692,2050"/>
+                <Baseline points="1698,2083 1723,2081 1748,2080 1773,2080 1798,2081 1823,2082 1848,2083 1873,2083 1898,2083 1923,2083 1949,2083"/>
+                <TextEquiv>
+                    <Unicode>Café du Nord.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_35" custom="readingOrder {index:34;}">
+                <Coords points="1727,2137 2516,2127 2673,2155 2673,2080 2620,2066 2377,2108 2309,2073 1727,2090"/>
+                <Baseline points="1734,2119 1781,2119 1828,2122 1875,2122 1922,2123 1969,2125 2016,2125 2064,2125 2111,2125 2158,2126 2205,2128 2252,2128 2299,2128 2346,2126 2394,2125 2441,2127 2488,2125 2535,2125 2582,2128 2629,2131 2677,2128"/>
+                <TextEquiv>
+                    <Unicode>Brüssel (508,5): 20.15 Schallplatten. 20.30 Solisten¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_36" custom="readingOrder {index:35;}">
+                <Coords points="1685,2176 2548,2176 2515,2126 2233,2151 1685,2125"/>
+                <Baseline points="1692,2161 1734,2161 1777,2161 1820,2161 1863,2163 1906,2164 1949,2162 1991,2163 2034,2164 2077,2164 2120,2166 2163,2165 2206,2164 2249,2165 2291,2167 2334,2166 2377,2165 2420,2167 2463,2167 2506,2167 2549,2170"/>
+                <TextEquiv>
+                    <Unicode>onzert. 21.00 Schweizerlieder. 21.30 Tanzmusik.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_37" custom="readingOrder {index:36;}">
+                <Coords points="1730,2214 2677,2225 2677,2151 2460,2188 1730,2176"/>
+                <Baseline points="1737,2200 1784,2200 1831,2203 1878,2203 1925,2203 1972,2204 2019,2206 2067,2206 2114,2206 2161,2206 2208,2206 2255,2206 2302,2206 2349,2206 2397,2206 2444,2208 2491,2206 2538,2209 2585,2209 2632,2209 2680,2209"/>
+                <TextEquiv>
+                    <Unicode>Paris (1750): 12.30, 15.45, 20.45 Konzert. 20.30 Vor¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_38" custom="readingOrder {index:37;}">
+                <Coords points="1721,2283 2611,2306 2678,2297 2678,2252 2300,2221 1876,2247 1720,2215"/>
+                <Baseline points="1728,2277 1775,2277 1823,2277 1870,2277 1918,2277 1966,2278 2013,2280 2061,2280 2108,2281 2156,2281 2204,2282 2251,2283 2299,2283 2346,2283 2394,2283 2442,2283 2489,2286 2537,2286 2584,2286 2632,2287 2680,2286"/>
+                <TextEquiv>
+                    <Unicode>Rom (450): 17.30 Vokal- und Instrumental-Konzert.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_39" custom="readingOrder {index:38;}">
+                <Coords points="1673,2357 1764,2322 2281,2336 2281,2296 2230,2287 1673,2286"/>
+                <Baseline points="1680,2313 1710,2315 1740,2316 1770,2316 1800,2318 1830,2319 1860,2319 1891,2317 1921,2317 1951,2319 1981,2321 2011,2322 2041,2322 2071,2320 2102,2319 2132,2319 2162,2321 2192,2321 2222,2319 2252,2321 2283,2322"/>
+                <TextEquiv>
+                    <Unicode>21.00 Leichte Musik und Hörspiele.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_40" custom="readingOrder {index:39;}">
+                <Coords points="1730,2365 2678,2376 2677,2339 2573,2315 1730,2328"/>
+                <Baseline points="1737,2355 1784,2355 1831,2358 1878,2358 1925,2358 1972,2359 2019,2360 2067,2359 2114,2361 2161,2361 2208,2363 2255,2364 2302,2364 2349,2362 2397,2361 2444,2361 2491,2364 2538,2361 2585,2364 2632,2367 2680,2370"/>
+                <TextEquiv>
+                    <Unicode>Mailand (549): 16.30 Tanzmusik. 20.45 Operette.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_41" custom="readingOrder {index:40;}">
+                <Coords points="1673,2393 1730,2409 1778,2400 1805,2413 1814,2404 1845,2413 1953,2407 1952,2366 1900,2375 1881,2363 1820,2372 1796,2358 1772,2371 1698,2351 1671,2358"/>
+                <Baseline points="1680,2391 1705,2393 1730,2394 1755,2394 1780,2395 1805,2396 1830,2398 1855,2400 1880,2399 1905,2397 1930,2397 1955,2400"/>
+                <TextEquiv>
+                    <Unicode>23.00 Jazzband.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_42" custom="readingOrder {index:41;}">
+                <Coords points="1728,2440 2682,2446 2663,2413 2416,2416 2315,2377 2164,2416 1727,2405"/>
+                <Baseline points="1734,2433 1781,2433 1829,2436 1876,2436 1924,2436 1972,2436 2019,2436 2067,2437 2114,2439 2162,2439 2210,2439 2257,2439 2305,2439 2352,2441 2400,2439 2448,2439 2495,2439 2543,2442 2590,2442 2638,2442 2686,2442"/>
+                <TextEquiv>
+                    <Unicode>Daventry (4918): 16.00 Orgel-Vorträge. 17.00 Tanz¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_43" custom="readingOrder {index:42;}">
+                <Coords points="1676,2480 2678,2492 2670,2449 1675,2435"/>
+                <Baseline points="1683,2474 1732,2474 1782,2474 1832,2475 1882,2476 1932,2476 1982,2477 2031,2475 2081,2477 2131,2477 2181,2477 2231,2475 2281,2478 2331,2479 2380,2479 2430,2480 2480,2480 2530,2480 2580,2480 2630,2480 2680,2483"/>
+                <TextEquiv>
+                    <Unicode>musik. 17.45 Kinderstunde. 18.45 Leichte Musik. 21.00</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_44" custom="readingOrder {index:43;}">
+                <Coords points="1674,2513 2587,2553 2677,2532 2676,2489 1673,2479"/>
+                <Baseline points="1680,2513 1730,2513 1780,2513 1830,2513 1880,2513 1930,2513 1980,2515 2030,2516 2080,2516 2130,2516 2180,2519 2230,2519 2280,2520 2330,2520 2380,2519 2430,2519 2480,2519 2530,2522 2580,2522 2630,2523 2680,2525"/>
+                <TextEquiv>
+                    <Unicode>Orgel=Vorträge. 21.30 Sendespiel. 22.15 Tanzmusik.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_45" custom="readingOrder {index:44;}">
+                <Coords points="1673,2567 1709,2579 1744,2555 1816,2558 1857,2576 1933,2558 2015,2582 2040,2564 2094,2562 2094,2526 2076,2523 2019,2536 1960,2517 1935,2534 1673,2512"/>
+                <Baseline points="1680,2552 1706,2550 1732,2549 1758,2551 1784,2552 1810,2552 1836,2553 1862,2555 1889,2555 1915,2555 1941,2555 1967,2555 1993,2555 2019,2555 2045,2555 2071,2553 2098,2555"/>
+                <TextEquiv>
+                    <Unicode>23.00 Orchester-Konzert.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_46" custom="readingOrder {index:45;}">
+                <Coords points="1734,2598 2673,2614 2673,2569 2598,2545 2325,2535 2277,2568 2108,2550 2015,2583 1734,2559"/>
+                <Baseline points="1740,2588 1786,2588 1833,2594 1880,2594 1927,2594 1974,2594 2021,2594 2067,2594 2114,2593 2161,2592 2208,2595 2255,2597 2302,2595 2349,2596 2395,2597 2442,2597 2489,2597 2536,2599 2583,2600 2630,2600 2677,2600"/>
+                <TextEquiv>
+                    <Unicode>Berlin (483,9): 16.00, 16.30, 19.30, 20.00 Vorträge,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_47" custom="readingOrder {index:46;}">
+                <Coords points="1673,2634 2592,2663 2675,2648 2675,2614 1854,2615 1671,2568"/>
+                <Baseline points="1680,2630 1729,2630 1779,2631 1829,2633 1879,2633 1929,2633 1979,2633 2028,2633 2078,2636 2128,2636 2178,2636 2228,2637 2278,2639 2328,2639 2377,2639 2427,2639 2477,2639 2527,2639 2577,2642 2627,2642 2677,2642"/>
+                <TextEquiv>
+                    <Unicode>17.00 Konzert. 20.30 Detektivgeschichten. 21.00 Klassische</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_48" custom="readingOrder {index:47;}">
+                <Coords points="1676,2686 1782,2673 1877,2691 1904,2672 2010,2694 2045,2681 2043,2650 2000,2640 1962,2648 1928,2633 1901,2647 1886,2635 1849,2649 1774,2631 1709,2648 1675,2637"/>
+                <Baseline points="1683,2669 1709,2669 1735,2669 1761,2669 1787,2670 1813,2672 1839,2672 1865,2672 1891,2670 1917,2670 1943,2671 1969,2672 1995,2672 2021,2672 2048,2674"/>
+                <TextEquiv>
+                    <Unicode>und virtuose Meister.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_49" custom="readingOrder {index:48;}">
+                <Coords points="1730,2719 2682,2732 2670,2676 1730,2678"/>
+                <Baseline points="1737,2707 1784,2710 1831,2713 1879,2710 1926,2710 1974,2710 2021,2711 2069,2713 2116,2714 2164,2716 2211,2714 2258,2715 2306,2716 2353,2716 2401,2714 2448,2716 2496,2719 2543,2716 2591,2719 2638,2719 2686,2716"/>
+                <TextEquiv>
+                    <Unicode>Leipzig (365,8): 16.30 Konzert. 20.15 Selten gehörte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_50" custom="readingOrder {index:49;}">
+                <Coords points="1668,2758 2677,2784 2658,2724 1668,2700"/>
+                <Baseline points="1674,2746 1724,2749 1774,2749 1824,2750 1875,2751 1925,2749 1975,2749 2026,2752 2076,2752 2126,2752 2177,2755 2227,2755 2277,2755 2327,2753 2378,2754 2428,2755 2478,2755 2529,2755 2579,2758 2629,2758 2680,2758"/>
+                <TextEquiv>
+                    <Unicode>Klavierwerke des 19. Jahrhunderts. 21.20 Die deutsche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_51" custom="readingOrder {index:50;}">
+                <Coords points="1678,2803 2562,2814 2568,2766 1676,2758"/>
+                <Baseline points="1683,2788 1727,2788 1772,2788 1816,2791 1861,2788 1905,2791 1950,2791 1994,2791 2039,2788 2083,2791 2128,2794 2172,2794 2217,2794 2261,2794 2306,2794 2350,2794 2395,2791 2439,2794 2484,2797 2528,2797 2573,2797"/>
+                <TextEquiv>
+                    <Unicode>Landschaft im Lied. 22.15 Unterhaltungs=Konzert.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_52" custom="readingOrder {index:51;}">
+                <Coords points="1723,2832 2671,2842 2671,2797 2634,2794 1723,2798"/>
+                <Baseline points="1731,2827 1778,2827 1825,2827 1872,2830 1919,2830 1966,2830 2013,2830 2061,2830 2108,2831 2155,2833 2202,2833 2249,2833 2296,2833 2343,2833 2391,2835 2438,2836 2485,2836 2532,2836 2579,2833 2626,2833 2674,2833"/>
+                <TextEquiv>
+                    <Unicode>Breslau (322,6): 16.30 Walzer=Nachmittag. 20.30</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_53" custom="readingOrder {index:52;}">
+                <Coords points="1679,2875 2673,2901 2656,2840 1679,2828"/>
+                <Baseline points="1686,2866 1735,2866 1785,2869 1834,2870 1884,2872 1933,2872 1983,2872 2032,2872 2082,2872 2131,2872 2181,2875 2231,2875 2280,2874 2330,2873 2379,2875 2429,2875 2478,2875 2528,2875 2577,2878 2627,2878 2677,2875"/>
+                <TextEquiv>
+                    <Unicode>Dichtungen von Heinrich Heine. 21.05 Kammermusik</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_54" custom="readingOrder {index:53;}">
+                <Coords points="1681,2927 1751,2912 1773,2911 1796,2922 1825,2913 1845,2925 1873,2917 1873,2884 1850,2873 1812,2885 1792,2873 1765,2875 1753,2884 1736,2873 1681,2874"/>
+                <Baseline points="1689,2907 1715,2907 1742,2906 1769,2905 1796,2905 1823,2907 1850,2909 1877,2910"/>
+                <TextEquiv>
+                    <Unicode>(Schubert).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_55" custom="readingOrder {index:54;}">
+                <Coords points="1727,2949 1958,2978 2069,2949 2680,2965 2654,2901 2480,2901 2385,2941 2316,2896 2248,2920 2101,2877 1727,2916"/>
+                <Baseline points="1734,2940 1781,2943 1828,2946 1876,2946 1923,2946 1971,2946 2018,2947 2066,2949 2113,2949 2161,2949 2208,2949 2255,2951 2303,2952 2350,2952 2398,2952 2445,2952 2493,2952 2540,2952 2588,2952 2635,2952 2683,2955"/>
+                <TextEquiv>
+                    <Unicode>Stuttgart (379,7): 16.5 Konzert. 19.30 Deutsche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_56" custom="readingOrder {index:55;}">
+                <Coords points="1670,2993 2579,3014 2680,3002 2680,2964 1669,2951"/>
+                <Baseline points="1677,2985 1727,2985 1777,2984 1827,2984 1878,2987 1928,2987 1978,2988 2029,2988 2079,2988 2129,2988 2180,2991 2230,2991 2280,2992 2330,2992 2381,2993 2431,2994 2481,2994 2532,2994 2582,2994 2632,2994 2683,2997"/>
+                <TextEquiv>
+                    <Unicode>Meisterschaften. 20.15 Volkstümlicher Quartettabend.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_57" custom="readingOrder {index:56;}">
+                <Coords points="1670,3052 1690,3059 1745,3030 2071,3042 2070,3002 2052,2995 2018,3004 1946,2984 1915,3004 1834,3005 1820,2992 1669,2993"/>
+                <Baseline points="1677,3024 1703,3024 1729,3024 1756,3024 1782,3024 1809,3024 1835,3024 1862,3024 1888,3026 1915,3027 1941,3027 1968,3027 1994,3027 2021,3027 2047,3027 2074,3027"/>
+                <TextEquiv>
+                    <Unicode>Anschließend: Konzert.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_58" custom="readingOrder {index:57;}">
+                <Coords points="1727,3073 2673,3080 2656,3029 2540,3043 2314,2997 2047,3045 1727,3035"/>
+                <Baseline points="1734,3063 1781,3063 1828,3066 1875,3066 1922,3064 1969,3066 2016,3066 2064,3066 2111,3066 2158,3067 2205,3069 2252,3069 2299,3069 2346,3069 2394,3069 2441,3071 2488,3072 2535,3072 2582,3069 2629,3072 2677,3069"/>
+                <TextEquiv>
+                    <Unicode>Frankfurt a. M. (428,6): 16.80 Spielopern. 20.15</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_59" custom="readingOrder {index:58;}">
+                <Coords points="1669,3106 2668,3141 2676,3080 1668,3054"/>
+                <Baseline points="1674,3098 1724,3101 1774,3102 1824,3104 1875,3104 1925,3102 1975,3103 2026,3104 2076,3107 2126,3107 2177,3108 2227,3110 2277,3110 2327,3110 2378,3110 2428,3110 2478,3110 2529,3113 2579,3110 2629,3110 2680,3107"/>
+                <TextEquiv>
+                    <Unicode>Konzert. 21.15 Frankfurter Liebhaber=Dichtungen. An¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_60" custom="readingOrder {index:59;}">
+                <Coords points="1676,3160 1744,3146 1981,3151 2009,3165 2104,3153 2103,3122 2070,3110 2029,3122 1958,3108 1675,3110"/>
+                <Baseline points="1683,3143 1709,3141 1736,3140 1762,3140 1789,3141 1815,3143 1842,3141 1868,3140 1895,3140 1921,3141 1948,3143 1974,3143 2001,3143 2027,3143 2054,3144 2080,3146 2107,3146"/>
+                <TextEquiv>
+                    <Unicode>schließend: Schallplatten.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_61" custom="readingOrder {index:60;}">
+                <Coords points="1728,3189 2649,3204 2676,3139 2564,3117 2327,3148 2273,3120 2179,3171 1727,3150"/>
+                <Baseline points="1734,3179 1781,3179 1828,3179 1875,3182 1923,3182 1970,3182 2017,3182 2065,3182 2112,3183 2159,3184 2207,3182 2254,3182 2301,3184 2348,3185 2396,3187 2443,3188 2490,3188 2538,3188 2585,3188 2632,3188 2680,3188"/>
+                <TextEquiv>
+                    <Unicode>Münster i. W. (241,9): 1805 Konzert. 18.55 Der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_62" custom="readingOrder {index:61;}">
+                <Coords points="1668,3238 2686,3245 2686,3208 2633,3195 1976,3211 1668,3174"/>
+                <Baseline points="1674,3218 1724,3218 1775,3218 1826,3219 1877,3221 1927,3221 1978,3221 2029,3221 2080,3224 2130,3224 2181,3224 2232,3224 2283,3226 2333,3227 2384,3227 2435,3227 2486,3227 2536,3230 2587,3230 2638,3230 2689,3230"/>
+                <TextEquiv>
+                    <Unicode>lustige Baedeker, 18.00 Kammermusik. 20.15 Collegium</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_63" custom="readingOrder {index:62;}">
+                <Coords points="1668,3272 1746,3264 1779,3264 1795,3272 1857,3270 1857,3244 1817,3232 1807,3236 1798,3228 1767,3233 1755,3228 1741,3238 1701,3227 1668,3238"/>
+                <Baseline points="1674,3260 1700,3260 1726,3260 1753,3258 1779,3258 1806,3260 1832,3260 1859,3260"/>
+                <TextEquiv>
+                    <Unicode>musicum.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_64" custom="readingOrder {index:63;}">
+                <Coords points="1721,3313 2678,3316 2658,3251 2541,3280 1721,3269"/>
+                <Baseline points="1728,3295 1775,3295 1823,3298 1870,3297 1918,3295 1966,3296 2013,3298 2061,3298 2108,3298 2156,3298 2204,3298 2251,3300 2299,3301 2346,3303 2394,3301 2442,3304 2489,3304 2537,3307 2584,3304 2632,3303 2680,3301"/>
+                <TextEquiv>
+                    <Unicode>München (535,1): 20.30 Mandolinen-Konzert. 20.55</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_65" custom="readingOrder {index:64;}">
+                <Coords points="1670,3340 2675,3371 2663,3312 2539,3338 2499,3308 1670,3307"/>
+                <Baseline points="1677,3337 1727,3334 1777,3335 1827,3338 1877,3340 1927,3340 1977,3340 2027,3340 2077,3337 2127,3340 2177,3340 2227,3341 2277,3343 2327,3343 2377,3345 2427,3344 2477,3346 2527,3346 2577,3346 2627,3345 2677,3343"/>
+                <TextEquiv>
+                    <Unicode>Eine Hundegeschichte. 21.20 Kammerquartett. 22.45</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_66" custom="readingOrder {index:65;}">
+                <Coords points="1668,3395 1702,3385 1725,3395 1737,3381 1755,3378 1784,3390 1842,3393 1853,3383 1869,3385 1868,3348 1825,3345 1811,3353 1772,3336 1748,3350 1684,3343 1666,3352"/>
+                <Baseline points="1674,3376 1702,3374 1730,3373 1758,3373 1786,3374 1814,3376 1842,3376 1871,3379"/>
+                <TextEquiv>
+                    <Unicode>Schachfunk.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_67" custom="readingOrder {index:66;}">
+                <Coords points="1727,3418 2682,3428 2682,3388 2634,3371 2248,3402 2046,3362 1727,3385"/>
+                <Baseline points="1734,3412 1781,3412 1829,3415 1876,3415 1924,3414 1972,3412 2019,3413 2067,3415 2114,3416 2162,3418 2210,3418 2257,3418 2305,3418 2352,3418 2400,3421 2448,3421 2495,3421 2543,3421 2590,3421 2638,3424 2686,3424"/>
+                <TextEquiv>
+                    <Unicode>Wien (517,2): 16.15 Konzert. 20.30 Sinfonieorchester,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_68" custom="readingOrder {index:67;}">
+                <Coords points="1730,3468 2672,3487 2644,3425 1730,3419"/>
+                <Baseline points="1737,3451 1783,3451 1830,3454 1877,3454 1924,3454 1971,3454 2018,3454 2064,3454 2111,3455 2158,3457 2205,3457 2252,3457 2299,3459 2346,3460 2392,3460 2439,3462 2486,3463 2533,3465 2580,3466 2627,3466 2674,3469"/>
+                <TextEquiv>
+                    <Unicode>Prag (348,9): 19.00 Heiterer Abend. 20.30 Solisten¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_69" custom="readingOrder {index:68;}">
+                <Coords points="1670,3509 2346,3510 2344,3465 1975,3453 1826,3480 1669,3454"/>
+                <Baseline points="1677,3493 1710,3493 1744,3493 1777,3494 1811,3496 1845,3496 1878,3496 1912,3495 1945,3493 1979,3495 2013,3496 2046,3496 2080,3496 2113,3496 2147,3496 2181,3496 2214,3496 2248,3497 2281,3498 2315,3499 2349,3501"/>
+                <TextEquiv>
+                    <Unicode>Konzert. 22.20 Konzert=Uebertragung.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_70" custom="readingOrder {index:69;}">
+                <Coords points="1808,3584 1962,3580 2029,3607 2153,3586 2196,3614 2282,3583 2534,3594 2521,3541 1808,3545"/>
+                <Baseline points="1815,3576 1851,3574 1887,3575 1923,3576 1959,3576 1995,3576 2031,3576 2067,3576 2103,3577 2139,3578 2176,3576 2212,3579 2248,3579 2284,3579 2320,3579 2356,3579 2392,3579 2428,3579 2464,3579 2500,3579 2537,3582"/>
+                <TextEquiv>
+                    <Unicode>Pegelbeobachtungen vom 14 Juli 1928.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_71" custom="readingOrder {index:70;}">
+                <Coords points="2079,3621 2103,3618 2122,3628 2134,3622 2145,3621 2149,3625 2163,3616 2170,3616 2170,3592 2142,3590 2127,3593 2112,3589 2104,3592 2093,3583 2079,3585"/>
+                <Baseline points="2086,3612 2115,3614 2144,3614 2173,3612"/>
+                <TextEquiv>
+                    <Unicode>Begei¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_72" custom="readingOrder {index:71;}">
+                <Coords points="1727,3631 1763,3636 1768,3632 1774,3636 1779,3631 1812,3631 1812,3583 1803,3581 1798,3585 1795,3581 1782,3593 1769,3592 1758,3598 1749,3590 1742,3594 1737,3590 1727,3590"/>
+                <Baseline points="1734,3624 1761,3624 1788,3624 1815,3624"/>
+                <TextEquiv>
+                    <Unicode>bege=</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_73" custom="readingOrder {index:72;}">
+                <Coords points="2214,3631 2261,3642 2319,3632 2334,3644 2499,3621 2600,3636 2592,3584 2541,3600 2508,3589 2464,3614 2407,3589 2323,3607 2280,3592 2215,3606"/>
+                <Baseline points="2221,3630 2246,3630 2271,3630 2297,3630 2322,3630 2348,3630 2373,3630 2399,3630 2424,3630 2450,3627 2475,3621 2501,3621 2526,3621 2552,3621 2577,3620 2603,3618"/>
+                <TextEquiv>
+                    <Unicode>Hoch= Nieder Tages¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_74" custom="readingOrder {index:73;}">
+                <Coords points="1713,3678 2104,3646 2628,3692 2625,3639 2587,3631 2457,3659 2035,3604 1712,3622"/>
+                <Baseline points="1719,3654 1764,3657 1810,3654 1855,3651 1901,3645 1946,3642 1992,3645 2037,3642 2083,3642 2128,3645 2174,3648 2220,3660 2265,3661 2311,3662 2356,3661 2402,3663 2447,3666 2493,3673 2538,3676 2584,3679 2630,3678"/>
+                <TextEquiv>
+                    <Unicode>ten Gewässer Kullunki wasser wasser acht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_75" custom="readingOrder {index:74;}">
+                <Coords points="2080,3674 2104,3680 2126,3675 2130,3680 2145,3680 2158,3672 2165,3675 2186,3666 2197,3670 2200,3654 2181,3649 2160,3660 2151,3650 2113,3654 2104,3646 2083,3649"/>
+                <Baseline points="2089,3672 2117,3672 2145,3672 2173,3667 2202,3660"/>
+                <TextEquiv>
+                    <Unicode>Cote</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_76" custom="readingOrder {index:75;}">
+                <Coords points="1704,3735 2344,3750 2455,3722 2535,3753 2593,3727 2592,3683 2338,3665 1703,3677"/>
+                <Baseline points="1710,3719 1754,3719 1798,3719 1843,3719 1887,3719 1931,3716 1976,3719 2020,3719 2064,3719 2109,3719 2153,3719 2197,3719 2242,3722 2286,3719 2330,3719 2375,3719 2419,3721 2463,3722 2508,3719 2552,3722 2597,3725"/>
+                <TextEquiv>
+                    <Unicode>Basel Rhein 247.20 6.57 0.37 1.13</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

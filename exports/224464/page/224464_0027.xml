@@ -1,10 +1,603 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_00:30</Creator>
         <Created>2019-10-07T20:38:28.201+02:00</Created>
-        <LastChange>2019-10-07T20:38:28.201+02:00</LastChange>
-        <TranskribusMetadata docId="224464" pageId="9579332" pageNr="27" tsid="16461830" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=UPWIPLMBQEYTVQDNMXZGDXBF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UJROXKHDVLVSWJRSMZUFABJI" imageId="6208388"/>
+        <LastChange>2024-03-29T00:30:49.225+01:00</LastChange>
+        <TranskribusMetadata docId="224464" pageId="9579332" pageNr="27" tsid="156427186" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=UPWIPLMBQEYTVQDNMXZGDXBF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EMMREEQQIYGURYBYMWYFOBVN" imageId="6208388"/>
     </Metadata>
-    <Page imageFilename="224464_0027.jpeg" imageWidth="3392" imageHeight="4352"/>
+    <Page imageFilename="224464_0027.jpeg" imageWidth="3392" imageHeight="4352">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662303180" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="229,144 229,303 364,303 364,144"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="215,249 229,249 243,263 272,252 308,266 317,260 356,260 354,206 334,209 303,190 297,198 272,192 249,195 223,181 209,181"/>
+                <Baseline points="229,244 256,248 283,250 310,250 337,251 364,253"/>
+                <TextEquiv>
+                    <Unicode>13.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="455,139 455,318 597,318 597,139"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="441,235 467,240 495,218 520,223 537,240 560,246 563,184 549,181 540,187 535,181 518,192 509,184 495,192 484,187 470,192 444,184"/>
+                <Baseline points="455,254 483,243 511,239 539,241 567,247"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="441,286 467,283 478,294 495,289 504,297 532,280 543,291 554,286 569,294 594,289 591,226 569,238 557,235 546,246 512,221 489,223 484,218 453,235 438,235"/>
+                <Baseline points="455,254 483,263 511,268 540,268 568,266 597,260"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="579,238 579,3778 2850,3778 2850,238"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1267,300 1293,306 1324,280 1437,289 1468,263 1536,294 1697,291 1697,212 1615,209 1590,226 1564,204 1502,221 1386,206 1332,226 1301,206 1267,209"/>
+                <Baseline points="1283,268 1309,268 1335,268 1361,268 1388,268 1414,268 1440,268 1467,268 1493,270 1519,271 1546,271 1572,271 1598,271 1625,271 1651,270 1677,269 1704,271"/>
+                <TextEquiv>
+                    <Unicode>box 4479</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="874,317 891,320 939,297 962,306 973,291 1024,317 1052,289 1075,297 1066,201 1041,212 1032,204 984,209 970,198 936,198 922,215 905,218 894,209 863,221"/>
+                <Baseline points="884,262 912,264 940,264 969,262 997,273 1026,279 1054,277 1083,280"/>
+                <TextEquiv>
+                    <Unicode>s</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="614,885 1445,874 1445,792 614,809"/>
+                <Baseline points="629,859 670,862 711,862 752,861 793,859 834,859 875,859 916,859 957,859 998,856 1039,858 1080,859 1121,859 1162,859 1203,858 1244,856 1285,856 1326,855 1367,853 1408,853 1450,853"/>
+                <TextEquiv>
+                    <Unicode>CASINOS IN OSTERREICH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="707,928 1349,922 1352,871 1112,871 1083,891 987,868 942,888 710,877"/>
+                <Baseline points="725,916 756,916 788,916 819,916 851,916 883,916 914,916 946,916 978,914 1009,913 1041,913 1073,913 1104,913 1136,913 1168,913 1199,911 1231,910 1263,910 1294,910 1326,911 1358,916"/>
+                <TextEquiv>
+                    <Unicode>Buden / Salzburg / Semmering</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="605,967 1445,967 1445,902 1409,888 1346,928 605,922"/>
+                <Baseline points="620,961 661,961 703,961 744,961 786,961 828,959 869,960 911,961 953,961 994,961 1036,960 1078,957 1119,956 1161,956 1203,958 1244,958 1286,958 1328,957 1369,955 1411,952 1453,952"/>
+                <TextEquiv>
+                    <Unicode>Roulette — Baccara — Chemin de fer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="611,1035 1445,1030 1445,959 611,970"/>
+                <Baseline points="626,1026 667,1027 708,1029 750,1029 791,1029 832,1029 874,1029 915,1029 956,1029 998,1029 1039,1027 1080,1026 1122,1026 1163,1026 1204,1025 1246,1023 1287,1024 1328,1025 1370,1022 1411,1017 1453,1023"/>
+                <TextEquiv>
+                    <Unicode>österreichische Casino A. G.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="617,1083 1451,1075 1451,1038 1403,1027 617,1038"/>
+                <Baseline points="632,1074 673,1075 714,1077 756,1077 797,1077 838,1077 880,1077 921,1074 962,1074 1004,1074 1045,1074 1086,1072 1128,1071 1169,1073 1210,1074 1252,1074 1293,1073 1334,1070 1376,1068 1417,1065 1459,1068"/>
+                <TextEquiv>
+                    <Unicode>Wien III. Schwarzenbergplatz 5a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="608,1225 1064,1222 1066,1137 1044,1132 1007,1154 976,1134 719,1146 611,1180"/>
+                <Baseline points="623,1217 648,1213 673,1211 698,1211 723,1211 748,1211 773,1211 798,1211 823,1211 848,1211 873,1209 898,1208 923,1208 948,1208 973,1208 998,1207 1023,1205 1048,1200 1074,1193"/>
+                <TextEquiv>
+                    <Unicode>„OBSERVER</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="849,1264 1454,1262 1454,1205 1335,1202 1247,1228 1188,1182 1061,1225 849,1225"/>
+                <Baseline points="865,1256 894,1256 924,1256 954,1254 984,1253 1014,1253 1044,1253 1073,1253 1103,1253 1133,1253 1163,1252 1193,1250 1223,1250 1253,1250 1282,1250 1312,1250 1342,1249 1372,1247 1402,1247 1432,1247 1462,1247"/>
+                <TextEquiv>
+                    <Unicode>1. österr. behördlich konzessioniertes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="851,1304 1451,1296 1451,1259 1403,1256 851,1264"/>
+                <Baseline points="868,1295 897,1295 927,1295 956,1293 986,1292 1015,1292 1045,1292 1074,1292 1104,1292 1133,1292 1163,1292 1193,1292 1222,1292 1252,1291 1281,1289 1311,1289 1340,1288 1370,1286 1399,1286 1429,1286 1459,1286"/>
+                <TextEquiv>
+                    <Unicode>Unternehmen für Zeitungs-Ausschnitte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="851,1366 1457,1363 1460,1296 1440,1293 854,1304"/>
+                <Baseline points="868,1334 897,1334 927,1334 957,1334 986,1334 1016,1334 1046,1334 1075,1334 1105,1334 1135,1334 1165,1334 1194,1334 1224,1334 1254,1333 1283,1331 1313,1331 1343,1330 1372,1328 1402,1326 1432,1326 1462,1328"/>
+                <TextEquiv>
+                    <Unicode>Wien, Wollzeile 11, Telephon R-28-0-43</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="614,1539 699,1525 730,1544 761,1522 786,1522 803,1536 823,1525 888,1544 905,1528 956,1528 953,1471 894,1468 874,1451 849,1468 823,1454 781,1462 733,1448 702,1465 682,1448 611,1454"/>
+                <Baseline points="626,1510 651,1510 677,1510 703,1510 729,1510 754,1510 780,1510 806,1510 832,1510 857,1510 883,1512 909,1513 935,1513 961,1510"/>
+                <TextEquiv>
+                    <Unicode>Ausschnitt aus:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="702,1669 837,1649 922,1677 1089,1641 1160,1666 1491,1666 1474,1576 1160,1576 1106,1610 984,1612 933,1581 702,1581"/>
+                <Baseline points="716,1644 755,1644 794,1646 833,1647 872,1646 911,1643 950,1641 989,1641 1028,1641 1067,1641 1107,1643 1146,1644 1185,1643 1224,1641 1263,1641 1302,1641 1341,1641 1380,1641 1419,1643 1458,1646 1498,1647"/>
+                <TextEquiv>
+                    <Unicode>Wr. Neueste Nachrichten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="973,1706 1049,1700 1103,1717 1129,1717 1148,1700 1197,1717 1242,1697 1338,1706 1338,1658 1307,1649 1188,1652 1157,1666 1137,1655 1066,1658 1044,1644 973,1646"/>
+                <Baseline points="988,1698 1013,1700 1039,1701 1064,1699 1090,1698 1115,1698 1141,1698 1167,1698 1192,1698 1218,1698 1243,1696 1269,1696 1294,1698 1320,1698 1346,1698"/>
+                <TextEquiv>
+                    <Unicode>15.10.1956.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="2195,1723 2221,1720 2238,1728 2246,1720 2263,1726 2271,1720 2286,1726 2294,1720 2320,1720 2320,1660 2286,1666 2274,1677 2257,1677 2249,1669 2238,1677 2221,1660 2195,1666"/>
+                <Baseline points="2211,1716 2239,1716 2268,1716 2296,1716 2325,1716"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="574,1887 1482,1929 2834,1907 2832,1819 2645,1771 2574,1813 2334,1779 2167,1827 1989,1751 1805,1810 1660,1768 1279,1810 1030,1740 857,1788 571,1751"/>
+                <Baseline points="588,1862 700,1865 813,1865 925,1867 1038,1871 1151,1869 1263,1868 1376,1870 1489,1871 1601,1873 1714,1874 1827,1876 1939,1877 2052,1877 2165,1880 2277,1882 2390,1880 2503,1883 2615,1883 2728,1883 2841,1883"/>
+                <TextEquiv>
+                    <Unicode>Traditionsfeier des Akademischen Gymnasiums</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="619,1989 1723,1994 1723,1932 1567,1912 1454,1955 619,1915"/>
+                <Baseline points="635,1976 689,1976 744,1977 799,1978 854,1978 909,1978 963,1981 1018,1981 1073,1981 1128,1984 1183,1984 1237,1984 1292,1984 1347,1984 1402,1981 1457,1984 1511,1984 1566,1986 1621,1987 1676,1986 1731,1981"/>
+                <TextEquiv>
+                    <Unicode>Das Akademische Gymnasium in Wien begeht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1986,2008 2124,2003 2150,2025 2192,2000 2393,2020 2543,2000 2543,1949 2469,1938 2419,1955 2235,1926 2178,1949 2119,1924 2040,1952 1986,1941"/>
+                <Baseline points="2002,1990 2029,1990 2056,1990 2084,1990 2111,1990 2138,1990 2166,1990 2193,1990 2220,1990 2248,1991 2275,1993 2302,1993 2330,1993 2357,1993 2384,1993 2412,1993 2439,1993 2466,1994 2494,1996 2521,1998 2549,1996"/>
+                <TextEquiv>
+                    <Unicode>Was die Kataloge erzählen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="571,2054 1700,2051 1700,2003 571,1997"/>
+                <Baseline points="588,2023 643,2027 699,2029 755,2029 811,2029 867,2030 922,2032 978,2032 1034,2035 1090,2033 1146,2035 1201,2035 1257,2035 1313,2035 1369,2035 1425,2035 1480,2038 1536,2036 1592,2038 1648,2038 1704,2041"/>
+                <TextEquiv>
+                    <Unicode>am 31. d. M. eine Festfeier anläßlich der Enthüllung einer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="1757,2057 2846,2071 2843,2000 2317,2025 1757,1989"/>
+                <Baseline points="1773,2047 1826,2050 1880,2051 1934,2051 1988,2050 2042,2053 2096,2051 2149,2053 2203,2053 2257,2053 2311,2056 2365,2056 2419,2056 2473,2056 2526,2058 2580,2056 2634,2059 2688,2059 2742,2059 2796,2059 2850,2056"/>
+                <TextEquiv>
+                    <Unicode>Der Katalog aus dem Jahre 1813 berichtet, daß in der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="574,2096 1697,2102 1697,2059 1610,2042 574,2051"/>
+                <Baseline points="591,2077 646,2080 702,2080 757,2082 813,2083 869,2083 924,2083 980,2085 1036,2086 1091,2086 1147,2086 1203,2088 1258,2089 1314,2089 1370,2088 1425,2088 1481,2089 1537,2089 1592,2089 1648,2089 1704,2089"/>
+                <TextEquiv>
+                    <Unicode>von der Elternvereinigung gewidmeten und vom Bildhauer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="1726,2099 2662,2107 2625,2062 1723,2051"/>
+                <Baseline points="1740,2092 1786,2092 1832,2092 1879,2095 1925,2095 1972,2095 2018,2095 2064,2095 2111,2095 2157,2095 2204,2095 2250,2095 2296,2096 2343,2098 2389,2100 2436,2101 2482,2101 2528,2101 2575,2101 2621,2101 2668,2098"/>
+                <TextEquiv>
+                    <Unicode>dritten „Grammatikalklasse“ der zwölfjährige</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="2699,2113 2738,2113 2758,2130 2778,2110 2789,2116 2817,2105 2843,2105 2843,2073 2815,2068 2795,2073 2775,2059 2741,2071 2721,2059 2699,2062"/>
+                <Baseline points="2713,2101 2740,2101 2767,2101 2795,2101 2822,2101 2850,2101"/>
+                <TextEquiv>
+                    <Unicode>Johann</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="1726,2141 2834,2158 2834,2105 2682,2090 2526,2119 1726,2096"/>
+                <Baseline points="1740,2134 1795,2134 1850,2134 1905,2134 1960,2137 2015,2137 2070,2139 2125,2137 2180,2140 2235,2137 2290,2140 2345,2140 2400,2140 2455,2140 2510,2141 2565,2143 2620,2143 2675,2143 2730,2140 2785,2141 2841,2140"/>
+                <TextEquiv>
+                    <Unicode>Nestroy einen guten Fortgang in den Lehrfächern auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="574,2153 1697,2156 1697,2102 1652,2096 574,2096"/>
+                <Baseline points="591,2137 646,2134 702,2134 757,2136 813,2137 869,2137 924,2138 980,2140 1036,2140 1091,2140 1147,2140 1203,2140 1258,2140 1314,2140 1370,2140 1425,2140 1481,2140 1537,2143 1592,2140 1648,2142 1704,2143"/>
+                <TextEquiv>
+                    <Unicode>Josef Josephu geschaffenen Heldengedenktafel zu Ehren</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="1723,2187 2656,2206 2840,2198 2840,2158 1720,2141"/>
+                <Baseline points="1737,2176 1792,2179 1848,2180 1903,2178 1959,2178 2014,2181 2070,2181 2125,2179 2181,2178 2236,2178 2292,2181 2347,2181 2403,2184 2458,2184 2514,2184 2569,2184 2625,2184 2680,2184 2736,2184 2791,2184 2847,2184"/>
+                <TextEquiv>
+                    <Unicode>wies, aber in „Sitten" einen Zweier hatte. Der Katalog</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="580,2201 1694,2221 1694,2153 580,2153"/>
+                <Baseline points="596,2184 651,2184 706,2185 761,2187 817,2187 872,2190 927,2188 982,2190 1038,2190 1093,2190 1148,2191 1203,2193 1259,2191 1314,2193 1369,2193 1424,2194 1480,2196 1535,2196 1590,2193 1645,2193 1701,2193"/>
+                <TextEquiv>
+                    <Unicode>der im Kriege gefallenen vier Lehrer und 54 Schüler der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="1726,2229 2840,2238 2817,2192 1726,2187"/>
+                <Baseline points="1740,2220 1795,2220 1850,2220 1905,2222 1960,2223 2016,2223 2071,2222 2126,2222 2181,2226 2236,2226 2292,2226 2347,2226 2402,2226 2457,2226 2512,2228 2568,2228 2623,2229 2678,2229 2733,2229 2788,2229 2844,2223"/>
+                <TextEquiv>
+                    <Unicode>aus dem Jahre 1803 erzählt, daß in der ersten „Humani¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="574,2255 588,2252 617,2277 631,2277 645,2263 673,2269 704,2246 730,2249 730,2204 673,2195 668,2201 642,2198 636,2204 628,2195 608,2192 574,2204"/>
+                <Baseline points="591,2235 620,2235 649,2236 678,2238 707,2240 737,2241"/>
+                <TextEquiv>
+                    <Unicode>Anstalt.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="1717,2277 2837,2280 2803,2232 1717,2229"/>
+                <Baseline points="1734,2262 1789,2262 1845,2262 1900,2262 1956,2262 2011,2263 2067,2265 2122,2265 2178,2268 2233,2268 2289,2268 2344,2268 2400,2268 2455,2271 2511,2268 2566,2268 2622,2271 2677,2270 2733,2268 2788,2270 2844,2265"/>
+                <TextEquiv>
+                    <Unicode>tätsklasse“ der Stipendist Franz Schubert in Mathe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="1723,2311 2837,2325 2837,2286 2690,2269 1723,2277"/>
+                <Baseline points="1737,2304 1792,2307 1847,2307 1903,2307 1958,2310 2013,2308 2069,2311 2124,2311 2179,2310 2235,2310 2290,2311 2345,2313 2401,2313 2456,2310 2511,2313 2567,2311 2622,2310 2677,2313 2733,2311 2788,2313 2844,2313"/>
+                <TextEquiv>
+                    <Unicode>matik nicht genügend hatte. „Franzl verlor das Stipen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_32" custom="readingOrder {index:31;}">
+                <Coords points="619,2317 1669,2331 1689,2246 617,2269"/>
+                <Baseline points="635,2307 688,2308 741,2310 794,2310 847,2312 900,2313 953,2313 1007,2313 1060,2314 1113,2316 1166,2316 1219,2316 1272,2316 1325,2316 1379,2316 1432,2316 1485,2316 1538,2316 1591,2316 1644,2316 1698,2316"/>
+                <TextEquiv>
+                    <Unicode>Mit dieser Heldenehrung ist auch eine Traditionsfeier</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_33" custom="readingOrder {index:32;}">
+                <Coords points="577,2373 2554,2362 2554,2320 2492,2311 577,2314"/>
+                <Baseline points="593,2358 691,2352 789,2355 888,2357 986,2358 1085,2356 1183,2361 1281,2358 1380,2361 1478,2361 1577,2361 1675,2359 1773,2349 1872,2349 1970,2350 2069,2352 2167,2352 2265,2352 2364,2355 2462,2355 2561,2355"/>
+                <TextEquiv>
+                    <Unicode>zur Erinnerung an den 70jährigen Bestand des Anstalts dium und mußte aus der Schule austreten.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_34" custom="readingOrder {index:33;}">
+                <Coords points="1762,2399 2837,2410 2837,2351 2778,2334 2481,2368 1762,2356"/>
+                <Baseline points="1779,2390 1832,2390 1885,2390 1938,2392 1992,2393 2045,2393 2098,2393 2151,2393 2205,2395 2258,2396 2311,2396 2364,2396 2418,2399 2471,2399 2524,2397 2577,2396 2631,2396 2684,2397 2737,2399 2790,2399 2844,2399"/>
+                <TextEquiv>
+                    <Unicode>Die Geschichte des Gymnasiums ist mit der des geistigen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_35" custom="readingOrder {index:34;}">
+                <Coords points="577,2410 1692,2413 1692,2373 1533,2359 577,2373"/>
+                <Baseline points="593,2402 648,2394 703,2396 758,2396 814,2396 869,2399 924,2399 979,2399 1035,2399 1090,2402 1145,2399 1200,2401 1256,2402 1311,2402 1366,2402 1421,2402 1477,2402 1532,2402 1587,2402 1642,2402 1698,2402"/>
+                <TextEquiv>
+                    <Unicode>gebäudes verbunden. Die Heldengedenkfeier wird mit einer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_36" custom="readingOrder {index:35;}">
+                <Coords points="1726,2436 2840,2453 2840,2410 2699,2399 1726,2390"/>
+                <Baseline points="1740,2432 1795,2432 1850,2432 1906,2432 1961,2432 2016,2435 2072,2435 2127,2435 2182,2435 2238,2438 2293,2440 2348,2438 2404,2438 2459,2438 2514,2439 2570,2441 2625,2439 2680,2438 2736,2438 2791,2439 2847,2444"/>
+                <TextEquiv>
+                    <Unicode>Wien fest verwachsen. Die Zahl der bedeutenden Männer,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_37" custom="readingOrder {index:36;}">
+                <Coords points="580,2461 1697,2450 1697,2416 1610,2404 580,2410"/>
+                <Baseline points="596,2441 651,2438 706,2438 762,2438 817,2441 873,2444 928,2443 983,2441 1039,2441 1094,2441 1150,2442 1205,2444 1260,2444 1316,2444 1371,2444 1427,2444 1482,2444 1537,2444 1593,2444 1648,2445 1704,2444"/>
+                <TextEquiv>
+                    <Unicode>Pontifikalmesse, zelebriert von Kardinal Erzbischof Doktor</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_38" custom="readingOrder {index:37;}">
+                <Coords points="1726,2481 2840,2486 2789,2444 1726,2438"/>
+                <Baseline points="1740,2474 1795,2474 1850,2474 1906,2474 1961,2474 2016,2477 2072,2477 2127,2479 2182,2480 2238,2480 2293,2482 2348,2482 2404,2483 2459,2483 2514,2483 2570,2483 2625,2483 2680,2483 2736,2481 2791,2482 2847,2477"/>
+                <TextEquiv>
+                    <Unicode>die aus der Anstalt hervorgegangen sind, ist fast unüber¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_39" custom="readingOrder {index:38;}">
+                <Coords points="580,2489 1697,2501 1697,2450 580,2447"/>
+                <Baseline points="596,2480 651,2480 706,2481 762,2483 817,2483 873,2481 928,2483 983,2483 1039,2486 1094,2483 1150,2484 1205,2486 1260,2486 1316,2486 1371,2486 1427,2486 1482,2486 1537,2486 1593,2487 1648,2489 1704,2486"/>
+                <TextEquiv>
+                    <Unicode>Innitzer, im Anstaltsgebäude eingeleitet; daran schließt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_40" custom="readingOrder {index:39;}">
+                <Coords points="1723,2532 2840,2535 2840,2486 1723,2478"/>
+                <Baseline points="1737,2519 1792,2519 1848,2519 1903,2519 1959,2522 2014,2522 2070,2522 2125,2524 2181,2528 2236,2525 2292,2525 2347,2525 2403,2525 2458,2525 2514,2523 2569,2525 2625,2528 2680,2525 2736,2528 2791,2528 2847,2531"/>
+                <TextEquiv>
+                    <Unicode>sehbar. Um nur einige zu nennen: Hellmesberger, Castelli,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_41" custom="readingOrder {index:40;}">
+                <Coords points="586,2523 1700,2543 1700,2498 1570,2486 586,2492"/>
+                <Baseline points="602,2522 657,2520 712,2523 767,2525 822,2525 877,2525 932,2525 987,2525 1042,2530 1097,2528 1153,2528 1208,2528 1263,2528 1318,2528 1373,2528 1428,2529 1483,2529 1538,2528 1593,2528 1648,2529 1704,2528"/>
+                <TextEquiv>
+                    <Unicode>sich eine Festversammlung, bei der der ehemalige Schüler der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_42" custom="readingOrder {index:41;}">
+                <Coords points="577,2571 1694,2580 1694,2537 1635,2526 1544,2554 577,2532"/>
+                <Baseline points="593,2558 648,2565 703,2567 759,2567 814,2567 870,2567 925,2568 980,2570 1036,2570 1091,2570 1147,2570 1202,2570 1257,2570 1313,2570 1368,2570 1424,2570 1479,2570 1534,2572 1590,2572 1645,2571 1701,2570"/>
+                <TextEquiv>
+                    <Unicode>Anstalt Ministerpräsident Freiherr v. Beck die Festrede</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_43" custom="readingOrder {index:42;}">
+                <Coords points="574,2614 1703,2628 1703,2580 1553,2571 574,2571"/>
+                <Baseline points="591,2605 646,2608 702,2608 758,2608 814,2608 870,2608 925,2609 981,2611 1037,2611 1093,2611 1149,2612 1204,2612 1260,2611 1316,2612 1372,2613 1428,2611 1483,2611 1539,2612 1595,2614 1651,2614 1707,2620"/>
+                <TextEquiv>
+                    <Unicode>halten wird. Schauspieler Lessen wird einen von Paul</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_44" custom="readingOrder {index:43;}">
+                <Coords points="571,2690 704,2668 767,2693 1341,2684 1341,2622 1276,2614 1174,2634 1083,2611 571,2611"/>
+                <Baseline points="588,2650 626,2650 664,2650 702,2652 740,2653 778,2652 816,2650 854,2650 892,2652 930,2653 968,2653 1006,2653 1044,2653 1082,2653 1120,2656 1158,2656 1196,2656 1234,2656 1272,2656 1310,2656 1349,2656"/>
+                <TextEquiv>
+                    <Unicode>Wertheim verfaßten Prolog sprechen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_45" custom="readingOrder {index:44;}">
+                <Coords points="792,2767 1485,2767 1482,2699 789,2693"/>
+                <Baseline points="805,2743 839,2743 873,2741 908,2741 942,2743 976,2743 1011,2743 1045,2744 1079,2746 1114,2746 1148,2746 1182,2746 1217,2746 1251,2746 1285,2746 1320,2746 1354,2746 1388,2746 1423,2746 1457,2746 1492,2746"/>
+                <TextEquiv>
+                    <Unicode>Das älteste Gymnasium Oesterreichs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_46" custom="readingOrder {index:45;}">
+                <Coords points="2342,2815 2379,2826 2481,2800 2543,2769 2625,2772 2662,2653 2648,2648 2396,2747 2365,2744"/>
+                <Baseline points="2361,2808 2387,2803 2413,2792 2439,2784 2466,2779 2492,2771 2518,2763 2544,2753 2571,2742 2597,2731 2623,2724 2650,2719"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_47" custom="readingOrder {index:46;}">
+                <Coords points="611,2826 1697,2834 1697,2767 611,2755"/>
+                <Baseline points="626,2808 679,2811 733,2811 787,2813 841,2814 894,2811 948,2814 1002,2814 1056,2816 1109,2817 1163,2817 1217,2817 1271,2817 1324,2817 1378,2817 1432,2817 1486,2817 1539,2818 1593,2822 1647,2818 1701,2817"/>
+                <TextEquiv>
+                    <Unicode>Direktor Prof. Dr. Ludwig Marcus, der seit dem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_48" custom="readingOrder {index:47;}">
+                <Coords points="580,2871 1697,2868 1697,2834 1610,2820 702,2837 580,2798"/>
+                <Baseline points="596,2859 651,2856 706,2856 762,2856 817,2856 873,2856 928,2856 983,2859 1039,2859 1094,2859 1150,2859 1205,2862 1260,2862 1316,2862 1371,2860 1427,2859 1482,2862 1537,2862 1593,2862 1648,2862 1704,2856"/>
+                <TextEquiv>
+                    <Unicode>Jahre 1922 der Anstalt vorsteht, gab in einer Pressekon¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_49" custom="readingOrder {index:48;}">
+                <Coords points="2472,2936 2495,2956 2755,2863 2772,2866 2789,2806 2752,2786 2543,2863 2498,2849"/>
+                <Baseline points="2492,2934 2518,2933 2544,2926 2570,2920 2597,2914 2623,2906 2649,2897 2675,2887 2702,2877 2728,2868 2754,2862 2781,2856"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_50" custom="readingOrder {index:49;}">
+                <Coords points="580,2908 1694,2914 1694,2871 1652,2868 580,2868"/>
+                <Baseline points="596,2898 651,2896 706,2898 761,2898 817,2898 872,2898 927,2899 982,2901 1038,2901 1093,2901 1148,2901 1203,2901 1259,2903 1314,2904 1369,2903 1424,2902 1480,2904 1535,2904 1590,2904 1645,2904 1701,2901"/>
+                <TextEquiv>
+                    <Unicode>ferenz einen interessanten Ueberblick über die Geschichte des</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_51" custom="readingOrder {index:50;}">
+                <Coords points="574,2948 1694,2953 1694,2916 1635,2905 574,2908"/>
+                <Baseline points="591,2934 646,2938 702,2940 757,2940 813,2940 868,2943 924,2943 979,2943 1035,2946 1090,2946 1146,2943 1201,2943 1257,2943 1312,2946 1368,2946 1423,2946 1479,2943 1534,2946 1590,2946 1645,2946 1701,2946"/>
+                <TextEquiv>
+                    <Unicode>Gymnasiums. Das „Akademische“ ist das älteste Gymnasium</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_52" custom="readingOrder {index:51;}">
+                <Coords points="569,2990 1666,3001 1689,2950 566,2948"/>
+                <Baseline points="585,2981 640,2981 696,2981 751,2981 807,2981 863,2984 918,2984 974,2984 1030,2987 1085,2987 1141,2987 1197,2987 1252,2987 1308,2987 1364,2987 1419,2987 1475,2987 1531,2987 1586,2987 1642,2987 1698,2984"/>
+                <TextEquiv>
+                    <Unicode>Oesterreichs. Seine Entstehungsgeschichte wird mit der 1237</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_53" custom="readingOrder {index:52;}">
+                <Coords points="569,3049 1697,3047 1697,3001 1516,2987 569,2996"/>
+                <Baseline points="585,3029 640,3028 696,3023 752,3023 808,3023 864,3026 919,3026 975,3026 1031,3029 1087,3028 1143,3027 1198,3029 1254,3029 1310,3029 1366,3029 1422,3029 1477,3029 1533,3029 1589,3029 1645,3029 1701,3032"/>
+                <TextEquiv>
+                    <Unicode>gegründeten Bürgerschule zu St. Stephan in Verbindung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_54" custom="readingOrder {index:53;}">
+                <Coords points="571,3086 1689,3086 1689,3044 1536,3032 571,3047"/>
+                <Baseline points="588,3074 643,3068 698,3068 754,3068 809,3068 864,3069 920,3071 975,3071 1030,3071 1086,3071 1141,3072 1196,3074 1252,3074 1307,3074 1362,3074 1418,3074 1473,3074 1528,3074 1584,3074 1639,3074 1695,3074"/>
+                <TextEquiv>
+                    <Unicode>gebracht, die ursprünglich eine niedere Gelehrtenschule war</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_55" custom="readingOrder {index:54;}">
+                <Coords points="569,3123 1686,3129 1686,3089 1621,3081 569,3083"/>
+                <Baseline points="585,3110 640,3110 695,3110 751,3110 806,3110 861,3110 917,3111 972,3111 1027,3113 1083,3113 1138,3116 1193,3114 1249,3116 1304,3113 1359,3116 1415,3116 1470,3116 1525,3119 1581,3116 1636,3116 1692,3113"/>
+                <TextEquiv>
+                    <Unicode>und hauptsächlich die Kenntnis des Lateinischen zu ver¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_56" custom="readingOrder {index:55;}">
+                <Coords points="574,3160 1689,3165 1689,3131 1618,3120 574,3126"/>
+                <Baseline points="591,3149 646,3152 701,3152 756,3152 811,3155 867,3155 922,3155 977,3155 1032,3155 1087,3158 1143,3159 1198,3161 1253,3161 1308,3158 1363,3158 1419,3158 1474,3158 1529,3158 1584,3158 1639,3158 1695,3158"/>
+                <TextEquiv>
+                    <Unicode>mitteln hatte. Als 1553 die Jesuiten in Wien Latein¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_57" custom="readingOrder {index:56;}">
+                <Coords points="577,3202 2840,3225 2840,3177 2611,3143 2297,3177 2141,3140 1553,3177 577,3157"/>
+                <Baseline points="593,3193 705,3193 818,3196 931,3198 1043,3199 1156,3199 1269,3202 1381,3199 1494,3199 1607,3199 1720,3200 1832,3205 1945,3207 2058,3208 2170,3208 2283,3208 2396,3210 2508,3211 2621,3211 2734,3212 2847,3214"/>
+                <TextEquiv>
+                    <Unicode>schulen begründeten, wurde aus ihr allmählich eine deutsche Bauernfeld, Johann Gabriel Seidl, die Gelehrten Exner,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_58" custom="readingOrder {index:57;}">
+                <Coords points="574,3242 2843,3273 2840,3228 2718,3213 574,3205"/>
+                <Baseline points="591,3235 703,3238 816,3238 929,3241 1042,3241 1155,3243 1267,3244 1380,3244 1493,3244 1606,3246 1719,3246 1831,3250 1944,3247 2057,3250 2170,3250 2283,3253 2395,3253 2508,3253 2621,3256 2734,3256 2847,3259"/>
+                <TextEquiv>
+                    <Unicode>Bürgerschule. Im Jahre 1622 übersiedelte das Kollegium Hyrtl, Unger usw. Die Staatsmänner Schmerling, Taaffe,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_59" custom="readingOrder {index:58;}">
+                <Coords points="571,3290 1692,3295 1692,3256 1494,3245 571,3245"/>
+                <Baseline points="588,3280 643,3281 699,3283 754,3281 810,3283 865,3283 921,3283 976,3283 1032,3286 1087,3286 1143,3286 1198,3286 1254,3286 1309,3286 1365,3286 1420,3286 1476,3286 1531,3286 1587,3286 1642,3286 1698,3286"/>
+                <TextEquiv>
+                    <Unicode>der Jesuiten, das Am Hof untergebracht war, auf den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_60" custom="readingOrder {index:59;}">
+                <Coords points="1726,3310 2832,3310 2832,3264 2707,3253 1726,3253"/>
+                <Baseline points="1740,3292 1794,3292 1849,3292 1904,3292 1959,3295 2014,3295 2069,3295 2124,3295 2179,3295 2234,3295 2289,3296 2343,3298 2398,3298 2453,3298 2508,3295 2563,3298 2618,3298 2673,3298 2728,3301 2783,3296 2838,3298"/>
+                <TextEquiv>
+                    <Unicode>Ignaz v. Plener, Michael Hainisch, Prof. Redlich, Ge¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_61" custom="readingOrder {index:60;}">
+                <Coords points="574,3329 1689,3338 1689,3298 1624,3284 574,3290"/>
+                <Baseline points="591,3322 646,3324 701,3323 756,3325 811,3325 866,3325 921,3325 976,3327 1031,3325 1086,3328 1141,3330 1196,3328 1251,3328 1306,3328 1361,3330 1416,3328 1471,3330 1526,3328 1581,3328 1636,3328 1692,3328"/>
+                <TextEquiv>
+                    <Unicode>Dominikanerplatz. Von dieser Zeit datiert der eigentliche Ur¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_62" custom="readingOrder {index:61;}">
+                <Coords points="1726,3338 2693,3375 2834,3355 2832,3307 1723,3301"/>
+                <Baseline points="1740,3334 1795,3334 1850,3334 1905,3334 1960,3337 2015,3337 2070,3337 2125,3337 2180,3337 2235,3337 2290,3337 2345,3337 2400,3337 2455,3340 2510,3340 2565,3341 2620,3343 2675,3343 2730,3343 2785,3343 2841,3349"/>
+                <TextEquiv>
+                    <Unicode>sandter Dr. Felix Frank, Hugo v. Hofmannsthal, Schnitzler,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_63" custom="readingOrder {index:62;}">
+                <Coords points="580,3375 2834,3392 2812,3346 580,3329"/>
+                <Baseline points="596,3366 708,3367 820,3366 932,3366 1045,3369 1157,3370 1269,3369 1381,3372 1494,3372 1606,3372 1718,3373 1830,3376 1943,3378 2055,3378 2167,3378 2279,3380 2392,3378 2504,3382 2616,3384 2728,3383 2841,3387"/>
+                <TextEquiv>
+                    <Unicode>sprung jener mit der Universität verbundenen Lehranstalt, Max Oberleitner, die Professoren Scherer, Finger, Hauer,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_64" custom="readingOrder {index:63;}">
+                <Coords points="566,3420 1680,3423 1680,3380 1644,3378 566,3372"/>
+                <Baseline points="582,3408 637,3406 692,3408 747,3410 802,3411 858,3411 913,3411 968,3411 1023,3411 1078,3414 1134,3414 1189,3414 1244,3414 1299,3414 1354,3415 1410,3417 1465,3415 1520,3414 1575,3414 1630,3414 1686,3414"/>
+                <TextEquiv>
+                    <Unicode>die noch heute „Akademisches Gymnasium“ genannt wird</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_65" custom="readingOrder {index:64;}">
+                <Coords points="1717,3426 2274,3457 2823,3434 2823,3389 1717,3383"/>
+                <Baseline points="1734,3414 1788,3417 1843,3418 1898,3422 1953,3420 2007,3420 2062,3420 2117,3420 2172,3420 2226,3423 2281,3423 2336,3423 2391,3423 2445,3423 2500,3423 2555,3425 2610,3423 2664,3425 2719,3423 2774,3426 2829,3423"/>
+                <TextEquiv>
+                    <Unicode>Escherich, Zumbusch, Clairmont, der Nobelpreisträger Schrö</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_66" custom="readingOrder {index:65;}">
+                <Coords points="571,3457 2181,3479 2181,3431 2107,3423 571,3414"/>
+                <Baseline points="588,3450 667,3450 747,3450 827,3454 907,3453 987,3453 1066,3456 1146,3457 1226,3456 1306,3456 1386,3459 1465,3461 1545,3458 1625,3456 1705,3459 1785,3460 1864,3462 1944,3462 2024,3464 2104,3464 2184,3465"/>
+                <TextEquiv>
+                    <Unicode>Als 1773 der Jesuitenorden aufgelöst wurde, ging die Schule dinger und viele andere.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_67" custom="readingOrder {index:66;}">
+                <Coords points="571,3502 1689,3510 1689,3465 1615,3460 571,3457"/>
+                <Baseline points="588,3492 643,3493 698,3495 754,3495 809,3495 864,3495 920,3495 975,3495 1030,3498 1086,3498 1141,3498 1196,3498 1252,3498 1307,3498 1362,3500 1418,3498 1473,3498 1528,3498 1584,3499 1639,3501 1695,3501"/>
+                <TextEquiv>
+                    <Unicode>in die Hände der Piaristen über und wurde 1852 vom Staat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_68" custom="readingOrder {index:67;}">
+                <Coords points="1759,3519 2832,3522 2832,3457 2783,3451 2569,3485 2362,3431 2229,3479 1759,3468"/>
+                <Baseline points="1776,3498 1829,3505 1882,3507 1935,3509 1988,3508 2041,3507 2094,3507 2147,3507 2200,3508 2253,3510 2307,3507 2360,3507 2413,3510 2466,3510 2519,3508 2572,3509 2625,3510 2678,3510 2731,3513 2784,3513 2838,3513"/>
+                <TextEquiv>
+                    <Unicode>Ein Jahrgang, der die „Wunderklasse“ genannt wird,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_69" custom="readingOrder {index:68;}">
+                <Coords points="571,3547 1686,3547 1686,3513 1488,3499 571,3502"/>
+                <Baseline points="588,3537 643,3537 698,3537 753,3539 808,3537 864,3538 919,3540 974,3542 1029,3543 1084,3543 1140,3540 1195,3540 1250,3540 1305,3543 1360,3543 1416,3543 1471,3543 1526,3543 1581,3541 1636,3542 1692,3540"/>
+                <TextEquiv>
+                    <Unicode>übernommen. Bis zum Jahre 1866 war das Gymnasium</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_70" custom="readingOrder {index:69;}">
+                <Coords points="1714,3561 2829,3561 2829,3519 2724,3510 1714,3502"/>
+                <Baseline points="1731,3543 1786,3547 1841,3549 1896,3549 1951,3549 2007,3551 2062,3549 2117,3549 2172,3549 2227,3552 2283,3550 2338,3552 2393,3552 2448,3555 2503,3553 2559,3555 2614,3555 2669,3555 2724,3556 2779,3557 2835,3552"/>
+                <TextEquiv>
+                    <Unicode>vereinigte auf seinen Schulbänken: Den berühmten Rechts¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_71" custom="readingOrder {index:70;}">
+                <Coords points="563,3584 2837,3607 2817,3561 563,3547"/>
+                <Baseline points="579,3578 692,3578 805,3581 918,3581 1031,3584 1144,3586 1257,3584 1370,3584 1483,3584 1596,3584 1710,3585 1823,3587 1936,3590 2049,3590 2162,3591 2275,3593 2388,3593 2501,3593 2614,3593 2727,3596 2841,3596"/>
+                <TextEquiv>
+                    <Unicode>auf dem Universitätsplatz untergebracht. Da sich die Räume gelehrten Dr. v. Klein, Ministerpräsident v. Beck, den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_72" custom="readingOrder {index:71;}">
+                <Coords points="569,3629 1686,3638 1686,3593 1644,3590 569,3590"/>
+                <Baseline points="585,3620 640,3621 695,3623 751,3623 806,3626 861,3626 917,3626 972,3624 1027,3626 1083,3626 1138,3626 1193,3626 1249,3626 1304,3629 1359,3628 1415,3624 1470,3623 1525,3623 1581,3626 1636,3626 1692,3626"/>
+                <TextEquiv>
+                    <Unicode>als unzulänglich erwiesen, wurde im Jahre 1863 auf den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_73" custom="readingOrder {index:72;}">
+                <Coords points="1714,3638 2832,3649 2829,3609 2769,3601 1714,3593"/>
+                <Baseline points="1731,3626 1786,3630 1841,3632 1897,3630 1952,3632 2007,3632 2063,3632 2118,3632 2173,3632 2229,3632 2284,3634 2339,3638 2395,3638 2450,3638 2505,3638 2561,3638 2616,3638 2671,3638 2727,3638 2782,3638 2838,3641"/>
+                <TextEquiv>
+                    <Unicode>berühmten Verteidiger Dr. Steger, Finanzminister Robert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_74" custom="readingOrder {index:73;}">
+                <Coords points="569,3666 2467,3686 2467,3643 569,3629"/>
+                <Baseline points="585,3662 679,3665 773,3665 868,3668 962,3667 1057,3670 1151,3671 1246,3669 1340,3668 1435,3668 1529,3668 1623,3669 1718,3671 1812,3674 1907,3674 2001,3677 2096,3677 2190,3677 2285,3677 2379,3677 2474,3677"/>
+                <TextEquiv>
+                    <Unicode>Stadterweiterungsgründen längs der Wien“ der heutige Maier und Präsident Dr. Masaryk.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_75" custom="readingOrder {index:74;}">
+                <Coords points="569,3720 1683,3734 1683,3686 1556,3666 569,3666"/>
+                <Baseline points="585,3710 640,3709 695,3708 750,3710 805,3709 861,3709 916,3710 971,3710 1026,3710 1081,3711 1137,3713 1192,3710 1247,3713 1302,3713 1357,3713 1413,3710 1468,3713 1523,3712 1578,3710 1633,3710 1689,3707"/>
+                <TextEquiv>
+                    <Unicode>Prunkbau vom Dombaumeister Friedrich Schmidt er</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_76" custom="readingOrder {index:75;}">
+                <Coords points="1751,3720 2455,3759 2832,3734 2815,3649 2433,3694 1751,3683"/>
+                <Baseline points="1767,3713 1820,3717 1874,3719 1927,3719 1981,3719 2034,3719 2088,3719 2141,3720 2195,3722 2248,3722 2302,3722 2356,3722 2409,3725 2463,3725 2516,3725 2570,3722 2623,3725 2677,3725 2730,3725 2784,3725 2838,3722"/>
+                <TextEquiv>
+                    <Unicode>Die Festfeier ist mit einer Ausstellung historisch-inter¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_77" custom="readingOrder {index:76;}">
+                <Coords points="571,3765 772,3776 806,3754 868,3796 1024,3757 1369,3765 1369,3725 1307,3720 571,3717"/>
+                <Baseline points="588,3752 627,3749 666,3751 706,3750 745,3749 785,3749 824,3750 863,3752 903,3752 942,3755 982,3755 1021,3755 1060,3755 1100,3755 1139,3755 1179,3755 1218,3755 1257,3758 1297,3758 1336,3758 1376,3758"/>
+                <TextEquiv>
+                    <Unicode>richtet. 1866 wurde das Gebäude bezogen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_78" custom="readingOrder {index:77;}">
+                <Coords points="1686,3768 1796,3799 2006,3771 2226,3779 2226,3725 1873,3737 1686,3697"/>
+                <Baseline points="1701,3760 1727,3760 1754,3760 1780,3760 1807,3760 1833,3760 1860,3762 1886,3763 1913,3763 1939,3763 1966,3763 1993,3763 2019,3763 2046,3763 2072,3762 2099,3760 2125,3761 2152,3763 2178,3763 2205,3764 2232,3766"/>
+                <TextEquiv>
+                    <Unicode>essanter Objekte verbunden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

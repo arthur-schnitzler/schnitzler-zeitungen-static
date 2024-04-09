@@ -1,10 +1,946 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_17:56</Creator>
         <Created>2019-10-07T20:40:31.767+02:00</Created>
-        <LastChange>2019-10-07T20:40:31.767+02:00</LastChange>
-        <TranskribusMetadata docId="224465" pageId="9581625" pageNr="273" tsid="16464317" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=FATOUXWLHXIHNKTLPZTROCEV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GPPAALWPOSBQFIOCMSRWYQBK" imageId="6209017"/>
+        <LastChange>2024-03-29T17:56:28.163+01:00</LastChange>
+        <TranskribusMetadata docId="224465" pageId="9581625" pageNr="273" tsid="156506803" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=FATOUXWLHXIHNKTLPZTROCEV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EQTZQHFUAYNQFRXPMKAYSYTC" imageId="6209017"/>
     </Metadata>
-    <Page imageFilename="224465_0273.jpeg" imageWidth="3344" imageHeight="4352"/>
+    <Page imageFilename="224465_0273.jpeg" imageWidth="3344" imageHeight="4352">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662355321" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="229,192 229,348 370,348 370,192"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="225,304 270,300 293,312 315,306 332,311 341,304 352,311 369,305 367,237 355,242 272,229 263,233 254,227 223,234"/>
+                <Baseline points="229,292 257,294 285,295 313,295 341,296 370,298"/>
+                <TextEquiv>
+                    <Unicode>13.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="429,272 429,4260 2373,4260 2373,272"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="424,330 492,347 602,322 1021,338 1020,259 837,271 698,228 628,259 423,242"/>
+                <Baseline points="429,292 458,294 488,296 518,298 547,298 577,299 607,301 636,301 666,304 696,310 726,306 755,304 785,304 815,304 844,303 874,301 904,301 933,302 963,304 993,304 1023,308"/>
+                <TextEquiv>
+                    <Unicode>Miscellane</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1284,314 1313,330 1527,319 1639,347 1683,323 1744,339 1752,268 1655,269 1619,249 1472,286 1431,256 1364,267 1333,245 1283,246"/>
+                <Baseline points="1289,307 1314,309 1340,310 1366,310 1392,311 1418,313 1444,313 1470,313 1496,313 1522,313 1547,313 1573,314 1599,316 1625,316 1651,316 1677,314 1703,313 1729,313 1755,313"/>
+                <TextEquiv>
+                    <Unicode>box 44/10</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="860,714 1457,740 1571,696 1570,611 1151,614 1036,566 858,547"/>
+                <Baseline points="865,692 900,690 935,691 971,693 1006,695 1042,698 1077,700 1112,703 1148,704 1183,704 1219,707 1254,709 1289,709 1325,707 1360,707 1396,707 1431,705 1466,699 1502,693 1537,695 1573,692"/>
+                <TextEquiv>
+                    <Unicode>Wiener¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1676,761 1742,757 1801,776 1843,764 1872,777 1946,762 1979,778 2075,757 2073,713 1988,730 1832,699 1766,714 1673,695"/>
+                <Baseline points="1680,743 1706,745 1732,746 1759,748 1785,750 1812,752 1838,752 1865,752 1891,754 1918,755 1944,755 1971,755 1997,755 2024,757 2050,759 2077,761"/>
+                <TextEquiv>
+                    <Unicode>Reserva¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1679,845 2307,868 2335,858 2334,805 2003,775 1940,804 1731,771 1677,794"/>
+                <Baseline points="1683,826 1715,830 1748,833 1781,836 1813,838 1846,838 1879,838 1911,838 1944,840 1977,841 2010,842 2042,844 2075,844 2108,845 2140,847 2173,847 2206,849 2238,850 2271,850 2304,853 2337,856"/>
+                <TextEquiv>
+                    <Unicode>GUSTAF NASSTROM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="870,909 1444,922 1467,915 1465,808 1190,813 1161,839 1096,835 1068,865 920,821 868,852"/>
+                <Baseline points="874,889 903,887 933,886 963,886 992,886 1022,888 1052,892 1081,892 1111,893 1141,895 1171,895 1200,896 1230,898 1260,896 1289,897 1319,901 1349,901 1378,900 1408,898 1438,894 1468,889"/>
+                <TextEquiv>
+                    <Unicode>Walzer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1296,1001 1357,1009 1407,1002 1418,1010 1452,1003 1487,1015 1547,1004 1545,967 1515,971 1501,963 1480,972 1407,948 1358,964 1295,958"/>
+                <Baseline points="1301,988 1328,991 1356,993 1383,993 1411,994 1438,996 1466,996 1493,997 1521,999 1549,999"/>
+                <TextEquiv>
+                    <Unicode>WIEN i nov.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1612,1010 2372,1026 2370,974 1611,971"/>
+                <Baseline points="1617,999 1654,999 1692,999 1730,1001 1768,1002 1806,1003 1843,1005 1881,1005 1919,1007 1957,1010 1995,1011 2032,1012 2070,1014 2108,1011 2146,1013 2184,1014 2221,1015 2259,1018 2297,1020 2335,1020 2373,1017"/>
+                <TextEquiv>
+                    <Unicode>ett hoppande och galoppande, ett nigan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="857,1035 1575,1050 1573,998 1133,993 1034,1015 856,984"/>
+                <Baseline points="862,1023 897,1023 933,1025 969,1027 1004,1030 1040,1032 1076,1030 1111,1031 1147,1032 1183,1032 1219,1032 1254,1034 1290,1035 1326,1035 1361,1035 1397,1038 1433,1040 1468,1041 1504,1041 1540,1041 1576,1041"/>
+                <TextEquiv>
+                    <Unicode>Wienarna, sade en herre i Prag, äro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1612,1054 2372,1074 2371,1031 1611,1011"/>
+                <Baseline points="1617,1041 1654,1041 1692,1041 1730,1043 1768,1045 1806,1047 1843,1047 1881,1050 1919,1050 1957,1052 1995,1053 2032,1054 2070,1056 2108,1053 2146,1055 2184,1058 2221,1059 2259,1060 2297,1062 2335,1062 2373,1065"/>
+                <TextEquiv>
+                    <Unicode>de och ett bugande, ett svavande och ett</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="807,1083 1512,1106 1571,1095 1570,1055 806,1048"/>
+                <Baseline points="811,1068 849,1065 887,1067 925,1070 963,1071 1001,1072 1039,1074 1077,1074 1115,1074 1153,1076 1192,1077 1230,1077 1268,1077 1306,1077 1344,1080 1382,1080 1420,1082 1458,1083 1496,1083 1534,1083 1573,1086"/>
+                <TextEquiv>
+                    <Unicode>ett förkrigssläkte, och att komma frän</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1613,1105 2311,1121 2373,1114 2372,1088 1611,1059"/>
+                <Baseline points="1617,1086 1654,1086 1692,1086 1730,1086 1768,1087 1806,1090 1843,1092 1881,1092 1919,1094 1957,1095 1995,1095 2032,1096 2070,1098 2108,1098 2146,1100 2184,1103 2221,1104 2259,1105 2297,1107 2335,1107 2373,1110"/>
+                <TextEquiv>
+                    <Unicode>knixande, ett tranande och ett smilande</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="818,1120 1563,1147 1570,1096 817,1081"/>
+                <Baseline points="823,1107 860,1109 898,1112 935,1113 973,1113 1010,1114 1048,1116 1085,1119 1123,1119 1160,1121 1198,1122 1235,1122 1273,1122 1310,1122 1348,1122 1385,1124 1423,1126 1460,1128 1498,1128 1535,1128 1573,1131"/>
+                <TextEquiv>
+                    <Unicode>Prag till Wien kanns verkligen som att</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1696,1146 2361,1167 2367,1115 1695,1103"/>
+                <Baseline points="1701,1134 1734,1132 1767,1132 1801,1134 1834,1134 1868,1136 1901,1137 1935,1137 1968,1137 2002,1139 2035,1140 2068,1141 2102,1143 2135,1143 2169,1144 2202,1147 2236,1149 2269,1151 2303,1152 2336,1153 2370,1155"/>
+                <TextEquiv>
+                    <Unicode>precis som livet skulle var i den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="806,1173 1566,1177 1565,1147 1518,1134 1200,1147 805,1118"/>
+                <Baseline points="811,1155 848,1155 886,1155 924,1157 962,1158 1000,1158 1037,1158 1075,1163 1113,1162 1151,1163 1189,1164 1226,1164 1264,1164 1302,1167 1340,1167 1378,1169 1415,1170 1453,1171 1491,1173 1529,1173 1567,1170"/>
+                <TextEquiv>
+                    <Unicode>förflyttas ett par decennier tilbakai ti-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="1609,1187 2365,1202 2364,1165 2309,1156 1608,1148"/>
+                <Baseline points="1614,1179 1651,1174 1689,1175 1726,1176 1764,1176 1802,1177 1839,1179 1877,1179 1915,1181 1952,1182 1990,1182 2028,1183 2065,1185 2103,1185 2141,1187 2178,1189 2216,1190 2254,1191 2291,1193 2329,1193 2367,1193"/>
+                <TextEquiv>
+                    <Unicode>gamla goda tiden, Först komma tre sce¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="806,1206 1566,1230 1565,1184 1097,1191 974,1167 911,1195 805,1169"/>
+                <Baseline points="811,1196 848,1198 886,1201 924,1202 962,1202 1000,1202 1037,1202 1075,1205 1113,1205 1151,1205 1189,1206 1226,1208 1264,1208 1302,1208 1340,1208 1378,1210 1415,1212 1453,1214 1491,1214 1529,1214 1567,1214"/>
+                <TextEquiv>
+                    <Unicode>den, till et samhülle av aristokratisk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1609,1231 2369,1254 2368,1219 2230,1198 2172,1224 2130,1195 1608,1191"/>
+                <Baseline points="1614,1217 1651,1217 1689,1217 1727,1217 1765,1218 1803,1221 1840,1223 1878,1223 1916,1223 1954,1225 1992,1226 2029,1227 2067,1229 2105,1229 2143,1231 2181,1232 2218,1233 2256,1235 2294,1236 2332,1238 2370,1235"/>
+                <TextEquiv>
+                    <Unicode>ner ur Wienervalsens historia. Den för¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="806,1246 1428,1281 1571,1272 1570,1229 805,1208"/>
+                <Baseline points="811,1241 849,1244 887,1244 925,1246 963,1247 1001,1247 1039,1247 1077,1247 1115,1249 1153,1250 1192,1252 1230,1253 1268,1253 1306,1253 1344,1253 1382,1255 1420,1258 1458,1259 1496,1259 1534,1259 1573,1262"/>
+                <TextEquiv>
+                    <Unicode>toppkultur och högtstående borgerlighet,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="1615,1269 2366,1288 2365,1253 2329,1247 1614,1230"/>
+                <Baseline points="1620,1262 1657,1260 1694,1261 1732,1262 1769,1263 1806,1265 1844,1265 1881,1265 1918,1267 1956,1270 1993,1271 2030,1271 2068,1271 2105,1273 2142,1274 2180,1274 2217,1275 2254,1277 2292,1280 2329,1280 2367,1283"/>
+                <TextEquiv>
+                    <Unicode>sta är Louis-seize, gesäller och flicker</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="806,1294 1563,1319 1571,1273 805,1254"/>
+                <Baseline points="811,1286 849,1286 887,1288 925,1289 963,1289 1001,1290 1039,1292 1077,1292 1115,1294 1153,1295 1192,1295 1230,1295 1268,1296 1306,1298 1344,1298 1382,1300 1420,1301 1458,1301 1496,1301 1534,1301 1573,1304"/>
+                <TextEquiv>
+                    <Unicode>till en stad med grace och sirliga maner,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="1609,1307 2366,1335 2365,1304 2266,1286 2161,1307 2111,1281 1608,1271"/>
+                <Baseline points="1614,1301 1651,1303 1689,1304 1726,1307 1764,1310 1802,1310 1839,1310 1877,1310 1915,1312 1952,1313 1990,1313 2028,1314 2065,1316 2103,1316 2141,1318 2178,1319 2216,1319 2254,1320 2291,1322 2329,1325 2367,1325"/>
+                <TextEquiv>
+                    <Unicode>dansa på Spittelberg, tills nativakten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="809,1348 1415,1365 1549,1356 1565,1318 808,1300"/>
+                <Baseline points="814,1331 851,1333 889,1334 926,1334 964,1334 1002,1335 1039,1337 1077,1337 1115,1337 1152,1339 1190,1340 1228,1340 1265,1340 1303,1343 1341,1343 1378,1343 1416,1344 1454,1346 1491,1346 1529,1346 1567,1343"/>
+                <TextEquiv>
+                    <Unicode>sä järt avstickande från den oceremo-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="1609,1356 2365,1394 2370,1341 1608,1315"/>
+                <Baseline points="1614,1346 1653,1349 1693,1349 1733,1349 1773,1351 1813,1352 1853,1353 1893,1355 1933,1355 1973,1355 2013,1358 2053,1358 2093,1360 2133,1361 2173,1362 2213,1364 2253,1364 2293,1365 2333,1370 2373,1373"/>
+                <TextEquiv>
+                    <Unicode>kommer med lykta och hillebard — det</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="803,1386 1493,1410 1568,1398 1567,1349 1468,1370 802,1346"/>
+                <Baseline points="808,1373 846,1376 884,1376 922,1378 960,1379 998,1379 1036,1379 1074,1379 1112,1381 1150,1382 1189,1383 1227,1384 1265,1385 1303,1387 1341,1387 1379,1385 1417,1386 1455,1388 1493,1390 1531,1390 1570,1387"/>
+                <TextEquiv>
+                    <Unicode>niella klasslösheten och den bryska sak-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="1600,1402 2362,1425 2361,1386 1599,1353"/>
+                <Baseline points="1605,1390 1644,1393 1684,1393 1724,1393 1764,1395 1804,1396 1844,1396 1884,1397 1924,1399 1964,1399 2004,1399 2044,1401 2084,1402 2124,1404 2164,1405 2204,1406 2244,1409 2284,1411 2324,1411 2364,1411"/>
+                <TextEquiv>
+                    <Unicode>är ett helt galleri av porslinsfiguriner,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="800,1421 965,1456 1532,1457 1571,1450 1570,1415 799,1394"/>
+                <Baseline points="805,1420 843,1420 881,1420 920,1420 958,1420 997,1421 1035,1423 1073,1423 1112,1426 1150,1426 1189,1426 1227,1427 1265,1429 1304,1429 1342,1432 1381,1432 1419,1432 1457,1434 1496,1436 1534,1437 1573,1435"/>
+                <TextEquiv>
+                    <Unicode>ligheten i det demokratiskt nutidsmässige</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="1613,1453 2365,1475 2364,1423 1611,1407"/>
+                <Baseline points="1617,1435 1654,1435 1692,1437 1729,1438 1767,1439 1804,1441 1842,1441 1879,1441 1917,1443 1954,1444 1992,1444 2029,1445 2067,1447 2104,1447 2142,1449 2179,1450 2217,1450 2254,1451 2292,1453 2329,1456 2367,1462"/>
+                <TextEquiv>
+                    <Unicode>nedstigna från hyllona i en keyserlig</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="807,1480 835,1473 863,1477 865,1474 880,1481 909,1479 906,1428 878,1443 873,1439 827,1436 804,1426"/>
+                <Baseline points="811,1459 844,1461 877,1463 910,1465"/>
+                <TextEquiv>
+                    <Unicode>Prag.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="1600,1498 2360,1511 2337,1468 1599,1448"/>
+                <Baseline points="1605,1477 1642,1479 1680,1482 1718,1483 1756,1484 1794,1486 1831,1486 1869,1486 1907,1488 1945,1489 1983,1489 2020,1489 2058,1489 2096,1489 2134,1491 2172,1494 2209,1495 2247,1496 2285,1498 2323,1498 2361,1498"/>
+                <TextEquiv>
+                    <Unicode>aténienne. Och Biedermeyers sma oskul¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="839,1521 1566,1535 1565,1497 1519,1484 838,1479"/>
+                <Baseline points="844,1507 880,1507 916,1509 952,1510 988,1510 1024,1510 1060,1512 1097,1513 1133,1513 1169,1514 1205,1516 1241,1516 1277,1516 1313,1517 1350,1519 1386,1519 1422,1522 1458,1522 1494,1522 1530,1523 1567,1522"/>
+                <TextEquiv>
+                    <Unicode>Känns det skönt? Aja, atminstone för</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_32" custom="readingOrder {index:31;}">
+                <Coords points="1600,1536 2358,1559 2361,1509 1599,1498"/>
+                <Baseline points="1605,1522 1644,1525 1684,1527 1724,1528 1764,1528 1804,1528 1844,1528 1884,1529 1924,1531 1964,1534 2004,1531 2044,1533 2084,1534 2124,1536 2164,1537 2204,1538 2244,1541 2284,1543 2324,1543 2364,1543"/>
+                <TextEquiv>
+                    <Unicode>der i mamelucker och kavalierer i fader¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_33" custom="readingOrder {index:32;}">
+                <Coords points="803,1559 1556,1574 1555,1545 1486,1533 802,1520"/>
+                <Baseline points="808,1552 845,1550 883,1549 920,1550 958,1552 995,1552 1033,1555 1070,1558 1108,1558 1145,1558 1183,1558 1220,1559 1258,1561 1295,1561 1333,1563 1370,1564 1408,1564 1445,1565 1483,1567 1520,1567 1558,1564"/>
+                <TextEquiv>
+                    <Unicode>några timmar. Ingen funkis, ingen fran¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_34" custom="readingOrder {index:33;}">
+                <Coords points="1600,1582 2355,1603 2353,1556 2293,1549 1599,1537"/>
+                <Baseline points="1605,1567 1642,1569 1680,1570 1717,1571 1755,1573 1792,1574 1830,1576 1867,1576 1905,1576 1942,1576 1980,1576 2017,1577 2055,1579 2092,1579 2130,1579 2167,1581 2205,1583 2242,1584 2280,1584 2317,1587 2355,1587"/>
+                <TextEquiv>
+                    <Unicode>mördere svänge om i valsen lika frisör-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_35" custom="readingOrder {index:34;}">
+                <Coords points="804,1614 1555,1623 1562,1572 986,1566 939,1589 802,1560"/>
+                <Baseline points="808,1593 845,1593 883,1593 921,1595 959,1596 997,1596 1034,1596 1072,1599 1110,1599 1148,1601 1186,1602 1223,1602 1261,1602 1299,1605 1337,1605 1375,1605 1412,1606 1450,1608 1488,1608 1526,1608 1564,1608"/>
+                <TextEquiv>
+                    <Unicode>tanda, inget nationellt högtryck, bara</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_36" custom="readingOrder {index:35;}">
+                <Coords points="1606,1626 2359,1645 2358,1611 2257,1594 1605,1580"/>
+                <Baseline points="1611,1608 1648,1613 1686,1614 1723,1614 1761,1615 1798,1617 1836,1617 1873,1617 1911,1619 1948,1620 1986,1620 2023,1620 2061,1620 2098,1620 2136,1622 2173,1625 2211,1627 2248,1629 2286,1629 2323,1632 2361,1635"/>
+                <TextEquiv>
+                    <Unicode>just och operette tant som poikana</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_37" custom="readingOrder {index:36;}">
+                <Coords points="801,1647 1508,1672 1560,1661 1559,1622 800,1613"/>
+                <Baseline points="805,1635 842,1637 880,1638 918,1640 956,1641 994,1641 1031,1641 1069,1641 1107,1643 1145,1644 1183,1645 1220,1647 1258,1647 1296,1647 1334,1649 1372,1650 1409,1650 1447,1651 1485,1653 1523,1653 1561,1650"/>
+                <TextEquiv>
+                    <Unicode>elegans, formfulländning, lätta och lätt-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_38" custom="readingOrder {index:37;}">
+                <Coords points="1603,1669 2358,1683 2356,1638 1602,1632"/>
+                <Baseline points="1608,1653 1645,1655 1683,1658 1720,1659 1758,1659 1795,1660 1833,1662 1870,1665 1908,1665 1945,1665 1983,1665 2020,1665 2058,1665 2095,1665 2133,1667 2170,1670 2208,1672 2245,1674 2283,1674 2320,1677 2358,1674"/>
+                <TextEquiv>
+                    <Unicode>och flickorna i siste scenens nutismilj</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_39" custom="readingOrder {index:38;}">
+                <Coords points="800,1687 1563,1720 1552,1660 1070,1652 991,1675 799,1646"/>
+                <Baseline points="805,1680 844,1683 884,1683 924,1683 964,1683 1004,1683 1044,1684 1084,1686 1124,1686 1164,1689 1204,1689 1244,1689 1284,1691 1324,1694 1364,1695 1404,1695 1444,1695 1484,1695 1524,1698 1564,1698"/>
+                <TextEquiv>
+                    <Unicode>färdighet — det er faktiskt som en vila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_40" custom="readingOrder {index:39;}">
+                <Coords points="1600,1713 2126,1718 2301,1750 2356,1734 2355,1687 1599,1676"/>
+                <Baseline points="1605,1698 1642,1700 1680,1701 1717,1702 1755,1704 1793,1705 1830,1707 1868,1707 1906,1707 1943,1707 1981,1707 2019,1708 2056,1710 2094,1710 2132,1712 2169,1713 2207,1713 2245,1714 2282,1716 2320,1719 2358,1719"/>
+                <TextEquiv>
+                    <Unicode>från Pratern, den ajamt lika gammal-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_41" custom="readingOrder {index:40;}">
+                <Coords points="800,1732 1555,1757 1553,1712 1523,1707 973,1713 799,1686"/>
+                <Baseline points="805,1722 842,1724 880,1725 917,1726 955,1728 992,1728 1030,1728 1067,1728 1105,1728 1142,1730 1180,1731 1217,1732 1255,1734 1292,1737 1330,1737 1367,1737 1405,1738 1442,1740 1480,1740 1517,1743 1555,1740"/>
+                <TextEquiv>
+                    <Unicode>efter et par verkors intensiva samtids¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_42" custom="readingOrder {index:41;}">
+                <Coords points="1603,1751 1895,1753 2000,1777 2129,1769 2128,1727 1602,1712"/>
+                <Baseline points="1608,1746 1634,1744 1660,1743 1686,1745 1712,1747 1738,1749 1764,1749 1791,1749 1817,1751 1843,1752 1869,1752 1895,1752 1921,1752 1947,1752 1974,1752 2000,1752 2026,1752 2052,1752 2078,1753 2104,1755 2131,1758"/>
+                <TextEquiv>
+                    <Unicode>dags borgerliga nöjesparken.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_43" custom="readingOrder {index:42;}">
+                <Coords points="797,1776 1446,1789 1501,1812 1553,1799 1553,1761 796,1739"/>
+                <Baseline points="802,1767 839,1769 877,1770 914,1771 952,1773 990,1773 1027,1773 1065,1776 1103,1774 1140,1775 1178,1776 1216,1777 1253,1779 1291,1781 1329,1781 1366,1781 1404,1781 1442,1782 1479,1784 1517,1784 1555,1787"/>
+                <TextEquiv>
+                    <Unicode>studier i det medvetet antiwienska Tjec¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_44" custom="readingOrder {index:43;}">
+                <Coords points="1639,1797 2359,1824 2358,1765 2334,1760 2303,1783 2038,1762 1998,1787 1639,1760"/>
+                <Baseline points="1644,1787 1679,1787 1715,1789 1751,1791 1787,1793 1823,1793 1859,1795 1894,1796 1930,1796 1966,1796 2002,1796 2038,1798 2074,1799 2110,1799 2145,1799 2181,1799 2217,1801 2253,1804 2289,1805 2325,1806 2361,1808"/>
+                <TextEquiv>
+                    <Unicode>För första gängen på länge är huset</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_45" custom="readingOrder {index:44;}">
+                <Coords points="791,1824 1563,1844 1561,1795 790,1782"/>
+                <Baseline points="796,1811 834,1814 872,1814 911,1814 949,1814 988,1816 1026,1820 1064,1820 1103,1817 1141,1819 1180,1820 1218,1821 1256,1823 1295,1823 1333,1826 1372,1826 1410,1826 1448,1828 1487,1829 1525,1830 1564,1832"/>
+                <TextEquiv>
+                    <Unicode>koslovakien. Jag bestämmer mig för att</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_46" custom="readingOrder {index:45;}">
+                <Coords points="1595,1842 2270,1868 2354,1861 2353,1823 1837,1801 1747,1823 1593,1792"/>
+                <Baseline points="1599,1832 1636,1832 1674,1832 1712,1832 1750,1833 1788,1836 1825,1838 1863,1838 1901,1838 1939,1840 1977,1841 2014,1841 2052,1841 2090,1844 2128,1844 2166,1844 2203,1845 2241,1847 2279,1848 2317,1850 2355,1847"/>
+                <TextEquiv>
+                    <Unicode>utsatt till matinépriser! — och publi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_47" custom="readingOrder {index:46;}">
+                <Coords points="788,1880 1558,1889 1557,1850 1490,1833 1318,1851 787,1824"/>
+                <Baseline points="793,1856 831,1856 869,1858 907,1859 946,1859 984,1860 1022,1862 1060,1862 1099,1862 1137,1864 1175,1867 1213,1868 1252,1868 1290,1868 1328,1871 1366,1871 1405,1871 1443,1873 1481,1874 1519,1875 1558,1877"/>
+                <TextEquiv>
+                    <Unicode>bli lat och lättfärdig och köper förty</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_48" custom="readingOrder {index:47;}">
+                <Coords points="1601,1889 2356,1906 2347,1861 1600,1843"/>
+                <Baseline points="1605,1874 1642,1876 1680,1877 1717,1878 1755,1880 1793,1881 1830,1883 1868,1883 1906,1883 1943,1883 1981,1883 2019,1884 2056,1886 2094,1886 2132,1888 2169,1891 2207,1892 2245,1892 2282,1892 2320,1892 2358,1895"/>
+                <TextEquiv>
+                    <Unicode>ken är med på galoppen. Den vaggar med</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_49" custom="readingOrder {index:48;}">
+                <Coords points="798,1910 1517,1936 1554,1932 1553,1893 797,1875"/>
+                <Baseline points="802,1901 839,1901 877,1901 914,1901 952,1902 990,1905 1027,1907 1065,1907 1103,1907 1140,1909 1178,1910 1216,1911 1253,1913 1291,1913 1329,1915 1366,1914 1404,1914 1442,1917 1479,1919 1517,1919 1555,1916"/>
+                <TextEquiv>
+                    <Unicode>en biljett till Operan. Man ger en kvar¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_50" custom="readingOrder {index:49;}">
+                <Coords points="1594,1927 2354,1943 2310,1904 1593,1889"/>
+                <Baseline points="1599,1919 1636,1919 1674,1921 1712,1922 1750,1923 1788,1925 1825,1925 1863,1925 1901,1927 1939,1928 1977,1928 2014,1928 2052,1928 2090,1928 2128,1930 2166,1933 2203,1934 2241,1935 2279,1937 2317,1937 2355,1934"/>
+                <TextEquiv>
+                    <Unicode>huudena i takt med valserna, den me¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_51" custom="readingOrder {index:50;}">
+                <Coords points="794,1953 1556,1974 1555,1934 1503,1926 793,1913"/>
+                <Baseline points="799,1943 838,1943 878,1945 918,1946 958,1946 998,1947 1038,1950 1078,1952 1118,1952 1158,1952 1198,1955 1238,1955 1278,1957 1318,1958 1358,1958 1398,1959 1438,1961 1478,1961 1518,1964 1558,1961"/>
+                <TextEquiv>
+                    <Unicode>tett baletter, och eftersom baletter och</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_52" custom="readingOrder {index:51;}">
+                <Coords points="1595,1970 2357,2009 2342,1951 1594,1929"/>
+                <Baseline points="1599,1961 1638,1964 1678,1964 1718,1966 1758,1969 1798,1970 1838,1970 1878,1970 1918,1970 1958,1973 1998,1973 2038,1973 2078,1973 2118,1975 2158,1976 2198,1977 2238,1979 2278,1981 2318,1981 2358,1984"/>
+                <TextEquiv>
+                    <Unicode>ker rytmerna med dansande handrörelser,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_53" custom="readingOrder {index:52;}">
+                <Coords points="798,2001 1444,2024 1558,2012 1558,1975 797,1968"/>
+                <Baseline points="802,1993 841,1990 881,1990 921,1990 961,1990 1001,1990 1041,1991 1081,1992 1121,1991 1161,1996 1201,1999 1241,1999 1281,1999 1321,2001 1361,2002 1401,2003 1441,2005 1481,2005 1521,2008 1561,2008"/>
+                <TextEquiv>
+                    <Unicode>pantomimer äro en sädeles sympatisk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_54" custom="readingOrder {index:53;}">
+                <Coords points="1601,2020 2353,2038 2352,2000 2316,1988 1600,1973"/>
+                <Baseline points="1605,2005 1642,2007 1680,2010 1717,2011 1755,2011 1792,2012 1830,2014 1867,2014 1905,2014 1942,2014 1980,2014 2017,2015 2055,2017 2092,2017 2130,2019 2167,2020 2205,2021 2242,2023 2280,2023 2317,2026 2355,2029"/>
+                <TextEquiv>
+                    <Unicode>hela parketten är ett enda gungande hat,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_55" custom="readingOrder {index:54;}">
+                <Coords points="795,2042 1555,2058 1553,2014 794,2006"/>
+                <Baseline points="799,2029 836,2031 874,2032 912,2034 950,2035 988,2035 1025,2035 1063,2038 1101,2038 1139,2040 1177,2041 1214,2042 1252,2044 1290,2044 1328,2046 1366,2047 1403,2048 1441,2050 1479,2051 1517,2053 1555,2050"/>
+                <TextEquiv>
+                    <Unicode>form av operakonst, har jag ett furtsligt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_56" custom="readingOrder {index:55;}">
+                <Coords points="1600,2064 2357,2083 2350,2038 1943,2024 1910,2046 1826,2022 1767,2043 1599,2016"/>
+                <Baseline points="1605,2053 1642,2053 1680,2053 1717,2054 1755,2056 1793,2057 1830,2059 1868,2059 1906,2059 1943,2059 1981,2059 2019,2059 2056,2059 2094,2062 2132,2062 2169,2064 2207,2065 2245,2066 2282,2068 2320,2068 2358,2068"/>
+                <TextEquiv>
+                    <Unicode>böljande efter, Strauss' trollspö. Men</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_57" custom="readingOrder {index:56;}">
+                <Coords points="791,2089 1531,2105 1552,2061 790,2050"/>
+                <Baseline points="796,2074 835,2074 875,2074 915,2076 955,2079 995,2081 1035,2083 1075,2083 1115,2083 1155,2086 1195,2086 1235,2086 1275,2088 1315,2089 1355,2089 1395,2090 1435,2093 1475,2095 1515,2095 1555,2092"/>
+                <TextEquiv>
+                    <Unicode>nöje i den gamla salongen av vitt och</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_58" custom="readingOrder {index:57;}">
+                <Coords points="1595,2114 2345,2128 2355,2081 1593,2062"/>
+                <Baseline points="1599,2095 1638,2095 1678,2097 1718,2098 1758,2098 1798,2099 1838,2101 1878,2102 1918,2104 1958,2101 1998,2104 2038,2104 2078,2106 2118,2107 2158,2108 2198,2111 2238,2112 2278,2110 2318,2113 2358,2116"/>
+                <TextEquiv>
+                    <Unicode>brevid mig sitter en silverhörig dam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_59" custom="readingOrder {index:58;}">
+                <Coords points="797,2134 1543,2162 1549,2108 796,2088"/>
+                <Baseline points="802,2122 839,2120 877,2121 914,2122 952,2123 989,2125 1027,2125 1064,2125 1102,2125 1139,2125 1177,2127 1214,2131 1252,2131 1289,2134 1327,2134 1364,2134 1402,2135 1439,2137 1477,2137 1514,2137 1552,2140"/>
+                <TextEquiv>
+                    <Unicode>guld och purpur — minsann sitter inte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_60" custom="readingOrder {index:59;}">
+                <Coords points="1601,2154 2345,2172 2355,2125 1599,2108"/>
+                <Baseline points="1605,2140 1642,2140 1680,2142 1717,2144 1755,2146 1793,2146 1830,2146 1868,2146 1906,2146 1943,2146 1981,2147 2019,2149 2056,2149 2094,2149 2132,2151 2169,2154 2207,2155 2245,2155 2282,2155 2320,2158 2358,2161"/>
+                <TextEquiv>
+                    <Unicode>med pannan mot handen och grater i</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_61" custom="readingOrder {index:60;}">
+                <Coords points="789,2175 1502,2204 1550,2197 1549,2161 788,2143"/>
+                <Baseline points="793,2155 832,2163 872,2164 912,2166 952,2167 992,2167 1032,2168 1072,2171 1112,2173 1152,2173 1192,2173 1232,2176 1272,2176 1312,2177 1352,2178 1392,2179 1432,2181 1472,2181 1512,2181 1552,2181"/>
+                <TextEquiv>
+                    <Unicode>den gyllene kronan och dubbelmonarkins</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_62" custom="readingOrder {index:61;}">
+                <Coords points="1589,2200 2188,2220 2336,2210 2349,2172 1587,2149"/>
+                <Baseline points="1593,2184 1632,2184 1672,2184 1712,2184 1752,2186 1792,2187 1832,2187 1872,2188 1912,2190 1952,2190 1992,2190 2032,2192 2072,2193 2112,2193 2152,2194 2192,2196 2232,2197 2272,2199 2312,2199 2352,2202"/>
+                <TextEquiv>
+                    <Unicode>näsduken. Den gamla goda tiden er inte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_63" custom="readingOrder {index:62;}">
+                <Coords points="788,2224 1541,2234 1540,2201 1419,2190 787,2184"/>
+                <Baseline points="793,2205 830,2207 868,2208 905,2208 943,2209 980,2211 1018,2211 1055,2211 1093,2213 1130,2216 1168,2218 1205,2220 1243,2220 1280,2220 1318,2220 1355,2222 1393,2223 1430,2224 1468,2226 1505,2226 1543,2226"/>
+                <TextEquiv>
+                    <Unicode>fläkta örn med Frans Josef I:s nam¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_64" custom="readingOrder {index:63;}">
+                <Coords points="1588,2234 2348,2259 2347,2225 2279,2205 1588,2208"/>
+                <Baseline points="1593,2226 1630,2226 1668,2226 1706,2226 1744,2228 1782,2232 1819,2232 1857,2232 1895,2232 1933,2234 1971,2235 2008,2235 2046,2235 2084,2235 2122,2237 2160,2238 2197,2239 2235,2242 2273,2245 2311,2247 2349,2250"/>
+                <TextEquiv>
+                    <Unicode>mer — minnen bli henne vermäktiga,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_65" custom="readingOrder {index:64;}">
+                <Coords points="791,2257 1420,2291 1547,2279 1546,2243 790,2223"/>
+                <Baseline points="796,2250 833,2250 871,2252 908,2253 946,2253 984,2254 1021,2256 1059,2256 1097,2260 1134,2262 1172,2262 1210,2263 1247,2265 1285,2265 1323,2267 1360,2268 1398,2268 1436,2269 1473,2271 1511,2271 1549,2271"/>
+                <TextEquiv>
+                    <Unicode>chiffer kvar over gamla keisarlogen i fon¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_66" custom="readingOrder {index:65;}">
+                <Coords points="1597,2277 2347,2306 2325,2253 1597,2241"/>
+                <Baseline points="1602,2271 1639,2271 1676,2273 1714,2274 1751,2274 1788,2274 1826,2277 1863,2277 1900,2277 1938,2277 1975,2277 2012,2277 2050,2280 2087,2280 2124,2282 2162,2283 2199,2284 2236,2286 2274,2286 2311,2288 2349,2289"/>
+                <TextEquiv>
+                    <Unicode>och i morgen skall vardagen ter stä liika</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_67" custom="readingOrder {index:66;}">
+                <Coords points="788,2309 1527,2335 1549,2279 787,2264"/>
+                <Baseline points="793,2292 832,2295 872,2297 912,2298 952,2298 992,2299 1032,2301 1072,2301 1112,2301 1152,2304 1192,2307 1232,2307 1272,2307 1312,2309 1352,2310 1392,2311 1432,2314 1472,2316 1512,2316 1552,2313"/>
+                <TextEquiv>
+                    <Unicode>den Har man i revolutionsbradskan glomt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_68" custom="readingOrder {index:67;}">
+                <Coords points="1588,2330 2337,2351 2344,2303 1587,2293"/>
+                <Baseline points="1593,2319 1630,2317 1668,2316 1705,2316 1743,2318 1781,2322 1818,2322 1856,2322 1894,2322 1931,2322 1969,2322 2007,2322 2044,2322 2082,2325 2120,2325 2157,2327 2195,2328 2233,2329 2270,2331 2308,2331 2346,2328"/>
+                <TextEquiv>
+                    <Unicode>gra och hopplös omkring henne. Nu drie-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_69" custom="readingOrder {index:68;}">
+                <Coords points="784,2362 1545,2372 1543,2330 1494,2326 783,2319"/>
+                <Baseline points="788,2337 825,2340 863,2340 901,2342 939,2343 977,2343 1015,2343 1053,2346 1091,2346 1129,2348 1167,2350 1204,2352 1242,2352 1280,2352 1318,2355 1356,2355 1394,2355 1432,2356 1470,2358 1508,2358 1546,2358"/>
+                <TextEquiv>
+                    <Unicode>att ta bort dubbelmonarkins emblem lik¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_70" custom="readingOrder {index:69;}">
+                <Coords points="1588,2367 2323,2396 2347,2353 1587,2329"/>
+                <Baseline points="1593,2358 1630,2356 1668,2359 1706,2361 1744,2362 1782,2365 1819,2367 1857,2367 1895,2367 1933,2367 1971,2367 2008,2367 2046,2367 2084,2370 2122,2372 2160,2371 2197,2371 2235,2373 2273,2373 2311,2375 2349,2378"/>
+                <TextEquiv>
+                    <Unicode>ker hon ett sentimentalt gläderus ur</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_71" custom="readingOrder {index:70;}">
+                <Coords points="787,2393 1548,2422 1546,2371 786,2361"/>
+                <Baseline points="791,2381 828,2381 866,2383 904,2384 942,2384 980,2385 1018,2387 1056,2387 1094,2389 1132,2390 1170,2391 1207,2393 1245,2393 1283,2396 1321,2396 1359,2398 1397,2399 1435,2400 1473,2402 1511,2402 1549,2405"/>
+                <TextEquiv>
+                    <Unicode>som man i det republikanska Bratislava</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_72" custom="readingOrder {index:71;}">
+                <Coords points="1588,2418 2348,2433 2346,2383 1587,2367"/>
+                <Baseline points="1593,2402 1630,2402 1668,2402 1706,2404 1744,2406 1782,2408 1819,2408 1857,2408 1895,2408 1933,2410 1971,2411 2008,2411 2046,2411 2084,2411 2122,2413 2160,2414 2197,2415 2235,2417 2273,2417 2311,2417 2349,2417"/>
+                <TextEquiv>
+                    <Unicode>dessa sprittande toner, som flöda direkt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_73" custom="readingOrder {index:72;}">
+                <Coords points="783,2436 1535,2464 1540,2423 782,2398"/>
+                <Baseline points="788,2426 825,2426 863,2426 901,2428 939,2429 976,2429 1014,2429 1052,2432 1090,2434 1127,2435 1165,2435 1203,2436 1241,2438 1278,2438 1316,2440 1354,2441 1392,2442 1429,2445 1467,2447 1505,2447 1543,2447"/>
+                <TextEquiv>
+                    <Unicode>försummat att ta ned kungskronan från</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_74" custom="readingOrder {index:73;}">
+                <Coords points="1595,2461 2350,2484 2349,2442 2308,2427 2023,2420 1979,2446 1912,2410 1594,2419"/>
+                <Baseline points="1599,2444 1636,2446 1674,2447 1711,2448 1749,2451 1787,2453 1824,2453 1862,2453 1900,2453 1937,2453 1975,2453 2013,2453 2050,2453 2088,2456 2126,2456 2163,2458 2201,2459 2239,2460 2276,2462 2314,2462 2352,2462"/>
+                <TextEquiv>
+                    <Unicode>ur Wiens egen själ. Strauss' anda svä-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_75" custom="readingOrder {index:74;}">
+                <Coords points="787,2486 1548,2509 1547,2469 785,2434"/>
+                <Baseline points="791,2471 828,2468 866,2470 904,2471 942,2472 980,2474 1018,2474 1056,2477 1094,2477 1132,2479 1170,2480 1207,2481 1245,2483 1283,2483 1321,2486 1359,2486 1397,2486 1435,2488 1473,2492 1511,2492 1549,2492"/>
+                <TextEquiv>
+                    <Unicode>kröningsdomens spira? Förvisso inte, här</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_76" custom="readingOrder {index:75;}">
+                <Coords points="1589,2503 2315,2519 2341,2514 2340,2476 1588,2469"/>
+                <Baseline points="1593,2486 1630,2488 1668,2491 1705,2492 1743,2493 1780,2495 1818,2495 1855,2495 1893,2495 1930,2497 1968,2498 2005,2498 2043,2498 2080,2501 2118,2501 2155,2501 2193,2502 2230,2504 2268,2504 2305,2507 2343,2504"/>
+                <TextEquiv>
+                    <Unicode>var alljämt över staden med sin in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_77" custom="readingOrder {index:76;}">
+                <Coords points="777,2533 1544,2542 1543,2509 1454,2520 1393,2493 776,2495"/>
+                <Baseline points="782,2513 820,2513 858,2515 896,2516 934,2516 973,2517 1011,2519 1049,2519 1087,2521 1125,2522 1164,2524 1202,2525 1240,2526 1278,2528 1316,2528 1355,2528 1393,2530 1431,2533 1469,2534 1507,2535 1546,2537"/>
+                <TextEquiv>
+                    <Unicode>er den habsburgska maksymbolen helt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_78" custom="readingOrder {index:77;}">
+                <Coords points="1583,2549 2301,2569 2344,2559 2343,2517 1582,2509"/>
+                <Baseline points="1587,2531 1626,2534 1666,2534 1706,2536 1746,2537 1786,2538 1826,2540 1866,2540 1906,2540 1946,2543 1986,2543 2026,2543 2066,2543 2106,2543 2146,2544 2186,2547 2226,2550 2266,2552 2306,2549 2346,2552"/>
+                <TextEquiv>
+                    <Unicode>smickrande charme, sin välighet, sitt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_79" custom="readingOrder {index:78;}">
+                <Coords points="786,2571 1488,2597 1547,2587 1547,2553 785,2534"/>
+                <Baseline points="791,2564 828,2561 866,2561 904,2561 942,2561 980,2562 1018,2564 1056,2564 1094,2564 1132,2566 1170,2567 1207,2568 1245,2570 1283,2570 1321,2572 1359,2572 1397,2574 1435,2575 1473,2576 1511,2578 1549,2581"/>
+                <TextEquiv>
+                    <Unicode>på sin plats, och wienarna ha sinne för</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_80" custom="readingOrder {index:79;}">
+                <Coords points="1591,2592 2344,2603 2343,2559 1776,2566 1590,2541"/>
+                <Baseline points="1596,2581 1633,2579 1671,2578 1708,2579 1746,2581 1783,2581 1821,2581 1858,2581 1896,2583 1933,2584 1971,2585 2008,2587 2046,2587 2083,2587 2121,2587 2158,2589 2196,2590 2233,2591 2271,2593 2308,2593 2346,2593"/>
+                <TextEquiv>
+                    <Unicode>galanteri och sitt borgerliga svärmeri.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_81" custom="readingOrder {index:80;}">
+                <Coords points="777,2620 1494,2642 1542,2634 1541,2594 776,2582"/>
+                <Baseline points="782,2599 820,2602 858,2602 896,2602 934,2603 972,2605 1010,2605 1048,2608 1086,2610 1124,2611 1162,2611 1200,2611 1238,2612 1276,2614 1314,2614 1352,2616 1390,2617 1428,2618 1466,2620 1504,2620 1543,2623"/>
+                <TextEquiv>
+                    <Unicode>stil. Alljät lorgnetteras parketten av</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_82" custom="readingOrder {index:81;}">
+                <Coords points="1591,2635 2306,2658 2346,2651 2345,2602 1590,2590"/>
+                <Baseline points="1596,2620 1633,2620 1671,2622 1708,2624 1746,2626 1783,2626 1821,2626 1858,2626 1896,2628 1933,2629 1971,2629 2008,2629 2046,2629 2083,2632 2121,2632 2158,2632 2196,2633 2233,2635 2271,2635 2308,2638 2346,2638"/>
+                <TextEquiv>
+                    <Unicode>När jag efter teatern kommer hem till</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_83" custom="readingOrder {index:82;}">
+                <Coords points="786,2653 1544,2672 1525,2635 1346,2621 785,2615"/>
+                <Baseline points="791,2641 828,2644 866,2646 904,2647 942,2647 979,2648 1017,2650 1055,2650 1093,2652 1130,2653 1168,2654 1206,2656 1244,2656 1281,2659 1319,2659 1357,2661 1395,2662 1432,2663 1470,2665 1508,2665 1546,2665"/>
+                <TextEquiv>
+                    <Unicode>bildskön, förnämä damer, vilkas smy-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_84" custom="readingOrder {index:83;}">
+                <Coords points="1591,2676 2348,2702 2346,2650 1590,2637"/>
+                <Baseline points="1596,2665 1633,2665 1671,2667 1708,2668 1746,2669 1784,2671 1821,2671 1859,2674 1897,2674 1934,2674 1972,2674 2010,2674 2047,2674 2085,2674 2123,2676 2160,2679 2198,2680 2236,2680 2273,2680 2311,2683 2349,2683"/>
+                <TextEquiv>
+                    <Unicode>min egen gata, som groteskt nog heter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_85" custom="readingOrder {index:84;}">
+                <Coords points="787,2697 1538,2733 1546,2677 785,2654"/>
+                <Baseline points="791,2689 828,2689 866,2689 904,2691 942,2692 980,2693 1018,2695 1056,2695 1094,2697 1132,2698 1170,2699 1207,2702 1245,2704 1283,2701 1321,2704 1359,2704 1397,2706 1435,2708 1473,2710 1511,2710 1549,2713"/>
+                <TextEquiv>
+                    <Unicode>ken blixtra i de fyra logeraderas dunkel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_86" custom="readingOrder {index:85;}">
+                <Coords points="1591,2703 1678,2730 2308,2743 2341,2739 2340,2691 1590,2677"/>
+                <Baseline points="1596,2698 1633,2705 1670,2709 1708,2710 1745,2711 1782,2713 1820,2713 1857,2715 1894,2716 1932,2716 1969,2716 2006,2716 2044,2716 2081,2718 2118,2719 2156,2720 2193,2722 2230,2722 2268,2725 2305,2725 2343,2725"/>
+                <TextEquiv>
+                    <Unicode>Fleischmarkt, gora nattens flickor sina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_87" custom="readingOrder {index:86;}">
+                <Coords points="783,2739 1525,2769 1537,2725 782,2705"/>
+                <Baseline points="788,2731 825,2734 863,2734 900,2734 938,2735 976,2737 1013,2737 1051,2740 1088,2740 1126,2742 1164,2743 1201,2744 1239,2746 1276,2746 1314,2748 1352,2747 1389,2747 1427,2750 1464,2752 1502,2755 1540,2755"/>
+                <TextEquiv>
+                    <Unicode>framför kavalierernas frackbröst, allt-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_88" custom="readingOrder {index:87;}">
+                <Coords points="1582,2774 2329,2788 2338,2735 1581,2725"/>
+                <Baseline points="1587,2752 1624,2752 1662,2752 1699,2753 1737,2755 1775,2755 1812,2755 1850,2758 1888,2758 1925,2758 1963,2758 2001,2758 2038,2758 2076,2761 2114,2761 2151,2763 2189,2764 2227,2765 2264,2767 2302,2769 2340,2767"/>
+                <TextEquiv>
+                    <Unicode>inviter med en grace och en belevenhet,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_89" custom="readingOrder {index:88;}">
+                <Coords points="777,2797 1537,2807 1536,2772 1417,2758 776,2744"/>
+                <Baseline points="782,2778 819,2775 857,2775 895,2777 933,2778 970,2778 1008,2778 1046,2781 1084,2783 1121,2784 1159,2785 1197,2787 1235,2787 1272,2787 1310,2789 1348,2790 1386,2792 1423,2793 1461,2794 1499,2796 1537,2796"/>
+                <TextEquiv>
+                    <Unicode>jämt dansar baletten klassisk täspete-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_90" custom="readingOrder {index:89;}">
+                <Coords points="1579,2811 2342,2822 2341,2787 2139,2767 1578,2775"/>
+                <Baseline points="1584,2793 1623,2793 1663,2795 1703,2796 1743,2796 1783,2797 1823,2799 1863,2800 1903,2802 1943,2802 1983,2799 2023,2801 2063,2802 2103,2804 2143,2805 2183,2806 2223,2809 2263,2811 2303,2811 2343,2811"/>
+                <TextEquiv>
+                    <Unicode>som om deras arende vore en damernas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_91" custom="readingOrder {index:90;}">
+                <Coords points="778,2835 1303,2840 1441,2873 1533,2859 1531,2810 776,2797"/>
+                <Baseline points="782,2817 819,2820 857,2820 894,2822 932,2823 970,2823 1007,2823 1045,2826 1082,2826 1120,2828 1158,2830 1195,2832 1233,2832 1270,2832 1308,2834 1346,2835 1383,2835 1421,2837 1458,2841 1496,2841 1534,2838"/>
+                <TextEquiv>
+                    <Unicode>dans i svävande gazkjolar, alltät spe-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_92" custom="readingOrder {index:91;}">
+                <Coords points="1586,2863 1633,2844 1680,2863 1892,2846 1935,2867 2215,2868 2214,2828 2147,2816 1585,2809"/>
+                <Baseline points="1590,2835 1621,2837 1652,2838 1684,2838 1715,2840 1746,2842 1778,2844 1809,2844 1840,2844 1872,2844 1903,2844 1934,2844 1966,2844 1997,2844 2028,2846 2060,2847 2091,2847 2122,2847 2154,2849 2185,2850 2217,2850"/>
+                <TextEquiv>
+                    <Unicode>vals och icke en kamp for brödet.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_93" custom="readingOrder {index:92;}">
+                <Coords points="780,2871 908,2874 951,2888 1004,2878 1022,2890 1037,2877 1057,2887 1102,2876 1133,2891 1145,2890 1144,2861 1099,2863 1056,2841 1007,2849 965,2829 888,2846 778,2828"/>
+                <Baseline points="785,2865 810,2863 836,2862 862,2864 888,2865 913,2865 939,2865 965,2865 991,2867 1017,2869 1042,2870 1068,2872 1094,2874 1120,2875 1146,2877"/>
+                <TextEquiv>
+                    <Unicode>lar man Strauss</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_94" custom="readingOrder {index:93;}">
+                <Coords points="1615,2897 2341,2904 2314,2862 2157,2881 2030,2853 1614,2855"/>
+                <Baseline points="1620,2880 1656,2882 1692,2885 1728,2886 1764,2886 1800,2886 1836,2886 1873,2886 1909,2887 1945,2889 1981,2889 2017,2889 2053,2891 2089,2892 2126,2893 2162,2895 2198,2895 2234,2897 2270,2898 2306,2899 2343,2901"/>
+                <TextEquiv>
+                    <Unicode>Meneljest verkar Wien en sula</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_95" custom="readingOrder {index:94;}">
+                <Coords points="822,2923 1537,2939 1512,2890 820,2875"/>
+                <Baseline points="826,2907 861,2907 897,2909 932,2911 968,2913 1003,2913 1039,2915 1074,2916 1110,2916 1145,2916 1181,2919 1217,2919 1252,2917 1288,2918 1323,2922 1359,2925 1394,2925 1430,2925 1465,2926 1501,2928 1537,2925"/>
+                <TextEquiv>
+                    <Unicode>Kvällens program heter „Wiener-Wal¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_96" custom="readingOrder {index:95;}">
+                <Coords points="1585,2944 2299,2960 2341,2944 2341,2904 2266,2931 2133,2901 2083,2922 1584,2902"/>
+                <Baseline points="1590,2928 1627,2928 1665,2928 1702,2928 1740,2929 1778,2931 1815,2931 1853,2931 1891,2931 1928,2933 1966,2934 2004,2934 2041,2934 2079,2934 2117,2936 2154,2937 2192,2938 2230,2941 2267,2943 2305,2940 2343,2940"/>
+                <TextEquiv>
+                    <Unicode>skrynkligt, som en kostym efter en av¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_97" custom="readingOrder {index:96;}">
+                <Coords points="775,2972 856,2954 1460,2992 1532,2983 1531,2942 773,2912"/>
+                <Baseline points="779,2949 816,2949 854,2951 892,2954 930,2955 967,2955 1005,2955 1043,2958 1081,2960 1118,2961 1156,2961 1194,2962 1232,2964 1269,2964 1307,2966 1345,2967 1383,2968 1420,2970 1458,2972 1496,2972 1534,2972"/>
+                <TextEquiv>
+                    <Unicode>zer och är sammansatt av gamla vals¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_98" custom="readingOrder {index:97;}">
+                <Coords points="1577,2978 2281,3004 2338,2996 2338,2956 1576,2938"/>
+                <Baseline points="1582,2967 1619,2969 1657,2971 1695,2972 1733,2973 1771,2975 1809,2975 1847,2975 1885,2975 1923,2977 1961,2978 1998,2978 2036,2978 2074,2978 2112,2981 2150,2981 2188,2983 2226,2984 2264,2984 2302,2984 2340,2987"/>
+                <TextEquiv>
+                    <Unicode>magringskur. Och nog har staden dömts</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_99" custom="readingOrder {index:98;}">
+                <Coords points="780,3011 1535,3033 1534,2984 779,2972"/>
+                <Baseline points="785,2993 822,2993 860,2995 897,2996 935,2996 973,2997 1010,2999 1048,3002 1085,3002 1123,3002 1161,3003 1198,3006 1236,3008 1273,3008 1311,3010 1349,3011 1386,3012 1424,3014 1461,3014 1499,3014 1537,3014"/>
+                <TextEquiv>
+                    <Unicode>cardas- och polkamelodier. An der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_100" custom="readingOrder {index:99;}">
+                <Coords points="1577,3033 2324,3053 2336,2998 1576,2994"/>
+                <Baseline points="1582,3011 1619,3014 1657,3014 1695,3014 1733,3015 1770,3017 1808,3017 1846,3017 1884,3019 1921,3020 1959,3020 1997,3020 2035,3020 2072,3023 2110,3023 2148,3025 2186,3026 2223,3026 2261,3027 2299,3029 2337,3026"/>
+                <TextEquiv>
+                    <Unicode>att bant. Denna metropol, skapa för</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_101" custom="readingOrder {index:100;}">
+                <Coords points="774,3055 1535,3069 1534,3033 1340,3016 773,3011"/>
+                <Baseline points="779,3035 816,3038 854,3038 892,3040 930,3041 968,3042 1006,3044 1044,3044 1082,3044 1120,3046 1158,3048 1195,3050 1233,3050 1271,3050 1309,3053 1347,3055 1385,3056 1423,3057 1461,3059 1499,3059 1537,3059"/>
+                <TextEquiv>
+                    <Unicode>schönen blauen Donau, Geschichten aus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_102" custom="readingOrder {index:101;}">
+                <Coords points="1577,3064 2327,3088 2334,3051 1576,3033"/>
+                <Baseline points="1582,3053 1619,3058 1657,3059 1695,3059 1733,3060 1770,3062 1808,3062 1846,3062 1884,3062 1921,3064 1959,3065 1997,3065 2035,3065 2072,3068 2110,3068 2148,3068 2186,3070 2223,3071 2261,3072 2299,3074 2337,3074"/>
+                <TextEquiv>
+                    <Unicode>att administrera en stormakt, har nu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_103" custom="readingOrder {index:102;}">
+                <Coords points="778,3089 1522,3119 1527,3073 777,3052"/>
+                <Baseline points="782,3080 819,3083 856,3083 893,3084 931,3086 968,3086 1005,3086 1043,3089 1080,3091 1117,3092 1155,3093 1192,3095 1229,3095 1266,3095 1304,3097 1341,3098 1378,3099 1416,3101 1453,3101 1490,3103 1528,3101"/>
+                <TextEquiv>
+                    <Unicode>dem Wienerwald, Die Puppenfee! Det er</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_104" custom="readingOrder {index:103;}">
+                <Coords points="1577,3108 2336,3126 2313,3080 1765,3088 1576,3063"/>
+                <Baseline points="1582,3101 1619,3104 1657,3104 1695,3104 1733,3105 1770,3107 1808,3107 1846,3107 1884,3107 1921,3107 1959,3108 1997,3110 2035,3110 2072,3110 2110,3110 2148,3112 2186,3114 2223,3116 2261,3116 2299,3116 2337,3119"/>
+                <TextEquiv>
+                    <Unicode>ingenting annat att representera an sin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_105" custom="readingOrder {index:104;}">
+                <Coords points="1574,3149 1668,3146 1704,3177 1740,3149 2231,3178 2332,3171 2331,3126 2055,3120 2008,3145 1872,3111 1573,3124"/>
+                <Baseline points="1579,3143 1616,3146 1654,3146 1692,3146 1730,3147 1767,3149 1805,3149 1843,3149 1881,3151 1918,3152 1956,3152 1994,3153 2032,3155 2069,3155 2107,3155 2145,3155 2183,3156 2220,3159 2258,3161 2296,3161 2334,3164"/>
+                <TextEquiv>
+                    <Unicode>nöd och sitt lättsinne. Dubbelt grotesk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_106" custom="readingOrder {index:105;}">
+                <Coords points="1575,3198 2263,3207 2333,3233 2331,3171 2293,3166 1746,3153 1704,3177 1666,3146 1574,3148"/>
+                <Baseline points="1579,3184 1616,3187 1654,3189 1692,3190 1730,3191 1767,3193 1805,3193 1843,3193 1881,3193 1918,3195 1956,3196 1994,3196 2032,3196 2069,3199 2107,3199 2145,3199 2183,3200 2220,3202 2258,3202 2296,3202 2334,3202"/>
+                <TextEquiv>
+                    <Unicode>verker dirigenom den arkitektoniska sta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_107" custom="readingOrder {index:106;}">
+                <Coords points="1571,3241 2274,3269 2335,3264 2335,3232 2245,3207 1570,3204"/>
+                <Baseline points="1576,3232 1614,3232 1652,3232 1690,3232 1728,3233 1766,3235 1804,3235 1842,3235 1880,3237 1918,3238 1956,3238 1994,3238 2032,3239 2070,3241 2108,3241 2146,3241 2184,3243 2222,3245 2260,3247 2298,3248 2337,3253"/>
+                <TextEquiv>
+                    <Unicode>ten frän anno dazumal rådhusgotiken,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_108" custom="readingOrder {index:107;}">
+                <Coords points="1568,3293 2007,3283 2269,3312 2329,3292 2313,3258 1568,3255"/>
+                <Baseline points="1573,3280 1610,3277 1648,3277 1686,3277 1724,3277 1762,3278 1800,3280 1838,3280 1876,3280 1914,3282 1952,3282 1989,3281 2027,3283 2065,3283 2103,3283 2141,3285 2179,3286 2217,3287 2255,3289 2293,3289 2331,3289"/>
+                <TextEquiv>
+                    <Unicode>parlaments-novantiken, Burgeaterns pö-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_109" custom="readingOrder {index:108;}">
+                <Coords points="1572,3327 2316,3352 2328,3294 1571,3294"/>
+                <Baseline points="1576,3319 1613,3319 1651,3319 1689,3321 1727,3322 1764,3322 1802,3322 1840,3322 1878,3324 1915,3327 1953,3327 1991,3325 2029,3325 2066,3328 2104,3328 2142,3330 2180,3331 2217,3332 2255,3334 2293,3334 2331,3331"/>
+                <TextEquiv>
+                    <Unicode>sande barocksal kring en konkursmäs¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_110" custom="readingOrder {index:109;}">
+                <Coords points="1565,3372 2315,3397 2335,3349 1718,3326 1651,3349 1564,3326"/>
+                <Baseline points="1570,3363 1608,3363 1646,3365 1685,3364 1723,3364 1761,3366 1800,3366 1838,3366 1876,3369 1915,3369 1953,3369 1991,3370 2030,3372 2068,3372 2106,3372 2145,3372 2183,3372 2221,3374 2260,3376 2298,3379 2337,3378"/>
+                <TextEquiv>
+                    <Unicode>sig institution! Det förflutna talar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_111" custom="readingOrder {index:110;}">
+                <Coords points="1565,3419 2326,3423 2325,3391 2265,3406 2227,3383 1564,3373"/>
+                <Baseline points="1570,3405 1607,3405 1645,3405 1683,3407 1721,3408 1759,3408 1797,3408 1835,3411 1873,3411 1911,3411 1949,3411 1986,3412 2024,3414 2062,3414 2100,3414 2138,3414 2176,3416 2214,3417 2252,3418 2290,3420 2328,3423"/>
+                <TextEquiv>
+                    <Unicode>hexameter genom takens parader av gu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_112" custom="readingOrder {index:111;}">
+                <Coords points="1568,3456 2326,3470 2325,3437 2218,3427 1568,3431"/>
+                <Baseline points="1573,3447 1610,3450 1648,3450 1686,3450 1724,3451 1761,3453 1799,3453 1837,3453 1875,3453 1912,3455 1950,3456 1988,3457 2026,3459 2063,3459 2101,3459 2139,3459 2177,3460 2214,3462 2252,3463 2290,3465 2328,3465"/>
+                <TextEquiv>
+                    <Unicode>dar och gudinnor eller pikanta alexandri¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_113" custom="readingOrder {index:112;}">
+                <Coords points="1565,3500 2325,3532 2332,3479 1564,3472"/>
+                <Baseline points="1570,3492 1608,3495 1646,3495 1684,3495 1722,3495 1761,3496 1799,3498 1837,3498 1875,3498 1913,3498 1952,3498 1990,3498 2028,3499 2066,3501 2104,3501 2143,3501 2181,3503 2219,3506 2257,3508 2295,3511 2334,3513"/>
+                <TextEquiv>
+                    <Unicode>ner genom de ridande kavaliererna kring</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_114" custom="readingOrder {index:113;}">
+                <Coords points="1565,3544 2326,3569 2325,3531 2212,3510 1564,3501"/>
+                <Baseline points="1570,3534 1607,3537 1645,3537 1683,3539 1721,3539 1759,3538 1797,3540 1835,3540 1873,3540 1911,3542 1949,3543 1986,3543 2024,3543 2062,3546 2100,3546 2138,3546 2176,3548 2214,3549 2252,3550 2290,3552 2328,3555"/>
+                <TextEquiv>
+                    <Unicode>Maria Teresias gestikulerande jättestät,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_115" custom="readingOrder {index:114;}">
+                <Coords points="1562,3584 2269,3615 2326,3609 2326,3569 1561,3552"/>
+                <Baseline points="1567,3575 1605,3578 1643,3580 1681,3581 1719,3581 1757,3582 1795,3584 1833,3584 1871,3584 1909,3586 1947,3587 1985,3587 2023,3587 2061,3587 2099,3587 2137,3589 2175,3590 2213,3591 2251,3593 2289,3593 2328,3593"/>
+                <TextEquiv>
+                    <Unicode>och nuet svarar med sparsametsdekret</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_116" custom="readingOrder {index:115;}">
+                <Coords points="1569,3636 2233,3637 2276,3658 2320,3652 2319,3606 2232,3626 2000,3595 1915,3617 1742,3592 1568,3607"/>
+                <Baseline points="1573,3623 1610,3623 1647,3623 1685,3625 1722,3626 1760,3627 1797,3629 1835,3626 1872,3626 1910,3628 1947,3629 1984,3629 2022,3629 2059,3632 2097,3632 2134,3634 2172,3635 2209,3635 2247,3635 2284,3635 2322,3638"/>
+                <TextEquiv>
+                    <Unicode>och anslag om slutrealisationer och</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_117" custom="readingOrder {index:116;}">
+                <Coords points="1565,3675 2325,3690 2304,3653 1565,3636"/>
+                <Baseline points="1570,3665 1607,3665 1645,3667 1683,3668 1721,3669 1758,3671 1796,3671 1834,3671 1872,3671 1909,3671 1947,3672 1985,3674 2023,3674 2060,3674 2098,3674 2136,3676 2174,3677 2211,3678 2249,3680 2287,3680 2325,3680"/>
+                <TextEquiv>
+                    <Unicode>barmhertighetstjänster Vid footen av</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_118" custom="readingOrder {index:117;}">
+                <Coords points="1568,3719 2323,3738 2315,3687 1740,3701 1568,3676"/>
+                <Baseline points="1573,3710 1610,3710 1648,3710 1685,3712 1723,3713 1761,3713 1798,3713 1836,3713 1873,3715 1911,3716 1949,3716 1986,3716 2024,3716 2061,3716 2099,3718 2137,3719 2174,3720 2212,3723 2249,3725 2287,3725 2325,3728"/>
+                <TextEquiv>
+                    <Unicode>staterna längs boulevarder och broar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_119" custom="readingOrder {index:118;}">
+                <Coords points="1565,3768 2184,3785 2317,3776 2317,3746 1564,3729"/>
+                <Baseline points="1570,3752 1607,3755 1644,3755 1682,3755 1719,3755 1757,3756 1794,3758 1832,3758 1869,3758 1907,3759 1944,3760 1981,3760 2019,3760 2056,3763 2094,3763 2131,3763 2169,3764 2206,3766 2244,3766 2281,3766 2319,3769"/>
+                <TextEquiv>
+                    <Unicode>sitta blinda och lama tiggare hopsjunka</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_120" custom="readingOrder {index:119;}">
+                <Coords points="1563,3806 2202,3832 2310,3829 2320,3798 1562,3762"/>
+                <Baseline points="1567,3793 1604,3796 1642,3796 1680,3798 1718,3799 1755,3799 1793,3799 1831,3799 1869,3799 1906,3801 1944,3802 1982,3803 2020,3805 2057,3805 2095,3805 2133,3805 2171,3806 2208,3808 2246,3809 2284,3814 2322,3811"/>
+                <TextEquiv>
+                    <Unicode>dunklet och veva positiv. Det fatiga,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_121" custom="readingOrder {index:120;}">
+                <Coords points="1565,3851 2320,3870 2319,3828 2239,3818 1565,3813"/>
+                <Baseline points="1570,3838 1607,3841 1645,3841 1682,3841 1720,3842 1758,3844 1795,3844 1833,3844 1870,3844 1908,3846 1946,3847 1983,3848 2021,3850 2058,3850 2096,3850 2134,3850 2171,3851 2209,3853 2246,3853 2284,3853 2322,3856"/>
+                <TextEquiv>
+                    <Unicode>förtvivlade Wien rör sig i en ram av</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_122" custom="readingOrder {index:121;}">
+                <Coords points="1562,3894 2310,3918 2323,3870 1561,3853"/>
+                <Baseline points="1567,3880 1604,3885 1642,3886 1680,3886 1718,3887 1756,3889 1794,3889 1832,3889 1870,3889 1908,3889 1946,3889 1983,3890 2021,3892 2059,3892 2097,3892 2135,3894 2173,3895 2211,3896 2249,3898 2287,3898 2325,3898"/>
+                <TextEquiv>
+                    <Unicode>kejserlig pomp och stat, som man inte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_123" custom="readingOrder {index:122;}">
+                <Coords points="1553,3943 2320,3949 2319,3919 2254,3908 1552,3889"/>
+                <Baseline points="1558,3928 1596,3928 1634,3928 1672,3928 1710,3929 1749,3932 1787,3934 1825,3934 1863,3934 1901,3934 1940,3934 1978,3934 2016,3935 2054,3937 2092,3937 2131,3939 2169,3940 2207,3940 2245,3941 2283,3944 2322,3943"/>
+                <TextEquiv>
+                    <Unicode>har råd att underhalla. Men man älskar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_124" custom="readingOrder {index:123;}">
+                <Coords points="1553,3986 2320,3994 2320,3961 2211,3950 1553,3953"/>
+                <Baseline points="1558,3969 1596,3969 1634,3971 1672,3972 1710,3973 1749,3976 1787,3978 1825,3975 1863,3977 1901,3976 1940,3977 1978,3978 2016,3978 2054,3978 2092,3981 2131,3981 2169,3983 2207,3984 2245,3984 2283,3985 2322,3984"/>
+                <TextEquiv>
+                    <Unicode>sin trasiga pomp — man börjar bli van</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_125" custom="readingOrder {index:124;}">
+                <Coords points="1559,4021 2319,4050 2319,3996 1558,3991"/>
+                <Baseline points="1564,4011 1601,4014 1639,4014 1677,4016 1715,4017 1753,4017 1791,4017 1829,4020 1867,4020 1905,4020 1943,4020 1980,4021 2018,4023 2056,4023 2094,4023 2132,4023 2170,4025 2208,4027 2246,4030 2284,4032 2322,4035"/>
+                <TextEquiv>
+                    <Unicode>vid trasor och man förstär att föra sig</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_126" custom="readingOrder {index:125;}">
+                <Coords points="1553,4069 2084,4080 2083,4043 2017,4033 1552,4024"/>
+                <Baseline points="1558,4059 1584,4059 1610,4059 1637,4059 1663,4059 1690,4059 1716,4061 1742,4062 1769,4062 1795,4062 1822,4062 1848,4062 1874,4062 1901,4062 1927,4063 1954,4065 1980,4065 2006,4065 2033,4067 2059,4068 2086,4068"/>
+                <TextEquiv>
+                    <Unicode>flott och chevalerest idem.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_127" custom="readingOrder {index:126;}">
+                <Coords points="1594,4112 2273,4135 2320,4122 2320,4091 1593,4077"/>
+                <Baseline points="1599,4101 1635,4101 1671,4103 1707,4104 1743,4104 1779,4104 1815,4106 1852,4107 1888,4107 1924,4107 1960,4107 1996,4107 2032,4109 2068,4110 2105,4111 2141,4113 2177,4113 2213,4115 2249,4116 2285,4116 2322,4116"/>
+                <TextEquiv>
+                    <Unicode>Det bläser harda höstvindar genom</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_128" custom="readingOrder {index:127;}">
+                <Coords points="1565,4165 1686,4147 2252,4174 2317,4169 2317,4137 1770,4113 1671,4134 1564,4105"/>
+                <Baseline points="1570,4143 1607,4143 1644,4145 1682,4146 1719,4147 1757,4149 1794,4149 1832,4149 1869,4151 1907,4152 1944,4152 1981,4152 2019,4152 2056,4154 2094,4154 2131,4156 2169,4157 2206,4157 2244,4157 2281,4160 2319,4163"/>
+                <TextEquiv>
+                    <Unicode>Wien i dessa dagar. De slita de sista</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_129" custom="readingOrder {index:128;}">
+                <Coords points="1553,4202 2317,4212 2316,4182 2226,4164 1552,4169"/>
+                <Baseline points="1558,4193 1596,4188 1634,4189 1672,4190 1710,4191 1748,4193 1786,4193 1824,4193 1862,4195 1900,4196 1938,4196 1976,4196 2014,4197 2052,4199 2090,4199 2128,4199 2166,4201 2204,4202 2242,4202 2280,4202 2319,4205"/>
+                <TextEquiv>
+                    <Unicode>gula löven från Ringens lönnar, vilkas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_130" custom="readingOrder {index:129;}">
+                <Coords points="1559,4241 1734,4244 1820,4276 2168,4276 2243,4247 2243,4224 1558,4202"/>
+                <Baseline points="1564,4235 1598,4230 1632,4232 1666,4237 1700,4241 1734,4243 1768,4244 1802,4244 1836,4244 1870,4247 1904,4247 1938,4247 1972,4247 2006,4244 2040,4246 2074,4247 2108,4247 2142,4250 2176,4248 2210,4244 2244,4244"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

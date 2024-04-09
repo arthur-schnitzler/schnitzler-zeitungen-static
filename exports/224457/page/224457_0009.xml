@@ -1,10 +1,155 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=28_03_2024_22:49</Creator>
         <Created>2019-10-07T20:37:03.588+02:00</Created>
-        <LastChange>2019-10-07T20:37:03.588+02:00</LastChange>
-        <TranskribusMetadata docId="224457" pageId="9578223" pageNr="9" tsid="16460673" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=QYGSGZIEGEAFTCXGWENLMBLS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TDPNLGKZAKCJWQUAISNELPJT" imageId="6208021"/>
+        <LastChange>2024-03-28T22:49:31.380+01:00</LastChange>
+        <TranskribusMetadata docId="224457" pageId="9578223" pageNr="9" tsid="156410669" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=QYGSGZIEGEAFTCXGWENLMBLS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JNAYWNKOGGPULMIXPAYNYJXF" imageId="6208021"/>
     </Metadata>
-    <Page imageFilename="224457_0009.jpeg" imageWidth="3436" imageHeight="4320"/>
+    <Page imageFilename="224457_0009.jpeg" imageWidth="3436" imageHeight="4320">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662135368" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="217,237 217,393 301,393 301,237"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="214,359 220,359 228,350 241,349 249,341 264,344 270,350 282,349 298,338 294,272 283,271 272,279 263,274 258,280 241,285 223,277 208,277"/>
+                <Baseline points="217,337 245,339 273,341 301,343"/>
+                <TextEquiv>
+                    <Unicode>1</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="379,240 379,414 1041,414 1041,240"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="374,343 1038,350 1029,306 654,287 586,308 373,279"/>
+                <Baseline points="379,340 412,340 445,341 478,344 511,346 544,346 577,345 610,343 643,346 676,346 710,347 743,349 776,349 809,349 842,349 875,349 908,349 941,351 974,354 1007,358 1041,364"/>
+                <TextEquiv>
+                    <Unicode>Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="1182,329 1182,2356 1904,2356 1904,329"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1219,350 1271,369 1296,357 1343,385 1398,360 1439,386 1492,363 1559,386 1609,364 1649,370 1647,307 1608,299 1551,310 1513,297 1494,313 1473,297 1431,327 1292,312 1266,295 1218,306"/>
+                <Baseline points="1224,349 1249,351 1274,352 1299,352 1324,353 1349,354 1374,355 1399,355 1424,355 1449,355 1474,357 1499,358 1524,358 1549,358 1574,358 1599,358 1624,358 1650,361"/>
+                <TextEquiv>
+                    <Unicode>box 42/2</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1177,1828 1378,1867 1463,1840 1706,1866 1902,1852 1901,1816 1811,1801 1177,1798"/>
+                <Baseline points="1182,1827 1218,1827 1254,1829 1290,1830 1326,1830 1362,1830 1398,1830 1434,1832 1470,1833 1506,1834 1543,1836 1579,1836 1615,1836 1651,1837 1687,1839 1723,1839 1759,1842 1795,1842 1831,1844 1867,1845 1904,1842"/>
+                <TextEquiv>
+                    <Unicode>REFUSES HUNGARIAN, INVITA-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1488,1886 1498,1884 1525,1894 1542,1881 1563,1885 1580,1899 1602,1890 1600,1844 1589,1844 1584,1849 1573,1844 1550,1844 1540,1851 1514,1848 1508,1843 1504,1848 1486,1848"/>
+                <Baseline points="1492,1874 1519,1874 1547,1875 1575,1877 1603,1877"/>
+                <TextEquiv>
+                    <Unicode>TION</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1223,1958 1893,1982 1901,1917 1863,1941 1670,1938 1221,1898"/>
+                <Baseline points="1227,1943 1260,1945 1294,1948 1328,1949 1362,1949 1396,1951 1430,1952 1463,1952 1497,1952 1531,1952 1565,1954 1599,1956 1633,1958 1667,1958 1700,1958 1734,1959 1768,1961 1802,1964 1836,1964 1870,1965 1904,1964"/>
+                <TextEquiv>
+                    <Unicode>Vienna, (TA).—Arthur Schnitzler,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1180,1996 1903,2010 1888,1976 1179,1961"/>
+                <Baseline points="1185,1988 1222,1988 1260,1988 1298,1988 1336,1989 1374,1990 1412,1988 1449,1991 1487,1991 1525,1991 1563,1992 1601,1994 1639,1994 1676,1997 1714,1997 1752,1999 1790,2002 1828,2002 1866,2001 1904,2000"/>
+                <TextEquiv>
+                    <Unicode>famous Austrian-Jewish novelist, re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="1181,2043 1900,2053 1899,2012 1827,2003 1770,2023 1180,1998"/>
+                <Baseline points="1185,2027 1220,2027 1256,2027 1292,2027 1328,2027 1364,2027 1399,2029 1435,2030 1471,2031 1507,2033 1543,2033 1578,2035 1614,2036 1650,2036 1686,2037 1722,2039 1757,2039 1793,2041 1829,2042 1865,2042 1901,2042"/>
+                <TextEquiv>
+                    <Unicode>fused to visit Hungary because of the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1180,2081 1902,2092 1901,2053 1846,2047 1180,2045"/>
+                <Baseline points="1185,2065 1222,2065 1260,2065 1298,2065 1336,2066 1374,2068 1412,2068 1449,2071 1487,2071 1525,2071 1563,2071 1601,2072 1639,2074 1676,2074 1714,2076 1752,2077 1790,2077 1828,2078 1866,2081 1904,2083"/>
+                <TextEquiv>
+                    <Unicode>anti-Jewish attitude prevalent in that</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1177,2119 1863,2139 1902,2132 1901,2091 1176,2083"/>
+                <Baseline points="1182,2101 1218,2103 1254,2106 1290,2107 1326,2107 1362,2107 1398,2109 1434,2108 1470,2108 1506,2111 1543,2113 1579,2110 1615,2110 1651,2111 1687,2114 1723,2116 1759,2116 1795,2116 1831,2118 1867,2120 1904,2119"/>
+                <TextEquiv>
+                    <Unicode>country. Mr. Schnitzler was invited</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1180,2160 1884,2176 1895,2128 1179,2119"/>
+                <Baseline points="1185,2146 1220,2146 1256,2146 1291,2146 1327,2145 1363,2143 1398,2145 1434,2146 1470,2146 1505,2146 1541,2149 1577,2151 1612,2152 1648,2152 1684,2152 1719,2155 1755,2157 1791,2156 1826,2157 1862,2161 1898,2158"/>
+                <TextEquiv>
+                    <Unicode>to deliver a series of lectures in Bud¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1180,2192 1220,2201 1238,2193 1256,2200 1271,2191 1284,2200 1296,2200 1295,2164 1286,2167 1273,2160 1257,2165 1243,2159 1230,2162 1225,2157 1179,2166"/>
+                <Baseline points="1185,2185 1213,2183 1241,2183 1269,2185 1298,2185"/>
+                <TextEquiv>
+                    <Unicode>apest.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="1366,2196 1902,2208 1901,2177 1807,2158 1690,2181 1365,2162"/>
+                <Baseline points="1370,2188 1396,2186 1423,2185 1450,2185 1476,2187 1503,2191 1530,2193 1556,2194 1583,2192 1610,2191 1637,2191 1663,2191 1690,2191 1717,2193 1743,2195 1770,2197 1797,2197 1823,2197 1850,2199 1877,2199 1904,2197"/>
+                <TextEquiv>
+                    <Unicode>Rejecting the invitation</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1183,2229 1326,2250 1899,2242 1889,2206 1182,2194"/>
+                <Baseline points="1188,2221 1223,2223 1259,2224 1294,2225 1330,2226 1366,2224 1401,2226 1437,2227 1473,2228 1508,2230 1544,2230 1580,2230 1615,2232 1651,2233 1687,2233 1722,2233 1758,2235 1794,2236 1829,2237 1865,2239 1901,2236"/>
+                <TextEquiv>
+                    <Unicode>Schnitzler declared that he is will¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="1180,2280 1900,2291 1899,2243 1179,2237"/>
+                <Baseline points="1185,2260 1220,2264 1256,2265 1292,2265 1328,2266 1364,2268 1399,2268 1435,2266 1471,2266 1507,2269 1543,2271 1578,2271 1614,2273 1650,2274 1686,2274 1722,2274 1757,2274 1793,2276 1829,2277 1865,2277 1901,2277"/>
+                <TextEquiv>
+                    <Unicode>ing, on principle, to hold lectures in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1183,2306 1205,2313 1238,2307 1254,2321 1298,2315 1314,2328 1332,2330 1342,2321 1368,2318 1368,2286 1293,2274 1280,2282 1249,2273 1228,2284 1214,2275 1182,2277"/>
+                <Baseline points="1188,2304 1214,2304 1240,2304 1266,2304 1292,2304 1318,2304 1344,2307 1370,2310"/>
+                <TextEquiv>
+                    <Unicode>Budapest.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="1483,2363 1500,2355 1510,2361 1533,2360 1560,2377 1594,2374 1595,2320 1574,2323 1567,2317 1558,2323 1548,2319 1541,2323 1534,2319 1517,2325 1499,2316 1484,2317"/>
+                <Baseline points="1489,2346 1516,2343 1543,2343 1570,2343 1597,2343"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

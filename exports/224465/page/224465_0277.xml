@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_17:56</Creator>
         <Created>2019-10-07T20:40:33.096+02:00</Created>
-        <LastChange>2019-10-07T20:40:33.096+02:00</LastChange>
-        <TranskribusMetadata docId="224465" pageId="9581649" pageNr="277" tsid="16464347" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=MQEDQDMVHYKBTKLVSCEKDPQM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NCCMXHOCHLLJXTGIAFTZTODL" imageId="6209025"/>
+        <LastChange>2024-03-29T17:56:28.782+01:00</LastChange>
+        <TranskribusMetadata docId="224465" pageId="9581649" pageNr="277" tsid="156506809" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=MQEDQDMVHYKBTKLVSCEKDPQM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XSEDZUAQRQUXYNSEMPTEDDAB" imageId="6209025"/>
     </Metadata>
-    <Page imageFilename="224465_0277.jpeg" imageWidth="3344" imageHeight="4352"/>
+    <Page imageFilename="224465_0277.jpeg" imageWidth="3344" imageHeight="4352">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662355596" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="104,273 104,446 958,446 958,273"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="98,393 196,380 314,428 957,413 955,340 893,327 516,346 304,321 209,356 98,322"/>
+                <Baseline points="104,373 146,379 189,379 232,384 274,385 317,385 360,385 402,384 445,382 488,381 531,380 573,383 616,385 659,385 701,382 744,382 787,382 829,385 872,385 915,393 958,396"/>
+                <TextEquiv>
+                    <Unicode>13. Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="1149,350 1149,2950 2429,2950 2429,350"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1144,385 1232,405 1307,387 1384,403 1418,386 1468,405 1613,402 1605,324 1559,343 1447,321 1367,346 1240,349 1175,315 1145,320"/>
+                <Baseline points="1149,379 1174,381 1200,382 1226,382 1252,382 1278,382 1304,382 1329,382 1355,380 1381,380 1407,381 1433,382 1459,382 1484,382 1510,382 1536,382 1562,381 1588,380 1614,379"/>
+                <TextEquiv>
+                    <Unicode>b 44/10</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1683,2828 1814,2809 2222,2826 2229,2784 1921,2772 1860,2745 1708,2609 1682,2620"/>
+                <Baseline points="1689,2811 1716,2811 1743,2810 1770,2809 1797,2807 1824,2805 1851,2805 1879,2806 1906,2808 1933,2808 1960,2808 1987,2808 2014,2809 2041,2811 2069,2811 2096,2811 2123,2811 2150,2810 2177,2808 2204,2810 2232,2811"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1355,2905 1393,2890 1445,2903 1492,2878 1618,2888 1655,2875 1800,2903 1801,2834 1769,2819 1737,2835 1626,2828 1586,2851 1487,2827 1356,2836"/>
+                <Baseline points="1361,2874 1386,2876 1412,2877 1438,2875 1464,2874 1490,2874 1516,2874 1542,2874 1568,2874 1594,2874 1620,2874 1646,2874 1672,2874 1698,2874 1724,2874 1750,2872 1776,2872 1802,2874"/>
+                <TextEquiv>
+                    <Unicode>Sigmund Freud</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1911,2904 1989,2877 2059,2898 2218,2877 2379,2906 2426,2894 2425,2847 2321,2826 2250,2844 1968,2832 1910,2848"/>
+                <Baseline points="1916,2871 1941,2873 1967,2874 1992,2874 2018,2873 2044,2871 2069,2872 2095,2874 2121,2872 2146,2871 2172,2873 2198,2874 2223,2874 2249,2874 2275,2874 2300,2876 2326,2877 2352,2879 2377,2880 2403,2880 2429,2880"/>
+                <TextEquiv>
+                    <Unicode>Arthur Schnitzler</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1546,2949 2139,2938 2178,2957 2178,2882 1964,2912 1690,2876 1641,2905 1546,2895"/>
+                <Baseline points="1552,2934 1583,2934 1614,2933 1646,2931 1677,2933 1709,2934 1740,2934 1772,2934 1803,2934 1835,2934 1866,2934 1897,2934 1929,2934 1960,2934 1992,2934 2023,2934 2055,2934 2086,2934 2118,2936 2149,2936 2181,2934"/>
+                <TextEquiv>
+                    <Unicode>Scherenschnitte von Käte Wol¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

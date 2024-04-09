@@ -1,10 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=28_03_2024_21:05</Creator>
         <Created>2019-10-07T20:37:19.742+02:00</Created>
-        <LastChange>2019-10-07T20:37:19.742+02:00</LastChange>
-        <TranskribusMetadata docId="224458" pageId="9578362" pageNr="16" tsid="16460818" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=AFXUTJRDNWQYUTIQAQOMZZPP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IOCZAKTBFMWCHEMIPTZHCTMF" imageId="6208072"/>
+        <LastChange>2024-03-28T21:05:02.209+01:00</LastChange>
+        <TranskribusMetadata docId="224458" pageId="9578362" pageNr="16" tsid="156381867" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=AFXUTJRDNWQYUTIQAQOMZZPP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HDYZRYXYXUSTKJDCFMTMIJAM" imageId="6208072"/>
     </Metadata>
-    <Page imageFilename="224458_0016.jpeg" imageWidth="3392" imageHeight="4320"/>
+    <Page imageFilename="224458_0016.jpeg" imageWidth="3392" imageHeight="4320">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662143274" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="355,171 355,339 1012,339 1012,171"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="347,308 1009,321 1007,230 802,246 665,217 498,241 345,201"/>
+                <Baseline points="355,271 387,275 420,278 453,281 486,286 519,288 552,289 584,288 617,284 650,283 683,283 716,283 749,283 782,283 814,283 847,283 880,283 913,284 946,286 979,286 1012,286"/>
+                <TextEquiv>
+                    <Unicode>Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="829,259 829,3585 1618,3585 1618,259"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1193,294 1309,313 1368,287 1435,321 1473,306 1510,323 1614,294 1612,237 1538,229 1514,247 1445,227 1344,253 1270,222 1191,222"/>
+                <Baseline points="1200,283 1226,285 1252,286 1278,286 1304,287 1330,289 1356,289 1382,289 1409,291 1435,292 1461,292 1487,292 1513,292 1539,292 1565,292 1591,290 1618,292"/>
+                <TextEquiv>
+                    <Unicode>box 42/4</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="973,1038 1280,1034 1311,1016 1330,1034 1560,1028 1560,954 1540,952 1497,974 1457,959 1373,976 1282,945 1174,966 1126,942 973,973"/>
+                <Baseline points="982,1018 1011,1020 1040,1021 1069,1021 1098,1021 1127,1021 1156,1021 1185,1021 1214,1021 1243,1021 1273,1021 1302,1021 1331,1021 1360,1022 1389,1024 1418,1024 1447,1024 1476,1024 1505,1022 1534,1020 1564,1018"/>
+                <TextEquiv>
+                    <Unicode>HEMSTREET</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1000,1107 1081,1079 1526,1084 1526,1031 1000,1038"/>
+                <Baseline points="1009,1071 1035,1071 1061,1071 1087,1071 1113,1073 1139,1073 1165,1072 1191,1071 1217,1071 1243,1071 1270,1071 1296,1071 1322,1072 1348,1074 1374,1074 1400,1074 1426,1074 1452,1074 1478,1074 1504,1072 1531,1068"/>
+                <TextEquiv>
+                    <Unicode>96 WARREN STREET</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1038,1153 1189,1131 1266,1163 1292,1150 1315,1167 1330,1153 1425,1167 1457,1146 1500,1160 1500,1089 1361,1098 1333,1081 1242,1096 1077,1079 1038,1098"/>
+                <Baseline points="1047,1128 1072,1128 1097,1128 1123,1130 1148,1130 1173,1129 1199,1129 1224,1131 1250,1131 1275,1131 1300,1131 1326,1131 1351,1131 1377,1131 1402,1131 1427,1131 1453,1131 1478,1131 1504,1131"/>
+                <TextEquiv>
+                    <Unicode>NEW YORK CITY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="900,1364 962,1373 1002,1356 1026,1373 1107,1356 1146,1375 1196,1366 1196,1270 1168,1273 1110,1313 1048,1299 976,1311 943,1287 900,1287"/>
+                <Baseline points="910,1352 936,1352 962,1352 989,1352 1015,1352 1041,1352 1068,1354 1094,1355 1120,1355 1147,1354 1173,1352 1200,1352"/>
+                <TextEquiv>
+                    <Unicode>Chronicle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="906,1437 945,1443 993,1414 1017,1433 1096,1411 1462,1418 1461,1335 1425,1330 1340,1373 1272,1352 1146,1375 1072,1357 1005,1378 904,1366"/>
+                <Baseline points="913,1406 940,1406 968,1406 995,1406 1023,1405 1051,1403 1078,1405 1106,1406 1133,1406 1161,1406 1189,1406 1216,1406 1244,1406 1271,1406 1299,1406 1327,1406 1354,1406 1382,1407 1409,1409 1437,1409 1465,1409"/>
+                <TextEquiv>
+                    <Unicode>San Francisco al</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1325,1466 1375,1473 1406,1461 1428,1471 1464,1464 1483,1478 1497,1478 1495,1419 1462,1423 1438,1414 1426,1421 1407,1412 1382,1421 1357,1411 1325,1423"/>
+                <Baseline points="1334,1456 1361,1458 1388,1458 1416,1457 1443,1457 1470,1459 1498,1462"/>
+                <TextEquiv>
+                    <Unicode>24-30</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1136,1466 1182,1478 1229,1466 1244,1474 1258,1467 1282,1481 1297,1478 1294,1414 1272,1411 1246,1428 1215,1414 1189,1435 1134,1443"/>
+                <Baseline points="1143,1459 1169,1457 1195,1456 1222,1458 1248,1460 1274,1462 1301,1465"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1215,3421 1380,3407 1608,3416 1608,3358 1529,3375 1418,3352 1370,3371 1318,3356 1215,3361"/>
+                <Baseline points="1224,3406 1249,3403 1275,3403 1301,3403 1327,3405 1353,3405 1379,3404 1405,3404 1430,3406 1456,3406 1482,3406 1508,3406 1534,3406 1560,3406 1586,3405 1612,3403"/>
+                <TextEquiv>
+                    <Unicode>Arthur Schnitzler</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="828,3488 1096,3478 1199,3507 1242,3488 1280,3514 1488,3485 1474,3411 1177,3418 1105,3397 1071,3418 885,3421 828,3402"/>
+                <Baseline points="838,3475 870,3472 903,3469 936,3469 968,3470 1001,3472 1034,3470 1066,3470 1099,3472 1132,3472 1165,3472 1197,3472 1230,3472 1263,3472 1295,3472 1328,3472 1361,3472 1393,3472 1426,3472 1459,3472 1492,3472"/>
+                <TextEquiv>
+                    <Unicode>players will be given opportunity at</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="820,3543 906,3516 935,3529 995,3519 1046,3543 1136,3519 1138,3488 1105,3478 986,3487 940,3476 839,3488 821,3478"/>
+                <Baseline points="829,3510 854,3510 880,3510 906,3510 932,3510 958,3510 984,3510 1010,3510 1036,3508 1062,3507 1088,3507 1114,3508 1140,3510"/>
+                <TextEquiv>
+                    <Unicode>special matinées.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="820,3591 907,3586 986,3622 1345,3612 1345,3528 1301,3512 1249,3540 1127,3526 1089,3547 923,3519 820,3543"/>
+                <Baseline points="829,3570 855,3570 881,3570 907,3572 933,3573 959,3573 985,3573 1011,3573 1037,3573 1063,3573 1089,3573 1115,3573 1141,3573 1167,3573 1193,3573 1219,3573 1245,3573 1271,3573 1297,3573 1323,3573 1349,3570"/>
+                <TextEquiv>
+                    <Unicode>Comprehensive List of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

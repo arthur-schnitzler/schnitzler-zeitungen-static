@@ -1,10 +1,477 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=29_03_2024_17:55</Creator>
         <Created>2019-10-07T20:39:42.833+02:00</Created>
-        <LastChange>2019-10-07T20:39:42.833+02:00</LastChange>
-        <TranskribusMetadata docId="224465" pageId="9580505" pageNr="105" tsid="16463110" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=UJCVNIEPWQCFERBFGUAEEMSK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=AEJPAFBOSNYXQJTTHDHSJHUK" imageId="6208670"/>
+        <LastChange>2024-03-29T17:55:57.223+01:00</LastChange>
+        <TranskribusMetadata docId="224465" pageId="9580505" pageNr="105" tsid="156506562" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=UJCVNIEPWQCFERBFGUAEEMSK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XGUJFEPPEJIYURRMRGEZMXHQ" imageId="6208670"/>
     </Metadata>
-    <Page imageFilename="224465_0105.jpeg" imageWidth="3344" imageHeight="4352"/>
+    <Page imageFilename="224465_0105.jpeg" imageWidth="3344" imageHeight="4352">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662342482" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="194,282 194,438 343,438 343,282"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="185,402 201,402 213,410 231,402 264,406 298,386 315,398 327,388 341,388 339,365 294,351 260,319 229,329 203,323 197,329 183,327"/>
+                <Baseline points="194,382 223,384 253,386 283,388 313,386 343,385"/>
+                <TextEquiv>
+                    <Unicode>13.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="391,356 391,3740 2328,3740 2328,356"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1230,384 1293,408 1417,380 1455,398 1614,394 1634,408 1711,392 1711,321 1500,339 1476,321 1413,359 1374,329 1315,345 1230,325"/>
+                <Baseline points="1241,382 1266,382 1291,382 1316,384 1341,385 1366,385 1391,385 1416,385 1441,384 1466,382 1491,384 1516,385 1541,387 1566,387 1591,386 1616,384 1641,382 1666,382 1691,382 1716,382"/>
+                <TextEquiv>
+                    <Unicode>box 44/10</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="380,410 447,430 599,406 842,428 1051,408 1049,343 1019,329 378,323"/>
+                <Baseline points="391,376 424,383 457,385 490,384 524,382 557,384 590,385 623,386 657,388 690,390 723,392 756,394 790,391 823,389 856,388 889,388 923,391 956,391 989,391 1022,392 1056,402"/>
+                <TextEquiv>
+                    <Unicode>Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1293,1027 1407,1021 1437,1043 1532,1009 1555,1025 1609,1015 1770,1039 1770,966 1750,962 1630,982 1605,966 1522,976 1498,956 1449,972 1433,956 1388,970 1293,958"/>
+                <Baseline points="1304,1008 1330,1008 1356,1008 1382,1008 1408,1009 1435,1011 1461,1009 1487,1008 1513,1008 1540,1008 1566,1008 1592,1009 1618,1011 1644,1011 1671,1011 1697,1011 1723,1012 1749,1014 1776,1011"/>
+                <TextEquiv>
+                    <Unicode>Deutsches Volkstum.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="842,1118 2322,1124 2322,1084 2237,1057 962,1086 842,1049"/>
+                <Baseline points="853,1107 926,1110 1000,1109 1074,1107 1148,1107 1221,1108 1295,1107 1369,1107 1443,1109 1516,1109 1590,1110 1664,1110 1738,1110 1811,1110 1885,1110 1959,1110 2033,1110 2106,1113 2180,1110 2254,1110 2328,1110"/>
+                <TextEquiv>
+                    <Unicode>Sollten seit der letzten zu meiner Zeit noch erfolgten Satzungsänderung, von der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="745,1157 2316,1161 2316,1124 2233,1116 745,1106"/>
+                <Baseline points="755,1143 833,1145 911,1149 990,1149 1068,1146 1146,1147 1225,1148 1303,1147 1381,1149 1460,1149 1538,1149 1616,1150 1695,1152 1773,1152 1851,1152 1930,1152 2008,1152 2086,1152 2165,1152 2243,1152 2322,1152"/>
+                <TextEquiv>
+                    <Unicode>§ 10 nicht betroffen wurde, abermals eine Aenderung eingetreten sein, so ersuche ich um</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="741,1200 763,1206 783,1193 832,1204 863,1193 946,1202 944,1161 913,1157 905,1165 846,1149 834,1157 792,1149 739,1157"/>
+                <Baseline points="752,1185 780,1186 808,1187 836,1187 864,1187 892,1187 920,1187 949,1190"/>
+                <TextEquiv>
+                    <Unicode>Mitteilung.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="846,1236 2322,1238 2322,1195 2145,1173 846,1193"/>
+                <Baseline points="856,1226 929,1226 1002,1223 1076,1223 1149,1223 1223,1225 1296,1223 1370,1226 1443,1226 1517,1226 1590,1229 1663,1229 1737,1228 1810,1229 1884,1229 1957,1229 2031,1229 2104,1229 2178,1229 2251,1229 2325,1226"/>
+                <TextEquiv>
+                    <Unicode>Ferner bitte ich um Zusendung des Verzeichnisses des derzeitigen Gesamtvorstandes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="745,1275 2316,1281 2314,1234 745,1236"/>
+                <Baseline points="755,1262 833,1265 911,1263 989,1265 1067,1265 1146,1263 1224,1263 1302,1265 1380,1265 1458,1265 1537,1268 1615,1268 1693,1268 1771,1268 1849,1268 1928,1268 2006,1268 2084,1267 2162,1268 2240,1269 2319,1268"/>
+                <TextEquiv>
+                    <Unicode>einschl. Aufsichtsrats und samtlicher Verbandsmitglieder, da ich seit Kriegsbeginn irgend</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="745,1309 2322,1315 2322,1281 2210,1269 745,1275"/>
+                <Baseline points="755,1304 833,1304 912,1304 990,1304 1069,1304 1148,1301 1226,1301 1305,1302 1384,1304 1462,1306 1541,1307 1620,1307 1698,1307 1777,1307 1856,1307 1934,1307 2013,1310 2092,1310 2170,1310 2249,1310 2328,1307"/>
+                <TextEquiv>
+                    <Unicode>welche Mitteilungen hierüber nicht erhalten und etwaige Veröffentlichungen in der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="745,1356 1774,1354 1747,1309 745,1309"/>
+                <Baseline points="755,1340 806,1345 857,1341 908,1343 959,1345 1011,1344 1062,1343 1113,1343 1164,1343 1215,1343 1267,1343 1318,1343 1369,1343 1420,1346 1471,1343 1523,1346 1574,1346 1625,1346 1676,1346 1727,1346 1779,1346"/>
+                <TextEquiv>
+                    <Unicode>Presse mir infolge meines Militärdienstes entgangen sind.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="834,1392 2316,1404 2316,1352 2170,1338 834,1352"/>
+                <Baseline points="844,1379 917,1383 991,1382 1065,1382 1139,1382 1213,1382 1287,1382 1361,1384 1435,1384 1509,1384 1583,1384 1656,1387 1730,1386 1804,1386 1878,1384 1952,1386 2026,1387 2100,1384 2174,1384 2248,1387 2322,1387"/>
+                <TextEquiv>
+                    <Unicode>Gegen meinen Ausschluß erhebe ich Einspruch und lege hiermit zunächst Berufung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="741,1425 2316,1435 2220,1390 741,1380"/>
+                <Baseline points="752,1417 830,1420 909,1420 987,1420 1066,1420 1144,1422 1223,1423 1301,1420 1380,1423 1458,1423 1537,1423 1615,1424 1694,1423 1772,1424 1851,1425 1929,1426 2008,1426 2086,1426 2165,1426 2243,1428 2322,1423"/>
+                <TextEquiv>
+                    <Unicode>bei der nächsten ordentlichen Mitgliederversammlung ein, die über meinen Ausschluß vor¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="741,1465 2316,1473 2249,1429 741,1425"/>
+                <Baseline points="752,1459 830,1461 909,1460 987,1462 1066,1462 1144,1461 1223,1462 1301,1460 1380,1462 1458,1462 1537,1463 1615,1463 1694,1465 1772,1465 1851,1465 1929,1465 2008,1465 2086,1465 2165,1465 2243,1465 2322,1465"/>
+                <TextEquiv>
+                    <Unicode>läufig zu entscheiden hat. Ich ersuche diese Versammlung nicht vor dem 15. Dezember</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="739,1510 2147,1512 2080,1467 737,1467"/>
+                <Baseline points="749,1498 819,1501 889,1498 959,1500 1029,1500 1099,1500 1169,1500 1240,1501 1310,1501 1380,1501 1450,1501 1520,1501 1590,1501 1660,1501 1731,1504 1801,1504 1871,1504 1941,1504 2011,1504 2081,1504 2152,1507"/>
+                <TextEquiv>
+                    <Unicode>anzuberaumen, da ich vorher aus dienstlichen Gründen nicht abkömmlich bin.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="834,1551 2316,1547 2271,1498 832,1508"/>
+                <Baseline points="844,1537 917,1539 991,1540 1065,1540 1139,1538 1213,1540 1287,1540 1361,1540 1435,1542 1509,1540 1583,1543 1656,1540 1730,1543 1804,1543 1878,1540 1952,1543 2026,1543 2100,1543 2174,1543 2248,1543 2322,1540"/>
+                <TextEquiv>
+                    <Unicode>Als seinerzeit zwei Vorstandsmitglieder nacheinander notorisch ehrenrührige Hand¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="737,1581 2316,1587 2300,1547 737,1536"/>
+                <Baseline points="749,1576 827,1579 906,1576 984,1579 1063,1579 1142,1579 1220,1577 1299,1579 1378,1579 1456,1581 1535,1582 1614,1582 1692,1582 1771,1584 1850,1582 1928,1583 2007,1584 2086,1584 2164,1583 2243,1583 2322,1582"/>
+                <TextEquiv>
+                    <Unicode>lungen begingen, wurden sie aus dem Verbande nicht ausgeschlossen. Ich soll nun aus¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="745,1630 2316,1636 2316,1587 745,1589"/>
+                <Baseline points="755,1620 833,1617 911,1617 990,1617 1068,1617 1146,1616 1225,1617 1303,1617 1381,1617 1460,1618 1538,1621 1616,1620 1695,1620 1773,1620 1851,1621 1930,1620 2008,1620 2086,1620 2165,1623 2243,1623 2322,1620"/>
+                <TextEquiv>
+                    <Unicode>geschlossen werden, weil ich bestimmte Ueberzeugungen in der Oeffentlichkeit vertrete. Ich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="745,1666 2314,1674 2314,1634 2228,1622 745,1628"/>
+                <Baseline points="755,1653 833,1653 911,1655 989,1656 1067,1656 1146,1656 1224,1656 1302,1656 1380,1656 1458,1658 1537,1659 1615,1659 1693,1659 1771,1659 1849,1659 1928,1659 2006,1659 2084,1661 2162,1661 2240,1661 2319,1659"/>
+                <TextEquiv>
+                    <Unicode>werde der Generalversammlung den dokumentarischen Nachweis liefern, daß zu dieser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="745,1701 2320,1707 2320,1668 2216,1662 745,1668"/>
+                <Baseline points="755,1695 833,1695 912,1694 990,1695 1069,1698 1147,1695 1226,1695 1304,1695 1383,1695 1461,1698 1540,1698 1618,1698 1697,1698 1775,1698 1854,1698 1932,1701 2011,1701 2089,1701 2168,1701 2246,1701 2325,1701"/>
+                <TextEquiv>
+                    <Unicode>meiner Ueberzeugung sich auch andere Verbandsgenossen, darunter mehrere Mitglieder</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="737,1741 2314,1756 2283,1703 737,1699"/>
+                <Baseline points="749,1728 827,1733 906,1734 984,1734 1063,1734 1141,1734 1220,1734 1298,1734 1377,1734 1455,1736 1534,1737 1612,1737 1691,1737 1769,1737 1848,1739 1926,1740 2005,1740 2083,1739 2162,1740 2240,1740 2319,1740"/>
+                <TextEquiv>
+                    <Unicode>des Gesamtvorstandes, unter diesen auch einer der beiden derzeitigen Vorsitzenden sich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="737,1780 2322,1786 2261,1741 737,1741"/>
+                <Baseline points="749,1773 827,1773 906,1775 985,1773 1064,1776 1143,1773 1221,1773 1300,1774 1379,1773 1458,1773 1537,1773 1615,1776 1694,1776 1773,1776 1852,1779 1931,1780 2009,1776 2088,1779 2167,1779 2246,1779 2325,1776"/>
+                <TextEquiv>
+                    <Unicode>bekennen, ja daß ich von einem Mitgliede des Gesamtvorstandes zu der öffentlichen Ver¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="745,1835 1918,1833 1881,1782 745,1778"/>
+                <Baseline points="755,1811 813,1811 871,1811 930,1814 988,1811 1046,1811 1105,1813 1163,1814 1221,1814 1280,1812 1338,1814 1396,1814 1455,1814 1513,1814 1571,1815 1630,1817 1688,1814 1746,1817 1805,1817 1863,1817 1922,1817"/>
+                <TextEquiv>
+                    <Unicode>fechtung meines Standpunktes telegraphisch beglückwünscht wurde.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="1969,1912 2026,1906 2052,1888 2086,1894 2107,1881 2182,1898 2243,1892 2245,1841 2224,1833 2182,1841 2149,1829 2137,1837 2123,1827 2101,1835 2088,1823 2054,1823 2026,1843 1993,1819 1971,1825"/>
+                <Baseline points="1981,1883 2007,1881 2034,1880 2060,1880 2087,1879 2114,1877 2140,1877 2167,1877 2193,1877 2220,1877 2247,1877"/>
+                <TextEquiv>
+                    <Unicode>gez. Dinter.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="1175,2044 1873,2042 1873,1991 1762,1983 1175,1997"/>
+                <Baseline points="1185,2029 1219,2029 1254,2029 1288,2029 1323,2029 1358,2029 1392,2031 1427,2031 1461,2029 1496,2029 1531,2029 1565,2029 1600,2030 1634,2032 1669,2032 1704,2032 1738,2032 1773,2032 1807,2032 1842,2032 1877,2032"/>
+                <TextEquiv>
+                    <Unicode>Verband Deutscher Bühnenschriftsteller.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="1538,2109 1687,2086 1865,2105 1950,2086 2009,2111 2241,2095 2241,2040 2184,2034 1538,2048"/>
+                <Baseline points="1549,2080 1583,2078 1618,2079 1653,2080 1688,2080 1723,2080 1758,2080 1793,2080 1828,2080 1863,2080 1898,2080 1932,2082 1967,2082 2002,2080 2037,2080 2072,2080 2107,2080 2142,2080 2177,2080 2212,2080 2247,2080"/>
+                <TextEquiv>
+                    <Unicode>Berlin W. 30, den 4. Dezember 1916.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_26" custom="readingOrder {index:25;}">
+                <Coords points="1303,2164 1461,2166 1512,2149 1561,2168 1624,2151 1672,2166 1754,2160 1752,2103 1717,2117 1646,2101 1589,2119 1465,2086 1415,2125 1388,2105 1301,2093"/>
+                <Baseline points="1313,2146 1339,2146 1365,2146 1391,2148 1417,2149 1443,2149 1470,2149 1496,2149 1522,2149 1548,2149 1574,2149 1600,2149 1627,2149 1653,2149 1679,2149 1705,2149 1731,2149 1758,2149"/>
+                <TextEquiv>
+                    <Unicode>Herrn Dr. Artur Dinter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_27" custom="readingOrder {index:26;}">
+                <Coords points="1197,2214 1861,2206 1861,2159 1825,2153 1342,2172 1197,2151"/>
+                <Baseline points="1208,2196 1240,2193 1273,2195 1306,2194 1339,2194 1372,2196 1405,2196 1437,2196 1470,2196 1503,2196 1536,2196 1569,2197 1602,2199 1635,2199 1667,2197 1700,2196 1733,2196 1766,2194 1799,2195 1832,2194 1865,2190"/>
+                <TextEquiv>
+                    <Unicode>Hauptmann d. R. im Inf.=Regt. 136</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_28" custom="readingOrder {index:27;}">
+                <Coords points="1589,2273 1727,2293 1788,2261 2241,2277 2241,2214 2149,2222 2086,2188 1940,2229 1890,2198 1778,2228 1676,2206 1589,2226"/>
+                <Baseline points="1599,2253 1631,2253 1663,2253 1696,2253 1728,2256 1761,2254 1793,2253 1825,2253 1858,2253 1890,2254 1923,2256 1955,2256 1987,2256 2020,2256 2052,2256 2085,2256 2117,2256 2149,2256 2182,2256 2214,2256 2247,2259"/>
+                <TextEquiv>
+                    <Unicode>Straßburg (Elsaß), Voltairestraße 5.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_29" custom="readingOrder {index:28;}">
+                <Coords points="911,2312 1277,2318 1277,2263 1266,2261 1212,2271 1187,2257 1143,2271 1084,2257 1055,2275 1037,2265 1009,2275 972,2249 946,2265 911,2261"/>
+                <Baseline points="922,2298 947,2300 973,2301 999,2303 1025,2303 1050,2301 1076,2301 1102,2301 1128,2301 1154,2301 1179,2301 1205,2301 1231,2301 1257,2301 1283,2301"/>
+                <TextEquiv>
+                    <Unicode>Sehr geehrter Herr!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_30" custom="readingOrder {index:29;}">
+                <Coords points="830,2358 2310,2371 2287,2312 1187,2330 830,2295"/>
+                <Baseline points="841,2355 914,2356 988,2356 1062,2358 1136,2355 1209,2356 1283,2358 1357,2356 1431,2358 1504,2358 1578,2358 1652,2358 1726,2358 1799,2359 1873,2358 1947,2358 2021,2357 2094,2355 2168,2358 2242,2358 2316,2358"/>
+                <TextEquiv>
+                    <Unicode>Ihrem Ersuchen gemäß haben wir die vor Eingang Ihres Briefes in der Vor¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_31" custom="readingOrder {index:30;}">
+                <Coords points="735,2399 2310,2413 2310,2371 2243,2362 735,2354"/>
+                <Baseline points="746,2390 824,2393 903,2394 981,2395 1060,2393 1138,2393 1217,2395 1295,2393 1374,2393 1452,2396 1531,2396 1609,2396 1688,2396 1766,2396 1845,2394 1923,2396 2002,2396 2080,2397 2159,2396 2237,2396 2316,2393"/>
+                <TextEquiv>
+                    <Unicode>standssitzung vom 13. November 1916 auf den 11. Dezember 1916 angesetzte Generalver¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_32" custom="readingOrder {index:31;}">
+                <Coords points="741,2450 1547,2458 1547,2405 1496,2399 741,2401"/>
+                <Baseline points="752,2432 792,2432 832,2434 872,2435 912,2435 952,2434 992,2433 1032,2435 1072,2435 1112,2432 1152,2432 1192,2432 1232,2434 1272,2435 1312,2435 1352,2435 1392,2435 1432,2435 1472,2435 1512,2435 1552,2438"/>
+                <TextEquiv>
+                    <Unicode>sammlung auf den 15. Dezember 1916 verlegt.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_33" custom="readingOrder {index:32;}">
+                <Coords points="836,2486 1861,2482 1861,2436 1823,2433 1520,2462 836,2440"/>
+                <Baseline points="847,2471 897,2471 948,2473 999,2471 1050,2473 1101,2474 1152,2472 1203,2474 1254,2474 1305,2471 1356,2472 1406,2474 1457,2474 1508,2474 1559,2474 1610,2474 1661,2474 1712,2474 1763,2474 1814,2474 1865,2474"/>
+                <TextEquiv>
+                    <Unicode>Die Mitteilung des Ortes und der Tagesordnung wird</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_34" custom="readingOrder {index:33;}">
+                <Coords points="1948,2480 2021,2492 2076,2480 2310,2486 2310,2436 2247,2444 2129,2421 2109,2438 2074,2434 2019,2456 1948,2438"/>
+                <Baseline points="1958,2477 1983,2479 2009,2480 2034,2478 2060,2476 2085,2474 2111,2473 2137,2471 2162,2471 2188,2471 2213,2473 2239,2474 2264,2474 2290,2474 2316,2474"/>
+                <TextEquiv>
+                    <Unicode>en gemäß § 19 der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_35" custom="readingOrder {index:34;}">
+                <Coords points="735,2515 2316,2521 2249,2478 735,2458"/>
+                <Baseline points="746,2510 824,2512 903,2512 982,2513 1061,2513 1140,2511 1218,2513 1297,2513 1376,2513 1455,2510 1534,2513 1612,2513 1691,2513 1770,2513 1849,2513 1928,2514 2006,2513 2085,2513 2164,2515 2243,2513 2322,2513"/>
+                <TextEquiv>
+                    <Unicode>Satzung zugehen und zwar zusammen mit einer Abschrift der Stellen Ihrer Schrift, welche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_36" custom="readingOrder {index:35;}">
+                <Coords points="737,2565 2308,2574 2308,2519 737,2523"/>
+                <Baseline points="749,2555 827,2550 905,2552 983,2552 1061,2549 1140,2551 1218,2552 1296,2552 1374,2552 1452,2552 1531,2552 1609,2552 1687,2552 1765,2552 1843,2552 1922,2552 2000,2555 2078,2553 2156,2554 2234,2555 2313,2552"/>
+                <TextEquiv>
+                    <Unicode>zu dem Beschlusse des Vorstandes geführt haben. Die Satzung vom 28. April 1911 ist noch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_37" custom="readingOrder {index:36;}">
+                <Coords points="735,2608 1672,2596 1670,2561 1581,2553 733,2561"/>
+                <Baseline points="746,2587 792,2587 839,2590 885,2590 932,2587 978,2589 1025,2586 1071,2585 1118,2588 1164,2590 1211,2589 1258,2587 1304,2588 1351,2590 1397,2590 1444,2590 1490,2590 1537,2590 1583,2590 1630,2590 1677,2590"/>
+                <TextEquiv>
+                    <Unicode>in Kraft. Die §§ 9,1 und 10,3 lauten noch immer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_38" custom="readingOrder {index:37;}">
+                <Coords points="836,2638 2316,2643 2304,2586 836,2594"/>
+                <Baseline points="847,2629 920,2626 994,2628 1068,2626 1142,2629 1215,2629 1289,2629 1363,2629 1437,2629 1510,2629 1584,2628 1658,2626 1732,2629 1805,2629 1879,2626 1953,2629 2027,2630 2100,2632 2174,2631 2248,2632 2322,2632"/>
+                <TextEquiv>
+                    <Unicode>§ 9,1: Die Mitglieder sind verpflichtet, die Bestrebungen des Vereins zu unterstützen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_39" custom="readingOrder {index:38;}">
+                <Coords points="830,2669 2316,2679 2283,2636 830,2638"/>
+                <Baseline points="841,2659 914,2664 988,2667 1062,2665 1136,2668 1210,2668 1284,2668 1358,2668 1432,2668 1506,2668 1580,2668 1653,2668 1727,2668 1801,2670 1875,2668 1949,2668 2023,2671 2097,2671 2171,2669 2245,2671 2319,2671"/>
+                <TextEquiv>
+                    <Unicode>§ 10,3: Die Mitgliedschaft erlischt; durch Ausschluß, der erfolgen kann, wenn ein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_40" custom="readingOrder {index:39;}">
+                <Coords points="735,2716 2281,2738 2314,2677 733,2651"/>
+                <Baseline points="746,2698 824,2704 903,2704 981,2704 1060,2704 1139,2707 1217,2707 1296,2707 1375,2707 1453,2709 1532,2707 1611,2707 1689,2707 1768,2707 1847,2707 1925,2710 2004,2710 2083,2710 2161,2708 2240,2710 2319,2707"/>
+                <TextEquiv>
+                    <Unicode>Mitglied den Vorschriften der Satzung zuwider handelt oder die Zwecke des Vereins</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_41" custom="readingOrder {index:40;}">
+                <Coords points="737,2758 755,2764 775,2750 788,2760 796,2754 816,2774 840,2764 857,2766 871,2754 913,2760 913,2708 893,2707 877,2716 857,2708 832,2718 790,2707 737,2716"/>
+                <Baseline points="749,2749 776,2747 804,2746 832,2746 860,2744 888,2744 916,2746"/>
+                <TextEquiv>
+                    <Unicode>gefährdet.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_42" custom="readingOrder {index:41;}">
+                <Coords points="974,2807 2060,2817 2060,2760 1814,2779 1739,2742 974,2766"/>
+                <Baseline points="985,2802 1039,2801 1093,2800 1147,2804 1201,2805 1255,2802 1309,2802 1363,2802 1417,2804 1471,2805 1525,2802 1579,2805 1633,2805 1687,2803 1741,2802 1795,2805 1849,2805 1903,2805 1957,2805 2011,2805 2065,2808"/>
+                <TextEquiv>
+                    <Unicode>Der Vorstand des Verbandes Deutscher Bühnenschriftsteller</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_43" custom="readingOrder {index:42;}">
+                <Coords points="1102,2862 1167,2890 1305,2860 1402,2886 1439,2872 1484,2878 1484,2817 1210,2813 1183,2831 1139,2809 1102,2815"/>
+                <Baseline points="1113,2847 1138,2849 1163,2850 1188,2852 1213,2853 1238,2853 1263,2853 1288,2853 1313,2853 1338,2853 1363,2853 1388,2853 1413,2853 1438,2853 1463,2853 1489,2856"/>
+                <TextEquiv>
+                    <Unicode>Gez. Dr. M. Meyer.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_44" custom="readingOrder {index:43;}">
+                <Coords points="1595,2870 1626,2890 1703,2890 1723,2870 1772,2888 1816,2864 1837,2876 1871,2862 1954,2868 1954,2827 1904,2817 1839,2819 1816,2833 1741,2811 1640,2829 1595,2817"/>
+                <Baseline points="1605,2853 1630,2853 1655,2853 1680,2855 1705,2856 1731,2856 1756,2856 1781,2856 1806,2856 1831,2856 1857,2856 1882,2856 1907,2856 1932,2856 1958,2856"/>
+                <TextEquiv>
+                    <Unicode>Dr. Ludwig Fulda.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_45" custom="readingOrder {index:44;}">
+                <Coords points="1025,2998 2032,3012 2032,2963 1835,2933 1025,2949"/>
+                <Baseline points="1035,2981 1085,2984 1135,2987 1185,2988 1235,2989 1285,2989 1335,2990 1386,2990 1436,2990 1486,2990 1536,2990 1586,2990 1636,2990 1686,2990 1737,2990 1787,2990 1837,2990 1887,2993 1937,2993 1987,2993 2038,2993"/>
+                <TextEquiv>
+                    <Unicode>Verband Deutscher Bühnenschriftsteller</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_46" custom="readingOrder {index:45;}">
+                <Coords points="731,3048 2306,3065 2293,2986 2064,3026 731,2998"/>
+                <Baseline points="743,3038 821,3044 899,3044 978,3044 1056,3044 1134,3044 1213,3044 1291,3047 1369,3047 1448,3047 1526,3047 1604,3048 1683,3050 1761,3048 1839,3050 1918,3050 1996,3050 2074,3050 2153,3050 2231,3052 2310,3050"/>
+                <TextEquiv>
+                    <Unicode>Abschrift der Stellen aus der Schrift des Herrn Dr. Dinter auf Grund deren der Vorstand</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_47" custom="readingOrder {index:46;}">
+                <Coords points="735,3095 2314,3101 2271,3055 735,3050"/>
+                <Baseline points="746,3080 824,3085 903,3083 981,3084 1060,3086 1139,3086 1217,3086 1296,3086 1375,3086 1453,3088 1532,3089 1611,3089 1689,3089 1768,3089 1847,3089 1925,3089 2004,3089 2083,3089 2161,3090 2240,3090 2319,3092"/>
+                <TextEquiv>
+                    <Unicode>der geschäftsführende Ausschuß und der Aufsichtsrat den Ausschluß des Herrn Dr. Dinter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_48" custom="readingOrder {index:47;}">
+                <Coords points="1266,3142 1782,3142 1782,3097 1504,3105 1360,3085 1266,3101"/>
+                <Baseline points="1277,3125 1302,3125 1328,3125 1353,3125 1379,3125 1404,3125 1430,3126 1455,3128 1481,3128 1506,3128 1532,3128 1557,3128 1583,3128 1608,3128 1634,3128 1659,3128 1685,3128 1710,3128 1736,3128 1761,3128 1787,3131"/>
+                <TextEquiv>
+                    <Unicode>einstimmig beschlossen haben.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_49" custom="readingOrder {index:48;}">
+                <Coords points="816,3182 2312,3189 2281,3132 1133,3120 1009,3152 816,3113"/>
+                <Baseline points="826,3169 900,3169 975,3169 1049,3169 1124,3171 1198,3172 1273,3172 1347,3172 1422,3175 1496,3175 1571,3175 1645,3175 1720,3172 1794,3175 1869,3175 1943,3178 2018,3178 2092,3175 2167,3175 2241,3177 2316,3178"/>
+                <TextEquiv>
+                    <Unicode>Seite 16. Die Schnitzler, Sternheim, Wedekind, Blumenthal, Kadelburg, Fulda,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_50" custom="readingOrder {index:49;}">
+                <Coords points="731,3217 2308,3227 2285,3184 731,3172"/>
+                <Baseline points="743,3208 821,3208 900,3210 978,3209 1057,3211 1135,3210 1214,3211 1292,3211 1371,3211 1449,3212 1528,3214 1606,3214 1685,3214 1763,3214 1842,3214 1920,3217 1999,3214 2077,3214 2156,3217 2234,3217 2313,3214"/>
+                <TextEquiv>
+                    <Unicode>Rappaport, von dem ein Seitenzweig unter dem fulminanten Namen Gabriele d'Annunzio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_51" custom="readingOrder {index:50;}">
+                <Coords points="737,3255 2304,3262 2304,3225 2233,3221 737,3215"/>
+                <Baseline points="749,3247 827,3247 905,3247 983,3250 1061,3250 1139,3250 1217,3250 1295,3250 1373,3250 1451,3253 1529,3253 1607,3253 1685,3253 1763,3253 1841,3256 1919,3256 1997,3256 2075,3256 2153,3255 2231,3256 2310,3253"/>
+                <TextEquiv>
+                    <Unicode>herrlich in Italien blüht, und wie diese Chaosdichter, die keinen Tropfen deutschen Blutes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_52" custom="readingOrder {index:51;}">
+                <Coords points="737,3294 2302,3310 2291,3262 737,3255"/>
+                <Baseline points="749,3289 826,3287 904,3287 982,3287 1060,3289 1138,3289 1216,3289 1294,3289 1372,3292 1450,3292 1528,3292 1605,3292 1683,3295 1761,3292 1839,3295 1917,3295 1995,3295 2073,3295 2151,3295 2229,3295 2307,3295"/>
+                <TextEquiv>
+                    <Unicode>in ihren Adern haben, alle heißen mogen, sie und unsere, ihrer Sippe und ihrem Geist¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_53" custom="readingOrder {index:52;}">
+                <Coords points="735,3331 2310,3341 2261,3300 735,3294"/>
+                <Baseline points="746,3322 824,3325 902,3328 981,3328 1059,3328 1137,3328 1216,3328 1294,3331 1372,3331 1451,3331 1529,3331 1607,3332 1686,3334 1764,3334 1842,3335 1921,3334 1999,3334 2077,3334 2156,3334 2234,3334 2313,3334"/>
+                <TextEquiv>
+                    <Unicode>verfallenen Blutsgenossen, sie sind es, die im heutigen Weltkriege, den wir um Sein oder</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_54" custom="readingOrder {index:53;}">
+                <Coords points="737,3377 1790,3387 1849,3383 1849,3339 735,3331"/>
+                <Baseline points="749,3363 804,3366 859,3366 914,3366 969,3366 1025,3366 1080,3366 1135,3366 1190,3369 1245,3369 1301,3369 1356,3369 1411,3369 1466,3369 1521,3370 1577,3370 1632,3371 1687,3372 1742,3371 1797,3369 1853,3375"/>
+                <TextEquiv>
+                    <Unicode>Nichtsein deutscher Eigenart führen, unsere Theater beherrschen!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_55" custom="readingOrder {index:54;}">
+                <Coords points="816,3418 2304,3428 2267,3367 816,3375"/>
+                <Baseline points="826,3411 900,3408 974,3408 1048,3408 1122,3408 1197,3411 1271,3408 1345,3410 1419,3411 1493,3411 1568,3411 1642,3411 1716,3411 1790,3411 1864,3411 1939,3411 2013,3411 2087,3411 2161,3411 2235,3412 2310,3408"/>
+                <TextEquiv>
+                    <Unicode>Seite 31. Die Körperschaft nun, die vor allen andern berufen wäre, die hohe Auf¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_56" custom="readingOrder {index:55;}">
+                <Coords points="729,3462 2310,3462 2310,3422 2220,3412 729,3424"/>
+                <Baseline points="740,3450 818,3450 897,3450 976,3447 1055,3450 1134,3450 1212,3450 1291,3450 1370,3450 1449,3450 1528,3450 1606,3451 1685,3450 1764,3450 1843,3453 1922,3452 2000,3450 2079,3450 2158,3452 2237,3453 2316,3450"/>
+                <TextEquiv>
+                    <Unicode>gabe zu lösen, ein umfassendes Theatergesetz in die Wege zu leixen, der Verband deutscher</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_57" custom="readingOrder {index:56;}">
+                <Coords points="737,3493 2312,3501 2312,3465 2188,3456 737,3463"/>
+                <Baseline points="749,3480 827,3488 905,3489 984,3487 1062,3486 1140,3488 1219,3486 1297,3489 1375,3489 1454,3491 1532,3489 1610,3491 1689,3489 1767,3489 1845,3492 1924,3491 2002,3492 2080,3489 2159,3492 2237,3492 2316,3489"/>
+                <TextEquiv>
+                    <Unicode>Bühnenschriftsteller, muß hier auch versagen, da in ihm die „maßgebenden Stückefabri¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_58" custom="readingOrder {index:57;}">
+                <Coords points="741,3534 2310,3546 2285,3497 741,3493"/>
+                <Baseline points="752,3528 830,3528 908,3526 986,3528 1064,3528 1143,3528 1221,3528 1299,3528 1377,3528 1455,3528 1534,3531 1612,3528 1690,3528 1768,3528 1846,3530 1925,3531 2003,3531 2081,3531 2159,3531 2237,3531 2316,3531"/>
+                <TextEquiv>
+                    <Unicode>kanten die große Mehrheit bilden und das große Wort führen. Sie sind natürlich eifrig</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_59" custom="readingOrder {index:58;}">
+                <Coords points="731,3570 2310,3578 2277,3534 731,3532"/>
+                <Baseline points="743,3566 821,3566 900,3566 978,3566 1057,3566 1135,3566 1214,3566 1292,3566 1371,3566 1449,3566 1528,3569 1606,3566 1685,3566 1763,3566 1842,3569 1920,3569 1999,3569 2077,3569 2156,3569 2234,3570 2313,3569"/>
+                <TextEquiv>
+                    <Unicode>darauf bedacht, daß das trübe Tantiemenwasser, in dem sie behaglich herumplätschern, nicht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_60" custom="readingOrder {index:59;}">
+                <Coords points="741,3619 2302,3621 2300,3582 2231,3574 739,3572"/>
+                <Baseline points="752,3605 829,3605 907,3605 985,3605 1063,3605 1140,3605 1218,3605 1296,3605 1374,3605 1451,3608 1529,3605 1607,3608 1685,3608 1762,3608 1840,3608 1918,3608 1996,3608 2073,3608 2151,3608 2229,3611 2307,3611"/>
+                <TextEquiv>
+                    <Unicode>filtriert wird. Trotzdem an der Spitze dieses Verbandes ein deutschblütiger Mann steht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_61" custom="readingOrder {index:60;}">
+                <Coords points="735,3647 2310,3657 2310,3623 2216,3611 735,3615"/>
+                <Baseline points="746,3641 824,3644 903,3644 981,3644 1060,3644 1138,3644 1217,3644 1295,3644 1374,3644 1452,3645 1531,3644 1609,3647 1688,3647 1766,3647 1845,3647 1923,3647 2002,3650 2080,3647 2159,3650 2237,3650 2316,3647"/>
+                <TextEquiv>
+                    <Unicode>von echtem unverfälschtem mecklenburgischen Schrot und Korn, der einen Ehrenplatz unter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_62" custom="readingOrder {index:61;}">
+                <Coords points="735,3690 2310,3702 2310,3659 2216,3651 735,3649"/>
+                <Baseline points="746,3683 824,3683 902,3684 981,3684 1059,3683 1137,3683 1216,3683 1294,3686 1372,3686 1451,3686 1529,3686 1607,3686 1686,3686 1764,3686 1842,3686 1921,3686 1999,3686 2077,3688 2156,3689 2234,3689 2313,3689"/>
+                <TextEquiv>
+                    <Unicode>den wenigen heute lebenden Bühnenschriftstellern einnimmt, denen das seltene Prädikat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_63" custom="readingOrder {index:62;}">
+                <Coords points="729,3730 854,3765 942,3732 2308,3757 2308,3696 2147,3686 729,3692"/>
+                <Baseline points="740,3722 818,3724 897,3725 975,3725 1054,3725 1133,3725 1211,3725 1290,3725 1369,3725 1447,3726 1526,3725 1605,3728 1683,3728 1762,3725 1841,3728 1919,3728 1998,3728 2077,3728 2155,3728 2234,3730 2313,3728"/>
+                <TextEquiv>
+                    <Unicode>Dichter gebührt. Unter den ihn umwimmelnden köstlichen Böcklingestalten der seiner Füh¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>

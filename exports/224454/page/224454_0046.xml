@@ -1,10 +1,183 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
     <Metadata>
-        <Creator>Transkribus</Creator>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=provided:date=28_03_2024_20:28</Creator>
         <Created>2019-10-07T20:36:42.135+02:00</Created>
-        <LastChange>2019-10-07T20:36:42.135+02:00</LastChange>
-        <TranskribusMetadata docId="224454" pageId="9578389" pageNr="46" tsid="16460848" status="NEW" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=VTHVKPSJSAPXGZGLTHMXCZBK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XXSQOXXGLSAVOEGGJYPHHYMB" imageId="6208082"/>
+        <LastChange>2024-03-28T20:28:05.646+01:00</LastChange>
+        <TranskribusMetadata docId="224454" pageId="9578389" pageNr="46" tsid="156372810" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=VTHVKPSJSAPXGZGLTHMXCZBK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CXSPWFXNBVKYANHBTYFEAURH" imageId="6208082"/>
     </Metadata>
-    <Page imageFilename="224454_0046.jpeg" imageWidth="3344" imageHeight="4256"/>
+    <Page imageFilename="224454_0046.jpeg" imageWidth="3344" imageHeight="4256">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712662114957" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="185,240 185,396 271,396 271,240"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="177,377 193,377 200,368 220,385 231,385 259,360 268,358 265,315 254,318 241,311 213,286 197,292 188,288 172,292"/>
+                <Baseline points="185,340 213,342 242,344 271,346"/>
+                <TextEquiv>
+                    <Unicode>1.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="337,241 337,408 1008,408 1008,241"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="327,367 1007,381 1005,309 971,295 875,284 844,306 662,267 440,301 326,268"/>
+                <Baseline points="337,343 370,343 404,342 437,341 471,343 504,341 538,341 571,343 605,343 638,343 672,344 706,347 739,349 773,354 806,352 840,350 873,352 907,350 940,350 974,353 1008,358"/>
+                <TextEquiv>
+                    <Unicode>Miscellaneous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="1044,304 1044,2183 2474,2183 2474,304"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1181,367 1300,372 1363,334 1436,363 1456,351 1522,361 1544,343 1560,360 1610,340 1610,261 1594,259 1508,286 1422,277 1358,315 1324,284 1231,275 1181,288"/>
+                <Baseline points="1190,337 1216,339 1243,340 1269,340 1296,340 1322,340 1349,342 1375,343 1402,343 1428,343 1455,343 1481,343 1508,343 1534,343 1561,341 1587,338 1614,337"/>
+                <TextEquiv>
+                    <Unicode>box 41/6</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1034,1274 1079,1270 1093,1283 1122,1284 1148,1270 1173,1284 1211,1283 1209,1227 1161,1215 1129,1227 1109,1229 1088,1216 1073,1231 1066,1225 1032,1229"/>
+                <Baseline points="1044,1262 1072,1264 1100,1265 1129,1265 1157,1265 1185,1266 1214,1268"/>
+                <TextEquiv>
+                    <Unicode>Seite 28</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="2316,1281 2334,1275 2352,1293 2368,1299 2417,1288 2426,1297 2440,1288 2451,1297 2463,1295 2463,1240 2424,1250 2411,1240 2395,1243 2372,1232 2367,1238 2347,1234 2341,1240 2316,1234"/>
+                <Baseline points="2327,1277 2355,1277 2383,1277 2411,1277 2439,1278 2468,1280"/>
+                <TextEquiv>
+                    <Unicode>Heft 1</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1617,1277 1646,1293 1680,1295 1780,1293 1792,1283 1810,1295 1884,1288 1884,1227 1862,1232 1825,1220 1803,1234 1753,1234 1724,1222 1708,1238 1655,1224 1617,1229"/>
+                <Baseline points="1626,1277 1652,1277 1678,1277 1704,1277 1730,1279 1756,1280 1782,1280 1808,1280 1834,1280 1860,1277 1886,1274"/>
+                <TextEquiv>
+                    <Unicode>KRITIK</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1036,1413 2436,1433 2451,1376 1257,1338 1034,1370"/>
+                <Baseline points="1044,1396 1114,1398 1185,1399 1255,1399 1326,1400 1397,1399 1467,1402 1538,1402 1608,1403 1679,1403 1750,1405 1820,1405 1891,1405 1961,1405 2032,1408 2103,1408 2173,1408 2244,1408 2314,1408 2385,1411 2456,1408"/>
+                <TextEquiv>
+                    <Unicode>worden. Man hat erkannt: derselbe Schwindel wie mit den im¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="1043,1485 2463,1478 2408,1418 1043,1424"/>
+                <Baseline points="1053,1459 1123,1459 1194,1459 1264,1459 1335,1459 1406,1459 1476,1462 1547,1459 1617,1462 1688,1462 1759,1464 1829,1465 1900,1465 1970,1466 2041,1465 2112,1465 2182,1468 2253,1468 2323,1468 2394,1468 2465,1465"/>
+                <TextEquiv>
+                    <Unicode>portierten Lebensmitteln. (Schöne Etiketten auf der Pfundbüch¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1034,1526 1807,1531 1898,1567 2463,1540 2443,1476 1034,1486"/>
+                <Baseline points="1044,1516 1115,1516 1186,1516 1257,1516 1328,1517 1399,1519 1470,1519 1541,1519 1612,1521 1683,1522 1754,1522 1825,1525 1896,1525 1967,1525 2038,1525 2109,1525 2180,1524 2251,1528 2322,1528 2393,1528 2465,1522"/>
+                <TextEquiv>
+                    <Unicode>se Reisfleisch; zwei kleine Stücke ausgewaschenes geschmacklo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1037,1581 1075,1601 1154,1579 1213,1599 1302,1578 1322,1596 1497,1596 1497,1538 1476,1533 1379,1545 1281,1529 1247,1544 1159,1528 1093,1553 1037,1549"/>
+                <Baseline points="1047,1572 1072,1572 1097,1572 1122,1574 1147,1575 1173,1575 1198,1575 1223,1575 1248,1575 1274,1575 1299,1575 1324,1575 1349,1575 1374,1575 1400,1575 1425,1576 1450,1578 1475,1580 1501,1581"/>
+                <TextEquiv>
+                    <Unicode>ses Fleisch drinnen).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1136,1653 2461,1662 2449,1597 1136,1592"/>
+                <Baseline points="1146,1635 1215,1635 1284,1635 1354,1638 1423,1634 1493,1634 1562,1636 1631,1638 1701,1638 1770,1641 1840,1641 1909,1641 1979,1641 2048,1641 2117,1643 2187,1644 2256,1644 2326,1644 2395,1644 2465,1641"/>
+                <TextEquiv>
+                    <Unicode>Zu Dr. Ludwig Wüllner: Wir haben einem Experiment beige¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1043,1708 2436,1724 2458,1660 1041,1651"/>
+                <Baseline points="1053,1695 1123,1695 1193,1698 1264,1695 1334,1696 1405,1695 1475,1697 1546,1695 1616,1696 1687,1698 1757,1698 1827,1701 1898,1701 1968,1701 2039,1701 2109,1701 2180,1701 2250,1703 2321,1704 2391,1704 2462,1701"/>
+                <TextEquiv>
+                    <Unicode>wohnt. Es ist nur teilweise gelungen, äusserlich. Es gibt unter uns</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="1034,1767 2361,1782 2454,1771 2454,1723 1032,1715"/>
+                <Baseline points="1044,1751 1114,1754 1185,1754 1256,1754 1327,1753 1397,1751 1468,1755 1539,1754 1610,1756 1680,1757 1751,1757 1822,1757 1893,1757 1963,1757 2034,1757 2105,1759 2176,1760 2246,1760 2317,1762 2388,1760 2459,1763"/>
+                <TextEquiv>
+                    <Unicode>noch gewaltigere Meister der Sprechkunst, — welch eine grösste</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1041,1830 2463,1819 2463,1780 2223,1771 1041,1771"/>
+                <Baseline points="1050,1811 1120,1814 1191,1811 1262,1811 1333,1814 1404,1814 1475,1815 1546,1814 1617,1814 1688,1814 1759,1817 1829,1817 1900,1817 1971,1817 2042,1817 2113,1820 2184,1819 2255,1817 2326,1818 2397,1820 2468,1817"/>
+                <TextEquiv>
+                    <Unicode>Kunst, der deutschen Sprache wirkliches Leben, Erleben einzu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="1034,1884 2454,1898 2454,1828 1034,1833"/>
+                <Baseline points="1044,1871 1114,1872 1185,1874 1256,1870 1327,1871 1397,1874 1468,1874 1539,1874 1610,1874 1680,1874 1751,1874 1822,1877 1893,1874 1963,1874 2034,1877 2105,1877 2176,1877 2246,1874 2317,1874 2388,1877 2459,1871"/>
+                <TextEquiv>
+                    <Unicode>hauchen! — die nicht nach der Maske greifen. Wozu. — Um re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1037,1946 1819,1952 1912,1939 1912,1903 1036,1889"/>
+                <Baseline points="1047,1931 1090,1931 1133,1931 1177,1931 1220,1931 1264,1930 1307,1929 1351,1931 1394,1931 1438,1932 1481,1933 1524,1931 1568,1931 1611,1931 1655,1931 1698,1931 1742,1931 1785,1934 1829,1934 1872,1934 1916,1928"/>
+                <TextEquiv>
+                    <Unicode>zitierender Schauspieler zu werden?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="1984,1946 2465,1953 2465,1896 2277,1903 2188,1884 2141,1907 1984,1889"/>
+                <Baseline points="1993,1931 2018,1933 2043,1934 2068,1934 2093,1934 2118,1934 2143,1934 2168,1934 2193,1934 2218,1934 2243,1934 2268,1934 2293,1934 2318,1934 2343,1934 2368,1934 2393,1934 2418,1935 2443,1936 2468,1934"/>
+                <TextEquiv>
+                    <Unicode>Widerspruch sonder¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="1034,2012 2467,2000 2467,1955 2363,1946 1034,1966"/>
+                <Baseline points="1044,1996 1115,1990 1186,1990 1258,1988 1329,1987 1400,1987 1472,1990 1543,1990 1614,1990 1686,1990 1757,1990 1828,1993 1900,1993 1971,1991 2042,1991 2114,1990 2185,1993 2256,1993 2328,1993 2399,1993 2471,1996"/>
+                <TextEquiv>
+                    <Unicode>gleichen. — Oder: dozierender Schauspieler? — Das Wort / und</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="1041,2048 2460,2073 2458,2009 2386,2005 1041,2016"/>
+                <Baseline points="1050,2044 1120,2047 1191,2047 1261,2047 1332,2047 1403,2047 1473,2048 1544,2047 1614,2050 1685,2050 1756,2050 1826,2050 1897,2050 1967,2050 2038,2050 2109,2052 2179,2053 2250,2053 2320,2053 2391,2050 2462,2050"/>
+                <TextEquiv>
+                    <Unicode>wäre es das trefflichste, ist im Schauspiel Regiebemerkung. Will</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1034,2114 2472,2145 2472,2068 2409,2059 1034,2077"/>
+                <Baseline points="1044,2104 1115,2107 1187,2107 1258,2107 1330,2107 1401,2107 1473,2107 1544,2104 1616,2107 1687,2107 1759,2107 1830,2110 1902,2110 1973,2109 2045,2110 2116,2110 2188,2110 2259,2113 2331,2111 2402,2112 2474,2110"/>
+                <TextEquiv>
+                    <Unicode>es mehr sein, dann ist es am falschen Ort. Shakespeare hat für die</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="1034,2175 1846,2191 1846,2138 1774,2121 1159,2143 1034,2113"/>
+                <Baseline points="1044,2163 1084,2163 1124,2165 1164,2166 1205,2164 1245,2164 1285,2166 1326,2166 1366,2166 1406,2166 1447,2166 1487,2166 1527,2166 1567,2166 1608,2166 1648,2166 1688,2166 1729,2166 1769,2166 1809,2166 1850,2169"/>
+                <TextEquiv>
+                    <Unicode>Bühne geschrieben: für Schauspieler.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
 </PcGts>
