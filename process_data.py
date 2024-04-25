@@ -15,7 +15,7 @@ print("data crunching")
 sheet_id = "1FyPgOydzc95Pk-2e9qj3xNevg9ZbcwaMZEglepdrVBk"
 
 df = gsheet_to_df(sheet_id)
-files = sorted(glob.glob("exports/*/metadata.xml"))[20:30]
+files = sorted(glob.glob("exports/*/metadata.xml"))[:4]
 df = df.set_index("TranskribusDocId")
 df.to_csv("hansi.csv")
 lookup_dict = df.to_dict("index")
@@ -52,7 +52,10 @@ for doc_i, x in tqdm(enumerate(files), total=len(files)):
         item["metadata"] = {}
         print(f'no match for doc {x} with {item["transkribus_id"]}')
     if item["metadata"]:
-        item["quote"] = f'{item["metadata"]["Mappe"]}, {item["metadata"]["Mappentitel"]}, {item["metadata"]["Ordner"]}'
+        md = item["metadata"]
+        quote = f'{md["Mappe"]}, {md["Mappentitel"]} {md["Ordner"]}, {md["Unterordner2"]}, {md["Inhalt"]}'
+        item["quote"] = quote.replace("nan", "").replace(" ,", ","). replace(",,", ",")
+        print(item["quote"])
         item["pmb_tuples"] = process_pmb_ids(item["metadata"]["PMB"])
     pages = sorted(glob.glob(f"{heads}/page/*.xml"))
     item["pages"] = []

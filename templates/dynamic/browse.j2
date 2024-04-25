@@ -16,7 +16,6 @@
         <table class="table" id="tabulator-table">
             <thead>
                 <th tabulator-headerFilter="input">Mappe</th>
-                <th tabulator-formatter="html" tabulator-headerFilter="input">Titel</th>
                 <th tabulator-formatter="html" tabulator-headerFilter="input">Signatur</th>
                 <th tabulator-headerFilter="input">Seitenanzahl</th>
                 
@@ -30,9 +29,6 @@
                     </td>
                     <td>
                         <a href="{{ x.transkribus_id }}.html">{{ x.quote }}</a>
-                    </td>
-                    <td>
-                        {{ x.metadata.Signatur}}
                     </td>
                     <td>
                         {{ x.nr_of_pages }}
