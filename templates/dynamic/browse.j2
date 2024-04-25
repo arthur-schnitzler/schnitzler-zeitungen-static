@@ -15,23 +15,29 @@
     <div>
         <table class="table" id="tabulator-table">
             <thead>
+                <th tabulator-headerFilter="input">Mappe</th>
                 <th tabulator-formatter="html" tabulator-headerFilter="input">Titel</th>
-                <th tabulator-headerFilter="input">Seiten</th>
-                <th tabulator-headerFilter="input">ID</th>
+                <th tabulator-formatter="html" tabulator-headerFilter="input">Signatur</th>
+                <th tabulator-headerFilter="input">Seitenanzahl</th>
+                
                 <!-- <th>Faksimile</th> -->
             </thead>
             <tbody>
                 {% for x in browse_data %}
                 <tr>
                     <td>
-                        <a href="{{ x.doc_id }}.html">{{ x.title }}</a>
+                        {{ x.doc_id }}
+                    </td>
+                    <td>
+                        <a href="{{ x.transkribus_id }}.html">{{ x.quote }}</a>
+                    </td>
+                    <td>
+                        {{ x.metadata.Signatur}}
                     </td>
                     <td>
                         {{ x.nr_of_pages }}
                     </td>
-                    <td>
-                        {{ x.doc_id }}
-                    </td>
+                    
                 </tr>
                 {% endfor %}
             </tbody>

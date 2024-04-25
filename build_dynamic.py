@@ -28,7 +28,7 @@ with open(output_path, "w", encoding="utf-8") as f:
 
 print("building document und page pages")
 for x in tqdm(data):
-    output_path = os.path.join("html", f'{x["doc_id"]}.html')
+    output_path = os.path.join("html", f'{x["transkribus_id"]}.html')
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(doc_template.render({"project_data": project_data, "document_data": x}))
     for y in x["pages"]:

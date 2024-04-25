@@ -11,8 +11,8 @@
 <div class="container">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="{{ document_data.doc_id }}.html">{{ document_data.title }}</a></li>
+            <li class="breadcrumb-item"><a href="browse.html">Blättern</a></li>
+            <li class="breadcrumb-item"><a href="{{ document_data.transkribus_id }}.html">{{ document_data.quote }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">Seite {{ page_data.page_nr }}</li>
         </ol>
     </nav>
@@ -23,7 +23,11 @@
             {% endif %}
         </div>
         <div class="col-8 text-center">
-            <h1 class="text-center">{{ document_data.title }}, Seite {{ page_data.page_nr }}</h1>
+            <h1 class="text-center">{{ document_data.quote }}, Seite {{ page_data.page_nr }}</h1>
+            <h2>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Zitiervorschlag"><i class="bi bi-quote"></i></button>
+                <a href="{{ page_data.transkribus_image_url }}" class="btn btn-secondary btn-sm" type="button" title="Bild herunterladen"><i class="bi bi-cloud-download-fill"></i></a>
+            </h2>
         </div>
         <div class="col-2 text-end">
             {% if page_data.next_page %}
@@ -43,6 +47,23 @@
         </div>
     </div>
 </div>
+<div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Zitiervorschlag</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+        </div>
+        <div class="modal-body">
+            {{ document_data.quote }}, Seite {{ page_data.page_nr }}, in: {{ project_data.quote_title }}. Hg. Peter Andorfer, Martin Anton Müller und Laura Untner, Austrian Centre for Digital Humanities and Cultural Heritage, Wien 2024, https://schnitzler-zeitungen.acdh.oeaw.ac.at/{{ page_data.page_id }}.html
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 <script type="text/javascript">
     var source = "{{ page_data.transkribus_image_url }}";
     var viewer = OpenSeadragon({

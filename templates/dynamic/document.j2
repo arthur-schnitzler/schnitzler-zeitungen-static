@@ -8,8 +8,8 @@
 <div class="container">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ document_data.title }}</li>
+            <li class="breadcrumb-item"><a href="browse.html">Blättern</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ document_data.quote }}</li>
         </ol>
     </nav>
     <div class="row p-3">
@@ -21,7 +21,12 @@
             {% endif %}
         </div>
         <div class="col-8 text-center">
-                <h1 class="text-center">{{ document_data.title }}</h1>
+                <h1 class="text-center">{{ document_data.quote }}</h1>
+                
+                {% for x in document_data.pmb_tuples %}
+                <a href="{{x.1}}" target="_blank" title="Link zur PMB für Entität: {{ x.0 }}"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a>
+                {% endfor %}
+                
         </div>
         <div class="col-2 text-end">
             {% if document_data.next_doc_id %}
@@ -34,7 +39,7 @@
     <div class="row row-cols-4">
         {% for x in document_data.pages %}
         <div class="col">
-            <h2 style="font-size: medium;"><a href="{{x.page_id }}.html">S. {{ x.page_nr }}</a></h2>
+            <h2 class="fs-5"><a href="{{x.page_id }}.html">S. {{ x.page_nr }}</a></h2>
             <a href="{{x.page_id }}.html"><img src="{{ x.transkribus_image_url }}" class="img-thumbnail" loading="lazy"
                 alt="Vorschaubild für {{ document_data.title }}, Seite {{ x.page_nr }}"></a>
         </div>
