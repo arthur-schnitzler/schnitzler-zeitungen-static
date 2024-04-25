@@ -15,7 +15,7 @@ print("data crunching")
 sheet_id = "1FyPgOydzc95Pk-2e9qj3xNevg9ZbcwaMZEglepdrVBk"
 
 df = gsheet_to_df(sheet_id)
-files = sorted(glob.glob("exports/*/metadata.xml"))[:4]
+files = sorted(glob.glob("exports/*/metadata.xml"))
 df = df.set_index("TranskribusDocId")
 df.to_csv("hansi.csv")
 lookup_dict = df.to_dict("index")
