@@ -20,6 +20,11 @@ except ObjectNotFound:
 
 current_schema = {
     "name": collection_name,
+    "metadata": {
+        "owners": ["Peter Andorfer", "Martin Anton Müller"],
+        "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
+        "service_ids": [15042],
+    },
     "fields": [
         {"name": "id", "type": "string"},
         {"name": "rec_id", "type": "string", "sort": True},
